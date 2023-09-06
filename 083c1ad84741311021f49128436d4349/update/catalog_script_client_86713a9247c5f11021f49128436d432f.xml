@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Car parking reservation">f64205c54709711021f49128436d433a</cat_item>
+        <cat_variable>IO:01c6e0394701711021f49128436d4328</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>function onChange(control, oldValue, new</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    var st = g_form.getValue('u_start_dt');
+    var end = g_form.getValue('u_end_dt');
+
+    var call1 = new GlideAjax('Calculate_price');
+    call1.addParam('sysparm_name', 'cal_hours');
+    call1.addParam('st_dt', st);
+    call1.addParam('ed_dt', end);
+    call1.getXML(getResponse);
+
+    function getResponse(response) {
+        var result = response.responseXML.documentElement.getAttribute('answer');
+        var price;
+        if (result != "error") {
+            if (end < st || st == "" && end != "") {
+                g_form.clearValue('u_end_dt');
+                g_form.clearValue('u_price');
+                g_form.clearValue('u_hours');
+            } else if (g_form.getValue('u_price') == "Error") {
+                g_form.clearValue('u_price');
+                g_form.clearValue('u_hours');
+            } else {
+                g_form.setValue('u_hours', parseInt(result) + " ชั่วโมง");
+                if (result == 1) {
+                    price = 5;
+                    g_form.setValue('u_price', price + " บาท");
+                } else if (result <= 4) {
+                    price = result * 10;
+                    g_form.setValue('u_price', price + " บาท");
+                } else if (result <= 11) {
+                    price = result * 15;
+                    g_form.setValue('u_price', price + " บาท");
+                }
+            }
+
+        }
+    }
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 14:01:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86713a9247c5f11021f49128436d432f</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>function onChange(control, oldValue, new</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>catalog_script_client_86713a9247c5f11021f49128436d432f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-06 06:19:47</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

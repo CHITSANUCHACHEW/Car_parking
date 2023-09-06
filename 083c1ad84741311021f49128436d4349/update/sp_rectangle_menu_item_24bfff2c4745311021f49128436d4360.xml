@@ -7,34 +7,34 @@
         <display_2/>
         <display_date/>
         <filter/>
-        <glyph/>
+        <glyph>car</glyph>
         <hint/>
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>Catalog</label>
+        <label>Reserve a parking spot</label>
         <order>100</order>
         <record_script/>
-        <sc_cat_item/>
+        <sc_cat_item display_value="Car parking reservation">f64205c54709711021f49128436d433a</sc_cat_item>
         <sc_category/>
         <short_description/>
-        <sp_page/>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
         <sp_rectangle_menu display_value="Car Parking Menu">be7f3be84745311021f49128436d4302</sp_rectangle_menu>
         <sp_rectangle_menu_item/>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-31 09:14:43</sys_created_on>
         <sys_id>24bfff2c4745311021f49128436d4360</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Catalog</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Reserve a parking spot</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_24bfff2c4745311021f49128436d4360</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-31 09:14:43</sys_updated_on>
+        <sys_updated_on>2023-09-01 08:44:58</sys_updated_on>
         <table/>
-        <type>sc</type>
+        <type>sc_cat_item</type>
         <url/>
         <url_target/>
     </sp_rectangle_menu_item>

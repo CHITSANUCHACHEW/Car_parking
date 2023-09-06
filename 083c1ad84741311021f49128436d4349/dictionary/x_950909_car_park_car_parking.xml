@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="a414ebb947c9711021f49128436d4344" extends="task" label="Car parking" max_length="40" name="x_950909_car_park_car_parking" type="collection">
+        <element label="เหมาทั้งวัน (10.00 - 21.00 น.)" max_length="40" name="u_all_in" read_only="true" type="boolean"/>
+        <element label="ยี่ห้อรถ" max_length="40" name="u_brand" type="string"/>
+        <element label="รายละเอียดอื่นๆ" max_length="40" name="u_car_detail" type="string"/>
+        <element label="ประเภทรถ" max_length="32" name="u_car_type" reference="x_950909_car_park_x_950909_car_park" reference_qual="u_typeISNOTEMPTY^EQ" reference_qual_condition="u_typeISNOTEMPTY^EQ" type="reference"/>
+        <element label="วันที่เหมา" max_length="40" name="u_date_all_in" type="glide_date"/>
+        <element label="อีเมล" max_length="40" name="u_email" type="string"/>
+        <element label="ถึง" max_length="40" name="u_end_dt" type="glide_date_time"/>
+        <element label="ชื่อ" max_length="40" name="u_fname" type="string"/>
+        <element label="ชั่วโมง" max_length="40" name="u_hours" read_only="true" type="string"/>
+        <element label="เลขบัตรประชาชน" max_length="40" name="u_id_card" type="string"/>
+        <element label="นามสกุล" max_length="40" name="u_lname" type="string"/>
+        <element choice="1" label="ชั้น" max_length="40" name="u_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="รุ่น" max_length="40" name="u_model" type="string"/>
+        <element label="ทะเบียนรถ" max_length="40" name="u_number_car" type="string"/>
+        <element label="อื่นๆ" max_length="40" name="u_other" type="string"/>
+        <element label="เบอร์มือถือ" max_length="40" name="u_phone" type="string"/>
+        <element label="ค่าบริการ" max_length="40" name="u_price" read_only="true" type="string"/>
+        <element label="ตั้งแต่เวลา" max_length="40" name="u_start_dt" type="glide_date_time"/>
+    </element>
+</database>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Note" section_id="f96bfe5e47c5f11021f49128436d439d" sys_domain="global" table="x_950909_car_park_car_parking" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-05 14:44:26</sys_created_on>
+            <sys_id>8a6bfe5e47c5f11021f49128436d43bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Note" display_value="Note" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">f96bfe5e47c5f11021f49128436d439d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-05 14:44:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-05 14:44:26</sys_created_on>
+            <sys_id>0e6bfe5e47c5f11021f49128436d43bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Note" display_value="Note" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">f96bfe5e47c5f11021f49128436d439d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-05 14:44:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-05 14:44:26</sys_created_on>
+            <sys_id>8e6bfe5e47c5f11021f49128436d43bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Note" display_value="Note" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">f96bfe5e47c5f11021f49128436d439d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-05 14:44:26</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Note</caption>
+            <header>false</header>
+            <name>x_950909_car_park_car_parking</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-05 14:44:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f96bfe5e47c5f11021f49128436d439d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_950909_car_park_car_parking</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+            <sys_update_name>sys_ui_section_f96bfe5e47c5f11021f49128436d439d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-05 14:44:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

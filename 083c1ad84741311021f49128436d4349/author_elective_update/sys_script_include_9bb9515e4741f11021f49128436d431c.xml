@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_950909_car_park.Calculate_hours</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Calculate_hours</name>
+        <script><![CDATA[var Calculate_hours = Class.create();
+Calculate_hours.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	calculate: function(){
+		var st = new GlideDateTime(this.getParameter('st_dt'));
+		var ed = new GlideDateTime(this.getParameter('ed_dt'));
+		var stday = st.getDayOfMonthLocalTime();
+		var edday = ed.getDayOfMonthLocalTime();
+		var calday = edday - stday;
+// 		if(calday != 0){
+// 			return "error";
+// 		}
+		var time = ed.getTime();
+		return calday;
+	},
+	
+    type: 'Calculate_hours'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 07:37:43</sys_created_on>
+        <sys_id>9bb9515e4741f11021f49128436d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate_hours</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_script_include_9bb9515e4741f11021f49128436d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 07:37:43</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sys_script_include_9bb9515e4741f11021f49128436d431c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_950909_car_park.Calculate_hours&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Calculate_hours&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Calculate_hours = Class.create();
+Calculate_hours.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	calculate: function(){
+		var st = new GlideDateTime(this.getParameter('st_dt'));
+		var ed = new GlideDateTime(this.getParameter('ed_dt'));
+		var stday = st.getDayOfMonthLocalTime();
+		var edday = ed.getDayOfMonthLocalTime();
+		var calday = edday - stday;
+// 		if(calday != 0){
+// 			return "error";
+// 		}
+		var time = ed.getTime();
+		return calday;
+	},
+	
+    type: 'Calculate_hours'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-05 07:37:43&lt;/sys_created_on&gt;&lt;sys_id&gt;9bb9515e4741f11021f49128436d431c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calculate_hours&lt;/sys_name&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_9bb9515e4741f11021f49128436d431c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-05 07:37:43&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1171928656</payload_hash>
+        <record_name>Calculate_hours</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 07:37:43</sys_created_on>
+        <sys_id>1bb9515e4741f11021f49128436d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a64469b060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 07:37:43</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>53b9515e4d41f110d6516fef0bb3911e</update_guid>
+        <update_guid_history>53b9515e4d41f110d6516fef0bb3911e:-1171928656</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 07:38:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>2d1a70209e1a43baa49246e449f25449</sys_id>
+        <sys_metadata>9bb9515e4741f11021f49128436d431c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate_hours</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sys_script_include_9bb9515e4741f11021f49128436d431c</sys_update_name>
+        <sys_update_version display_value="sys_script_include_9bb9515e4741f11021f49128436d431c">1bb9515e4741f11021f49128436d431e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 07:38:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Car parking reservation">f64205c54709711021f49128436d433a</catalog_item>
+        <catalog_variable>IO:60ba5bfd4789711021f49128436d4347</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-04 03:52:09</sys_created_on>
+        <sys_id>018c5f7147c9711021f49128436d43d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_other</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_018c5f7147c9711021f49128436d43d2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-04 04:03:09</sys_updated_on>
+        <table/>
+        <ui_policy display_value="show อื่นๆ">c18c5f7147c9711021f49128436d43d0</ui_policy>
+        <variable>u_other</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>catalog_ui_policy_action_018c5f7147c9711021f49128436d43d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Car parking reservation">f64205c54709711021f49128436d433a</catalog_item><catalog_variable>IO:60ba5bfd4789711021f49128436d4347</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-04 03:52:09</sys_created_on><sys_id>018c5f7147c9711021f49128436d43d2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_other</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>catalog_ui_policy_action_018c5f7147c9711021f49128436d43d2</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-04 04:03:09</sys_updated_on><table/><ui_policy display_value="show อื่นๆ">c18c5f7147c9711021f49128436d43d0</ui_policy><variable>u_other</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-282957452</payload_hash>
+        <record_name>u_other</record_name>
+        <reverted_from/>
+        <source>7ce12cb6d4a3211095d7c105f1bf439b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-04 04:03:09</sys_created_on>
+        <sys_id>ee0fdf3547c9711021f49128436d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a5e5bcf210000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-04 04:03:09</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>2a0fdf35d0c97110d1ac465f0a11973b</update_guid>
+        <update_guid_history>2a0fdf35d0c97110d1ac465f0a11973b:-282957452,0bcc57b197c971106917337208eb7798:-2097033848,4fcc57b159c97110c72c104b9ffece95:306785185</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_other">fbfc908247cd711021f49128436d436d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-04 08:33:51</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>01a90112192c4414834c733ac1a19d71</sys_id>
+        <sys_metadata>018c5f7147c9711021f49128436d43d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_other</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_018c5f7147c9711021f49128436d43d2</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_018c5f7147c9711021f49128436d43d2">ee0fdf3547c9711021f49128436d433b</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-04 08:33:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
