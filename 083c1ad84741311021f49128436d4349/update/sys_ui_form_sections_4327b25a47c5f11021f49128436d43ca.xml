@@ -17,16 +17,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-09-05 14:25:57</sys_created_on>
+            <sys_created_on>2023-09-07 06:18:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5327f25a47c5f11021f49128436d430c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>e8ca9f7247c5711021f49128436d43dc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_950909_car_park_car_parking" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">4327b25a47c5f11021f49128436d43ca</sys_ui_form>
-            <sys_ui_section caption="รายละเอียดรถยนต์" display_value="รายละเอียดรถยนต์" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">0f27b25a47c5f11021f49128436d43c7</sys_ui_section>
+            <sys_ui_section caption="รายละเอียดรถยนต์" display_value="รายละเอียดรถยนต์" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">6cca9f7247c5711021f49128436d43d9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-09-05 14:25:57</sys_updated_on>
+            <sys_updated_on>2023-09-07 06:18:23</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -35,26 +35,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5f27f25a47c5f11021f49128436d430f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_950909_car_park_car_parking" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">4327b25a47c5f11021f49128436d43ca</sys_ui_form>
             <sys_ui_section caption="รายละเอียดการจอง" display_value="รายละเอียดการจอง" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">c327b25a47c5f11021f49128436d43c9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-09-05 14:25:57</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-09-05 14:44:26</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>fd6bfe5e47c5f11021f49128436d43a0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_950909_car_park_car_parking" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">4327b25a47c5f11021f49128436d43ca</sys_ui_form>
-            <sys_ui_section caption="Note" display_value="Note" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">f96bfe5e47c5f11021f49128436d439d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-09-05 14:44:26</sys_updated_on>
+            <sys_updated_on>2023-09-07 06:18:23</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_950909_car_park_car_parking</name>

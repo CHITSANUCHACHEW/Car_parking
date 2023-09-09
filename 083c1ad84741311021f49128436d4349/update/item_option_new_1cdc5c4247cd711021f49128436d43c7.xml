@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>1234567890123</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -73,7 +73,7 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-05 14:00:59</sys_created_on>
+        <sys_created_on>2023-09-06 12:18:44</sys_created_on>
         <sys_id>1cdc5c4247cd711021f49128436d43c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>เลขบัตรประชาชน</sys_name>
@@ -82,7 +82,7 @@
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>item_option_new_1cdc5c4247cd711021f49128436d43c7</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-09-05 14:03:27</sys_updated_on>
+        <sys_updated_on>2023-09-06 12:21:19</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

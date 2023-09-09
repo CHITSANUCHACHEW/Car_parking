@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="d209e40d4785711021f49128436d438c" label="Name Card" max_length="40" name="x_950909_car_park_name_card" type="collection">
+    <element db_object_id="d209e40d4785711021f49128436d438c" label="Name Card" max_length="40" name="x_950909_car_park_name_card" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
     </element>
 </database>

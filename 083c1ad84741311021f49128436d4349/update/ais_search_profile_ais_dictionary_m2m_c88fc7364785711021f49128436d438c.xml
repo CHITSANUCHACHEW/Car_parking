@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_950909_car_park_car_parking_reservation_search_profile_default_spell_check_dictionary">cc8fc7364785711021f49128436d4389</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Car parking reservation search profile">f17f0736a18571109942b9f81d806f0d</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 05:29:12</sys_created_on>
+        <sys_id>c88fc7364785711021f49128436d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_950909_car_park_car_parking_reservation_search_profile_default_spell_check_dictionary.Car parking reservation search profile</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_c88fc7364785711021f49128436d438c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 05:29:12</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>
