@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_950909_car_park.LoadDetail</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>LoadDetail</name>
+        <script><![CDATA[var LoadDetail = Class.create();
+LoadDetail.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    load: function() {
+
+        var table = new GlideRecord('x_950909_car_park_detail_card');
+        table.addQuery('u_user_id', gs.getUserName());
+        table.query();
+
+        var array = {};
+        while (table.next()) {
+            array.fname = table.u_fname.toString();
+            array.lname = table.u_lname.toString();
+            array.phone = table.u_phone.toString();
+            array.email = table.u_email.toString();
+            array.id_card = table.u_id_card.toString();
+        }
+				
+		return JSON.stringify(array);
+// 		if(array.length === 0){
+// 			return "ERROR";
+// 		}else{
+// 			return JSON.stringify(array);
+// 		}
+    },
+
+    type: 'LoadDetail'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 08:15:57</sys_created_on>
+        <sys_id>e4fb14144751b11021f49128436d43e5</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>LoadDetail</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_script_include_e4fb14144751b11021f49128436d43e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 09:09:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

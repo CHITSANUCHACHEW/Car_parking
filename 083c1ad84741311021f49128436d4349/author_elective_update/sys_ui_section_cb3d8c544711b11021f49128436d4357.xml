@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="ฃ" section_id="cb3d8c544711b11021f49128436d4357" sys_domain="global" table="x_950909_car_park_detail_card" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-11 07:11:20</sys_created_on>
+            <sys_id>1f3d8c544711b11021f49128436d4370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ฃ" display_value="ฃ" name="x_950909_car_park_detail_card" sys_domain="global" view="Default view">cb3d8c544711b11021f49128436d4357</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 07:11:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_confirm</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-11 07:11:20</sys_created_on>
+            <sys_id>133d8c544711b11021f49128436d4371</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ฃ" display_value="ฃ" name="x_950909_car_park_detail_card" sys_domain="global" view="Default view">cb3d8c544711b11021f49128436d4357</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 07:11:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>ฃ</caption>
+            <header>false</header>
+            <name>x_950909_car_park_detail_card</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-11 07:11:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb3d8c544711b11021f49128436d4357</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_950909_car_park_detail_card</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+            <sys_update_name>sys_ui_section_cb3d8c544711b11021f49128436d4357</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 07:11:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sys_ui_section_cb3d8c544711b11021f49128436d4357</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="ฃ" section_id="cb3d8c544711b11021f49128436d4357" sys_domain="global" table="x_950909_car_park_detail_card" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-11 07:11:20</sys_created_on><sys_id>1f3d8c544711b11021f49128436d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ฃ" display_value="ฃ" name="x_950909_car_park_detail_card" sys_domain="global" view="Default view">cb3d8c544711b11021f49128436d4357</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-11 07:11:20</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_confirm</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-11 07:11:20</sys_created_on><sys_id>133d8c544711b11021f49128436d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ฃ" display_value="ฃ" name="x_950909_car_park_detail_card" sys_domain="global" view="Default view">cb3d8c544711b11021f49128436d4357</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-11 07:11:20</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>ฃ</caption><header>false</header><name>x_950909_car_park_detail_card</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-11 07:11:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cb3d8c544711b11021f49128436d4357</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_950909_car_park_detail_card</sys_name><sys_overrides/><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>sys_ui_section_cb3d8c544711b11021f49128436d4357</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-11 07:11:20</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-310727252</payload_hash>
+        <record_name>Detail Card</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 07:11:20</sys_created_on>
+        <sys_id>db3d8c544711b11021f49128436d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a83149bb30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 07:11:20</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>573d8c546111b1107e7e22cca764ec72</update_guid>
+        <update_guid_history>573d8c546111b1107e7e22cca764ec72:-310727252</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 07:13:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>6e9810a1c4d1458a82dd840d0b1659b9</sys_id>
+        <sys_metadata>cb3d8c544711b11021f49128436d4357</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ฃ</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent display_value="Detail Card">2e0ac8504711b11021f49128436d4347</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sys_ui_section_cb3d8c544711b11021f49128436d4357</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_cb3d8c544711b11021f49128436d4357">db3d8c544711b11021f49128436d4372</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 07:13:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

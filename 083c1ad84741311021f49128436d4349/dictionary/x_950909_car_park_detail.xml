@@ -30,6 +30,7 @@
                 <element inactive_on_update="false" label="ยกเลิก" sequence="2" value="3"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="UserName" max_length="40" name="u_user_name" type="string"/>
         <index name="index">
             <element name="u_car_type"/>
         </index>

@@ -25,11 +25,11 @@ $text-muted:#666666;
         <enable_ais>false</enable_ais>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage display_value="home">1fa688f04785311021f49128436d4318</homepage>
+        <homepage display_value="customer_car">195c0700471d711021f49128436d4364</homepage>
         <icon/>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
-        <login_page display_value="landing">36c61807cb31120000f8d856634c9ca9</login_page>
+        <login_page/>
         <logo>1ea48c704785311021f49128436d43b1</logo>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
@@ -44,15 +44,15 @@ $text-muted:#666666;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-31 09:03:05</sys_created_on>
         <sys_id>870dff684745311021f49128436d43b1</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Car parking</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_portal_870dff684745311021f49128436d43b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-07 07:57:24</sys_updated_on>
-        <theme display_value="Instance Security Center Theme">dcc2b90753221300a8ed21fac2dc3455</theme>
+        <sys_updated_on>2023-09-11 02:51:43</sys_updated_on>
+        <theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme>
         <title>Car parking</title>
         <ts_index_group/>
         <url_suffix>cps</url_suffix>

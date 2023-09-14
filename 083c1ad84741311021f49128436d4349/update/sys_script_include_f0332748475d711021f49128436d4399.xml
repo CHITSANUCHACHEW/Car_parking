@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_950909_car_park.check_record_name_card</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>check_record_name_card</name>
+        <script><![CDATA[var check_record_name_card = Class.create();
+check_record_name_card.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	record: function(){
+		var table = new GlideRecord('x_950909_car_park_name_card');
+		table.query();
+		while(table.next()){
+			return table.getRowCount();
+		}
+		
+	},
+	
+	name_card: function(){
+		var table = new GlideRecord('x_950909_car_park_detail_card');
+		table.addQuery('u_user_id',gs.getUserName());
+		table.query();
+		while(table.next()){
+			return table.getRowCount();
+		}
+		return table.getRowCount();
+	},
+	
+    type: 'check_record_name_card'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 04:10:56</sys_created_on>
+        <sys_id>f0332748475d711021f49128436d4399</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>check_record_name_card</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_script_include_f0332748475d711021f49128436d4399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 08:05:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

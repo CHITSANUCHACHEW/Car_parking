@@ -25,11 +25,17 @@
     var location = g_form.getValue('u_location');
     var start = g_form.getValue('u_start_dt');
     var end = g_form.getValue('u_end_dt');
-
-    if (!g_form.ajaxComplete) {
+	var con = g_form.getValue('u_confirm');
+	var date_all = g_form.getValue('u_date_all_in');
+	
+	if(con == "false"){
+		g_form.addErrorMessage("ไม่สามารถจองได้ เนื่องจากคุณไม่มีสมาชิก");
+		return false;
+	}else if (!g_form.ajaxComplete) {
 		check();
 		return false;
     }
+
 
     function check() {
         var call = new GlideAjax('Check_location');
@@ -39,14 +45,16 @@
         call.addParam('location', location);
         call.addParam('st', start);
         call.addParam('end', end);
-
+		call.addParam('date_all', date_all);
+		
+		
         call.getXML(getResponse);
 
         function getResponse(response) {
             var result = response.responseXML.documentElement.getAttribute('answer');
-            alert(result);
             if (result != null) {
 				g_form.addErrorMessage("คุณได้ทำการจองไปแล้ว");
+				g_form.clearValue('u_date_all_in');
                 g_form.clearValue('u_hours');
                 g_form.clearValue('u_price');
             }else{
@@ -55,7 +63,6 @@
 			}
         }
     }
-
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -63,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8aa3afe64709311021f49128436d431c</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Submit ที่จอดซ้ำ วันเวลาเดียวกัน</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
@@ -71,7 +78,7 @@
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>catalog_script_client_8aa3afe64709311021f49128436d431c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-06 14:02:07</sys_updated_on>
+        <sys_updated_on>2023-09-11 12:57:21</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

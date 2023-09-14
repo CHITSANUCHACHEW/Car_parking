@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2e0ac8504711b11021f49128436d4347" label="Detail Card" max_length="40" name="x_950909_car_park_detail_card" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="ซอย" max_length="40" name="u_alley" type="string"/>
+        <element label="ยืนยันข้อมูล" max_length="40" name="u_confirm" type="boolean"/>
+        <element label="อำเภอ" max_length="40" name="u_district" type="string"/>
+        <element label="อีเมล" max_length="40" name="u_email" type="string"/>
+        <element label="ชื่อ" max_length="40" name="u_fname" type="string"/>
+        <element label="เลขบัตรประชาชน" max_length="40" name="u_id_card" type="string"/>
+        <element label="นามสกุล" max_length="40" name="u_lname" type="string"/>
+        <element label="หมู่" max_length="40" name="u_moo" type="string"/>
+        <element label="บ้านเลขที่" max_length="40" name="u_number_home" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Parent" max_length="40" name="u_parent" type="string"/>
+        <element label="เบอร์มือถือ" max_length="40" name="u_phone" type="string"/>
+        <element label="จังหวัด" max_length="40" name="u_province" type="string"/>
+        <element label="ถนน" max_length="40" name="u_road" type="string"/>
+        <element label="ตำบล" max_length="40" name="u_subdistrict" type="string"/>
+        <element label="อีเมล รอง" max_length="40" name="u_sub_email" type="string"/>
+        <element label="เบอร์มือถือ รอง" max_length="40" name="u_sub_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UserID" max_length="40" name="u_user_id" type="string"/>
+        <element label="หมู่บ้าน" max_length="40" name="u_village" type="string"/>
+        <element label="รหัสไปรษณีย์" max_length="40" name="u_zipcode" type="string"/>
+    </element>
+</database>

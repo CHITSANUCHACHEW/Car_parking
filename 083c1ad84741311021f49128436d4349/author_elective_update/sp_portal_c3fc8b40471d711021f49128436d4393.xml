@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="customer_car">195c0700471d711021f49128436d4364</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="Car Parking Menu">be7f3be84745311021f49128436d4302</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 02:31:40</sys_created_on>
+        <sys_id>c3fc8b40471d711021f49128436d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer service car park</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_portal_c3fc8b40471d711021f49128436d4393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 02:31:40</sys_updated_on>
+        <theme display_value="Instance Security Center Theme">dcc2b90753221300a8ed21fac2dc3455</theme>
+        <title>Customer service car park</title>
+        <ts_index_group/>
+        <url_suffix>csp</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=c3fc8b40471d711021f49128436d4393"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sp_portal_c3fc8b40471d711021f49128436d4393</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><default>false</default><enable_ais>false</enable_ais><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage display_value="customer_car">195c0700471d711021f49128436d4364</homepage><icon/><kb_knowledge_base/><kb_knowledge_page/><login_page/><logo/><notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page><quick_start_config/><sc_catalog/><sc_catalog_page/><sc_category_page/><search_application/><search_results_configuration/><sp_chat_queue/><sp_rectangle_menu display_value="Car Parking Menu">be7f3be84745311021f49128436d4302</sp_rectangle_menu><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-11 02:31:40</sys_created_on><sys_id>c3fc8b40471d711021f49128436d4393</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer service car park</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>sp_portal_c3fc8b40471d711021f49128436d4393</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-11 02:31:40</sys_updated_on><theme display_value="Instance Security Center Theme">dcc2b90753221300a8ed21fac2dc3455</theme><title>Customer service car park</title><ts_index_group/><url_suffix>csp</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=c3fc8b40471d711021f49128436d4393"/></record_update>]]></payload>
+        <payload_hash>-1959032056</payload_hash>
+        <record_name>Customer service car park</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 02:31:40</sys_created_on>
+        <sys_id>a63d8f40471d711021f49128436d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a821491e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 02:31:40</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>ee3d8f40d51d71107157edc1591bdd28</update_guid>
+        <update_guid_history>ee3d8f40d51d71107157edc1591bdd28:-1959032056</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Customer service car park">57809b44471d711021f49128436d43d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 02:46:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>50e0ba3253084bc0b9fc4b32d4d79000</sys_id>
+        <sys_metadata>c3fc8b40471d711021f49128436d4393</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer service car park</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sp_portal_c3fc8b40471d711021f49128436d4393</sys_update_name>
+        <sys_update_version display_value="sp_portal_c3fc8b40471d711021f49128436d4393">a63d8f40471d711021f49128436d4329</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 02:46:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
