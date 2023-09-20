@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="cbe7914a4781b11021f49128436d4308" label="ประเภทรถ" max_length="40" name="x_950909_car_park_x_950909_car_park" type="collection">
-        <element label="ประเภทรถ" max_length="40" name="u_type" type="string"/>
+        <element display="true" label="ประเภทรถ" max_length="40" name="u_type" type="string"/>
     </element>
 </database>

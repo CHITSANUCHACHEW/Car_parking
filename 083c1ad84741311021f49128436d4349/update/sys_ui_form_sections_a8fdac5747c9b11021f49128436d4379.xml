@@ -42,6 +42,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-09-08 07:00:20</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-16 06:25:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdb231394751311021f49128436d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_950909_car_park_detail" name="x_950909_car_park_detail" sys_domain="global" view="Default view">a8fdac5747c9b11021f49128436d4379</sys_ui_form>
+            <sys_ui_section caption="ต้องการยกเลิกการจองหรือไม่" display_value="ต้องการยกเลิกการจองหรือไม่" name="x_950909_car_park_detail" sys_domain="global" view="Default view">e9b231394751311021f49128436d4348</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-16 06:25:35</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_950909_car_park_detail</name>
             <roles/>

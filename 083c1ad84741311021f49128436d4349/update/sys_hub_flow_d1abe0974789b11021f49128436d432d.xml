@@ -10,7 +10,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>map_to_detail</internal_name>
-        <label_cache>[{"name":"Created_1.current.u_car_detail","label":"Trigger - Record Created➛Car parking Record➛รายละเอียดอื่นๆ","reference":"","reference_display":"รายละเอียดอื่นๆ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_car_detail"},{"name":"Created_1.current.u_other","label":"Trigger - Record Created➛Car parking Record➛อื่นๆ","reference":"","reference_display":"อื่นๆ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_other"},{"name":"Created_1.current.u_car_type","label":"Trigger - Record Created➛Car parking Record➛ประเภทรถ","reference":"x_950909_car_park_x_950909_car_park","reference_display":"ประเภทรถ","type":"reference","base_type":"reference","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_car_type"},{"name":"Created_1.current.u_model","label":"Trigger - Record Created➛Car parking Record➛รุ่น","reference":"","reference_display":"รุ่น","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_model"},{"name":"Created_1.current.u_brand","label":"Trigger - Record Created➛Car parking Record➛ยี่ห้อรถ","reference":"","reference_display":"ยี่ห้อรถ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_brand"},{"name":"Created_1.current.u_number_car","label":"Trigger - Record Created➛Car parking Record➛ทะเบียนรถ","reference":"","reference_display":"ทะเบียนรถ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_number_car"},{"name":"Created_1.current.u_fname","label":"Trigger - Record Created➛Car parking Record➛ชื่อ","reference":"","reference_display":"ชื่อ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_fname"},{"name":"Created_1.current","label":"Trigger - Record Created➛Car parking Record","reference":"x_950909_car_park_car_parking","reference_display":"Car parking","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.u_lname","label":"Trigger - Record Created➛Car parking Record➛นามสกุล","reference":"","reference_display":"นามสกุล","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_lname"},{"name":"Created_1.current.u_phone","label":"Trigger - Record Created➛Car parking Record➛เบอร์มือถือ","reference":"","reference_display":"เบอร์มือถือ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_phone"},{"name":"Created_1.current.u_email","label":"Trigger - Record Created➛Car parking Record➛อีเมล","reference":"","reference_display":"อีเมล","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_email"},{"name":"Created_1.current.u_id_card","label":"Trigger - Record Created➛Car parking Record➛เลขบัตรประชาชน","reference":"","reference_display":"เลขบัตรประชาชน","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_id_card"},{"name":"Created_1.current.u_state_approve","label":"Trigger - Record Created➛Car parking Record➛State Approve","reference":"","reference_display":"State Approve","type":"choice","base_type":"choice","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_state_approve","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"รออนุมัติ","image":"","rawLabel":"รออนุมัติ","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"อนุมัติ","image":"","rawLabel":"อนุมัติ","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"ยกเลิก","image":"","rawLabel":"ยกเลิก","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_950909_car_park_car_parking"}}]},{"name":"Created_1.current.u_confirm","label":"Trigger - Record Created➛Car parking Record➛ยืนยันข้อมูล","reference":"","reference_display":"ยืนยันข้อมูล","type":"boolean","base_type":"boolean","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_confirm"},{"name":"Created_1.current.u_date_all_in","label":"Trigger - Record Created➛Car parking Record➛วันที่เหมา","reference":"","reference_display":"วันที่เหมา","type":"glide_date","base_type":"glide_date","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_date_all_in"},{"name":"Created_1.current.u_start_dt","label":"Trigger - Record Created➛Car parking Record➛ตั้งแต่เวลา","reference":"","reference_display":"ตั้งแต่เวลา","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_start_dt"},{"name":"Created_1.current.u_end_dt","label":"Trigger - Record Created➛Car parking Record➛ถึง","reference":"","reference_display":"ถึง","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_end_dt"},{"name":"Created_1.current.u_all_in","label":"Trigger➛Car parking Record➛เหมาทั้งวัน (10.00 - 21.00 น.)","reference":"","reference_display":"เหมาทั้งวัน (10.00 - 21.00 น.)","type":"boolean","base_type":"boolean","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_all_in"},{"name":"Created_1.current.u_location","label":"Trigger - Record Created➛Car parking Record➛ชั้น","reference":"","reference_display":"ชั้น","type":"choice","base_type":"choice","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_location","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"1","image":"","rawLabel":"1","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"2","image":"","rawLabel":"2","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"3","image":"","rawLabel":"3","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_950909_car_park_car_parking"}}]},{"name":"Created_1.current.u_hours","label":"Trigger - Record Created➛Car parking Record➛ชั่วโมง","reference":"","reference_display":"ชั่วโมง","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_hours"},{"name":"Created_1.current.u_price","label":"Trigger - Record Created➛Car parking Record➛ค่าบริการ","reference":"","reference_display":"ค่าบริการ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_price"},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Car parking Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"sys_created_by"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Car parking Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"number"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.u_car_detail","label":"Trigger - Record Created➛Car parking Record➛รายละเอียดอื่นๆ","reference":"","reference_display":"รายละเอียดอื่นๆ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_car_detail"},{"name":"Created_1.current.u_other","label":"Trigger - Record Created➛Car parking Record➛อื่นๆ","reference":"","reference_display":"อื่นๆ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_other"},{"name":"Created_1.current.u_car_type","label":"Trigger - Record Created➛Car parking Record➛ประเภทรถ","reference":"x_950909_car_park_x_950909_car_park","reference_display":"ประเภทรถ","type":"reference","base_type":"reference","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_car_type"},{"name":"Created_1.current.u_model","label":"Trigger - Record Created➛Car parking Record➛รุ่น","reference":"","reference_display":"รุ่น","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_model"},{"name":"Created_1.current.u_brand","label":"Trigger - Record Created➛Car parking Record➛ยี่ห้อรถ","reference":"","reference_display":"ยี่ห้อรถ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_brand"},{"name":"Created_1.current.u_number_car","label":"Trigger - Record Created➛Car parking Record➛ทะเบียนรถ","reference":"","reference_display":"ทะเบียนรถ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_number_car"},{"name":"Created_1.current.u_fname","label":"Trigger - Record Created➛Car parking Record➛ชื่อ","reference":"","reference_display":"ชื่อ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_fname"},{"name":"Created_1.current","label":"Trigger - Record Created➛Car parking Record","reference":"x_950909_car_park_car_parking","reference_display":"Car parking","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.u_lname","label":"Trigger - Record Created➛Car parking Record➛นามสกุล","reference":"","reference_display":"นามสกุล","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_lname"},{"name":"Created_1.current.u_phone","label":"Trigger - Record Created➛Car parking Record➛เบอร์มือถือ","reference":"","reference_display":"เบอร์มือถือ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_phone"},{"name":"Created_1.current.u_email","label":"Trigger - Record Created➛Car parking Record➛อีเมล","reference":"","reference_display":"อีเมล","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_email"},{"name":"Created_1.current.u_id_card","label":"Trigger - Record Created➛Car parking Record➛เลขบัตรประชาชน","reference":"","reference_display":"เลขบัตรประชาชน","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_id_card"},{"name":"Created_1.current.u_state_approve","label":"Trigger - Record Created➛Car parking Record➛State Approve","reference":"","reference_display":"State Approve","type":"choice","base_type":"choice","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_state_approve","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"รออนุมัติ","image":"","reference":false,"rawLabel":"รออนุมัติ","selected":false,"missing":false,"value":"1","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"อนุมัติ","image":"","reference":false,"rawLabel":"อนุมัติ","selected":false,"missing":false,"value":"2","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"ยกเลิก","image":"","reference":false,"rawLabel":"ยกเลิก","selected":false,"missing":false,"value":"3","parameters":{"name":"x_950909_car_park_car_parking"}}]},{"name":"Created_1.current.u_confirm","label":"Trigger - Record Created➛Car parking Record➛ยืนยันข้อมูล","reference":"","reference_display":"ยืนยันข้อมูล","type":"boolean","base_type":"boolean","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_confirm"},{"name":"Created_1.current.u_date_all_in","label":"Trigger - Record Created➛Car parking Record➛วันที่เหมา","reference":"","reference_display":"วันที่เหมา","type":"glide_date","base_type":"glide_date","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_date_all_in"},{"name":"Created_1.current.u_start_dt","label":"Trigger - Record Created➛Car parking Record➛ตั้งแต่เวลา","reference":"","reference_display":"ตั้งแต่เวลา","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_start_dt"},{"name":"Created_1.current.u_end_dt","label":"Trigger - Record Created➛Car parking Record➛ถึง","reference":"","reference_display":"ถึง","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_end_dt"},{"name":"Created_1.current.u_all_in","label":"Trigger➛Car parking Record➛เหมาทั้งวัน (10.00 - 21.00 น.)","reference":"","reference_display":"เหมาทั้งวัน (10.00 - 21.00 น.)","type":"boolean","base_type":"boolean","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_all_in"},{"name":"Created_1.current.u_location","label":"Trigger - Record Created➛Car parking Record➛ชั้น","reference":"","reference_display":"ชั้น","type":"choice","base_type":"choice","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_location","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1","image":"","reference":false,"rawLabel":"1","selected":false,"missing":false,"value":"1","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"2","image":"","reference":false,"rawLabel":"2","selected":false,"missing":false,"value":"2","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"3","image":"","reference":false,"rawLabel":"3","selected":false,"missing":false,"value":"3","parameters":{"name":"x_950909_car_park_car_parking"}}]},{"name":"Created_1.current.u_hours","label":"Trigger - Record Created➛Car parking Record➛ชั่วโมง","reference":"","reference_display":"ชั่วโมง","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_hours"},{"name":"Created_1.current.u_price","label":"Trigger - Record Created➛Car parking Record➛ค่าบริการ","reference":"","reference_display":"ค่าบริการ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_price"},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Car parking Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"sys_created_by"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Car parking Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"number"}]</label_cache>
         <master_snapshot>3325b81f47c9b11021f49128436d43d3</master_snapshot>
         <name>Car Map to detail</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d1abe0974789b11021f49128436d432d</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Car Map to detail</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sys_hub_flow_d1abe0974789b11021f49128436d432d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:38</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d1abe0974789b11021f49128436d432d"/>
@@ -74,14 +74,14 @@
         <identifier>d1abe0974789b11021f49128436d432d</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-11 10:53:07</sys_created_on>
-        <sys_id>bbffb05c47d1b11021f49128436d430e</sys_id>
+        <sys_created_on>2023-09-20 07:26:38</sys_created_on>
+        <sys_id>cf072ec34715311021f49128436d43db</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:38</sys_updated_on>
         <trigger display_value="">a42d4b724785711021f49128436d43eb</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d1abe0974789b11021f49128436d432d^sys_idNOT INbbffb05c47d1b11021f49128436d430e"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d1abe0974789b11021f49128436d432d^sys_idNOT INcf072ec34715311021f49128436d43db"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=d1abe0974789b11021f49128436d432d^sys_idNOT INf901f81b47c9b11021f49128436d437b"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -92,10 +92,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 07:13:47</sys_created_on>
         <sys_id>f901f81b47c9b11021f49128436d437b</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:38</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -208,14 +208,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 07:13:47</sys_created_on>
         <sys_id>7101f81b47c9b11021f49128436d4377</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -291,14 +291,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 07:13:47</sys_created_on>
         <sys_id>bd01f05747c9b11021f49128436d43f6</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -328,10 +328,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 07:13:47</sys_created_on>
         <sys_id>7d01f81b47c9b11021f49128436d4381</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:54:24</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:49:13</sys_updated_on>
         <ui_id>2eb21cd8-9b74-46ba-8dfd-f6813e31eccc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7d01f81b47c9b11021f49128436d4381"/>
@@ -449,17 +449,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ff25f81f47c9b11021f49128436d4339","name":"plan","plan_signature":null}}</plan>
         <plan_id>d1abe0974789b11021f49128436d432d</plan_id>
-        <snapshot>fe40095c47d1b11021f49128436d438c</snapshot>
+        <snapshot>7d3ce24b4715311021f49128436d43f4</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 07:31:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ff25f81f47c9b11021f49128436d4339</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:38</sys_updated_on>
         <trigger display_value="">a42d4b724785711021f49128436d43eb</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d1abe0974789b11021f49128436d432d"/>
@@ -474,7 +474,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>map_to_detail</internal_name>
-        <label_cache>[{"name":"Created_1.current.u_car_detail","label":"Trigger - Record Created➛Car parking Record➛รายละเอียดอื่นๆ","reference":"","reference_display":"รายละเอียดอื่นๆ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_car_detail"},{"name":"Created_1.current.u_other","label":"Trigger - Record Created➛Car parking Record➛อื่นๆ","reference":"","reference_display":"อื่นๆ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_other"},{"name":"Created_1.current.u_car_type","label":"Trigger - Record Created➛Car parking Record➛ประเภทรถ","reference":"x_950909_car_park_x_950909_car_park","reference_display":"ประเภทรถ","type":"reference","base_type":"reference","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_car_type"},{"name":"Created_1.current.u_model","label":"Trigger - Record Created➛Car parking Record➛รุ่น","reference":"","reference_display":"รุ่น","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_model"},{"name":"Created_1.current.u_brand","label":"Trigger - Record Created➛Car parking Record➛ยี่ห้อรถ","reference":"","reference_display":"ยี่ห้อรถ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_brand"},{"name":"Created_1.current.u_number_car","label":"Trigger - Record Created➛Car parking Record➛ทะเบียนรถ","reference":"","reference_display":"ทะเบียนรถ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_number_car"},{"name":"Created_1.current.u_fname","label":"Trigger - Record Created➛Car parking Record➛ชื่อ","reference":"","reference_display":"ชื่อ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_fname"},{"name":"Created_1.current","label":"Trigger - Record Created➛Car parking Record","reference":"x_950909_car_park_car_parking","reference_display":"Car parking","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.u_lname","label":"Trigger - Record Created➛Car parking Record➛นามสกุล","reference":"","reference_display":"นามสกุล","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_lname"},{"name":"Created_1.current.u_phone","label":"Trigger - Record Created➛Car parking Record➛เบอร์มือถือ","reference":"","reference_display":"เบอร์มือถือ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_phone"},{"name":"Created_1.current.u_email","label":"Trigger - Record Created➛Car parking Record➛อีเมล","reference":"","reference_display":"อีเมล","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_email"},{"name":"Created_1.current.u_id_card","label":"Trigger - Record Created➛Car parking Record➛เลขบัตรประชาชน","reference":"","reference_display":"เลขบัตรประชาชน","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_id_card"},{"name":"Created_1.current.u_state_approve","label":"Trigger - Record Created➛Car parking Record➛State Approve","reference":"","reference_display":"State Approve","type":"choice","base_type":"choice","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_state_approve","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"รออนุมัติ","image":"","rawLabel":"รออนุมัติ","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"อนุมัติ","image":"","rawLabel":"อนุมัติ","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"ยกเลิก","image":"","rawLabel":"ยกเลิก","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_950909_car_park_car_parking"}}]},{"name":"Created_1.current.u_confirm","label":"Trigger - Record Created➛Car parking Record➛ยืนยันข้อมูล","reference":"","reference_display":"ยืนยันข้อมูล","type":"boolean","base_type":"boolean","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_confirm"},{"name":"Created_1.current.u_date_all_in","label":"Trigger - Record Created➛Car parking Record➛วันที่เหมา","reference":"","reference_display":"วันที่เหมา","type":"glide_date","base_type":"glide_date","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_date_all_in"},{"name":"Created_1.current.u_start_dt","label":"Trigger - Record Created➛Car parking Record➛ตั้งแต่เวลา","reference":"","reference_display":"ตั้งแต่เวลา","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_start_dt"},{"name":"Created_1.current.u_end_dt","label":"Trigger - Record Created➛Car parking Record➛ถึง","reference":"","reference_display":"ถึง","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_end_dt"},{"name":"Created_1.current.u_all_in","label":"Trigger➛Car parking Record➛เหมาทั้งวัน (10.00 - 21.00 น.)","reference":"","reference_display":"เหมาทั้งวัน (10.00 - 21.00 น.)","type":"boolean","base_type":"boolean","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_all_in"},{"name":"Created_1.current.u_location","label":"Trigger - Record Created➛Car parking Record➛ชั้น","reference":"","reference_display":"ชั้น","type":"choice","base_type":"choice","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_location","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"1","image":"","rawLabel":"1","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"2","image":"","rawLabel":"2","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"3","image":"","rawLabel":"3","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_950909_car_park_car_parking"}}]},{"name":"Created_1.current.u_hours","label":"Trigger - Record Created➛Car parking Record➛ชั่วโมง","reference":"","reference_display":"ชั่วโมง","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_hours"},{"name":"Created_1.current.u_price","label":"Trigger - Record Created➛Car parking Record➛ค่าบริการ","reference":"","reference_display":"ค่าบริการ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_price"},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Car parking Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"sys_created_by"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Car parking Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"number"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.u_car_detail","label":"Trigger - Record Created➛Car parking Record➛รายละเอียดอื่นๆ","reference":"","reference_display":"รายละเอียดอื่นๆ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_car_detail"},{"name":"Created_1.current.u_other","label":"Trigger - Record Created➛Car parking Record➛อื่นๆ","reference":"","reference_display":"อื่นๆ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_other"},{"name":"Created_1.current.u_car_type","label":"Trigger - Record Created➛Car parking Record➛ประเภทรถ","reference":"x_950909_car_park_x_950909_car_park","reference_display":"ประเภทรถ","type":"reference","base_type":"reference","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_car_type"},{"name":"Created_1.current.u_model","label":"Trigger - Record Created➛Car parking Record➛รุ่น","reference":"","reference_display":"รุ่น","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_model"},{"name":"Created_1.current.u_brand","label":"Trigger - Record Created➛Car parking Record➛ยี่ห้อรถ","reference":"","reference_display":"ยี่ห้อรถ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_brand"},{"name":"Created_1.current.u_number_car","label":"Trigger - Record Created➛Car parking Record➛ทะเบียนรถ","reference":"","reference_display":"ทะเบียนรถ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_number_car"},{"name":"Created_1.current.u_fname","label":"Trigger - Record Created➛Car parking Record➛ชื่อ","reference":"","reference_display":"ชื่อ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_fname"},{"name":"Created_1.current","label":"Trigger - Record Created➛Car parking Record","reference":"x_950909_car_park_car_parking","reference_display":"Car parking","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.u_lname","label":"Trigger - Record Created➛Car parking Record➛นามสกุล","reference":"","reference_display":"นามสกุล","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_lname"},{"name":"Created_1.current.u_phone","label":"Trigger - Record Created➛Car parking Record➛เบอร์มือถือ","reference":"","reference_display":"เบอร์มือถือ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_phone"},{"name":"Created_1.current.u_email","label":"Trigger - Record Created➛Car parking Record➛อีเมล","reference":"","reference_display":"อีเมล","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_email"},{"name":"Created_1.current.u_id_card","label":"Trigger - Record Created➛Car parking Record➛เลขบัตรประชาชน","reference":"","reference_display":"เลขบัตรประชาชน","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_id_card"},{"name":"Created_1.current.u_state_approve","label":"Trigger - Record Created➛Car parking Record➛State Approve","reference":"","reference_display":"State Approve","type":"choice","base_type":"choice","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_state_approve","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"รออนุมัติ","image":"","reference":false,"rawLabel":"รออนุมัติ","selected":false,"missing":false,"value":"1","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"อนุมัติ","image":"","reference":false,"rawLabel":"อนุมัติ","selected":false,"missing":false,"value":"2","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"ยกเลิก","image":"","reference":false,"rawLabel":"ยกเลิก","selected":false,"missing":false,"value":"3","parameters":{"name":"x_950909_car_park_car_parking"}}]},{"name":"Created_1.current.u_confirm","label":"Trigger - Record Created➛Car parking Record➛ยืนยันข้อมูล","reference":"","reference_display":"ยืนยันข้อมูล","type":"boolean","base_type":"boolean","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_confirm"},{"name":"Created_1.current.u_date_all_in","label":"Trigger - Record Created➛Car parking Record➛วันที่เหมา","reference":"","reference_display":"วันที่เหมา","type":"glide_date","base_type":"glide_date","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_date_all_in"},{"name":"Created_1.current.u_start_dt","label":"Trigger - Record Created➛Car parking Record➛ตั้งแต่เวลา","reference":"","reference_display":"ตั้งแต่เวลา","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_start_dt"},{"name":"Created_1.current.u_end_dt","label":"Trigger - Record Created➛Car parking Record➛ถึง","reference":"","reference_display":"ถึง","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_end_dt"},{"name":"Created_1.current.u_all_in","label":"Trigger➛Car parking Record➛เหมาทั้งวัน (10.00 - 21.00 น.)","reference":"","reference_display":"เหมาทั้งวัน (10.00 - 21.00 น.)","type":"boolean","base_type":"boolean","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_all_in"},{"name":"Created_1.current.u_location","label":"Trigger - Record Created➛Car parking Record➛ชั้น","reference":"","reference_display":"ชั้น","type":"choice","base_type":"choice","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_location","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1","image":"","reference":false,"rawLabel":"1","selected":false,"missing":false,"value":"1","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"2","image":"","reference":false,"rawLabel":"2","selected":false,"missing":false,"value":"2","parameters":{"name":"x_950909_car_park_car_parking"}},{"used":false,"label":"3","image":"","reference":false,"rawLabel":"3","selected":false,"missing":false,"value":"3","parameters":{"name":"x_950909_car_park_car_parking"}}]},{"name":"Created_1.current.u_hours","label":"Trigger - Record Created➛Car parking Record➛ชั่วโมง","reference":"","reference_display":"ชั่วโมง","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_hours"},{"name":"Created_1.current.u_price","label":"Trigger - Record Created➛Car parking Record➛ค่าบริการ","reference":"","reference_display":"ค่าบริการ","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"u_price"},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Car parking Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"sys_created_by"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Car parking Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_950909_car_park_car_parking","column_name":"number"}]</label_cache>
         <master>true</master>
         <name>Car Map to detail</name>
         <natlang/>
@@ -491,7 +491,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3325b81f47c9b11021f49128436d43d3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -499,7 +499,7 @@
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:37</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=3325b81f47c9b11021f49128436d43d3"/>
@@ -514,10 +514,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 07:31:56</sys_created_on>
         <sys_id>b725f81f47c9b11021f49128436d432b</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:38</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -630,14 +630,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 07:31:56</sys_created_on>
         <sys_id>f725b81f47c9b11021f49128436d43d5</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:06</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -713,14 +713,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 07:31:56</sys_created_on>
         <sys_id>fb25f81f47c9b11021f49128436d430d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:06</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -750,10 +750,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 07:31:56</sys_created_on>
         <sys_id>bf25f81f47c9b11021f49128436d4329</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:53:07</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:26:37</sys_updated_on>
         <ui_id>2eb21cd8-9b74-46ba-8dfd-f6813e31eccc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bf25f81f47c9b11021f49128436d4329"/>

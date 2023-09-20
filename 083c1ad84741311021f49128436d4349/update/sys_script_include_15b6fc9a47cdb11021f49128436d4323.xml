@@ -15,7 +15,8 @@ Calculate_Datetime.prototype = Object.extendsObject(global.AbstractAjaxProcessor
 		var ed = new GlideDateTime(this.getParameter('ed_dt'));
 		var st_day = st.getDayOfMonthLocalTime();
 		var ed_day = ed.getDayOfMonthLocalTime();
-
+		
+		
 		//ลบ ชั่วโมง 1 ชม เCalculate_Datetimeิน 16.00
 		var st_hour = st.getTime().getByFormat('HH');
 		var ed_hour = ed.getTime().getByFormat('HH');
@@ -53,13 +54,13 @@ Calculate_Datetime.prototype = Object.extendsObject(global.AbstractAjaxProcessor
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-05 05:06:12</sys_created_on>
         <sys_id>15b6fc9a47cdb11021f49128436d4323</sys_id>
-        <sys_mod_count>87</sys_mod_count>
+        <sys_mod_count>91</sys_mod_count>
         <sys_name>Calculate_Datetime</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sys_script_include_15b6fc9a47cdb11021f49128436d4323</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-06 04:40:35</sys_updated_on>
+        <sys_updated_on>2023-09-20 07:47:51</sys_updated_on>
     </sys_script_include>
 </record_update>

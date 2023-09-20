@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
-        <class_name/>
+        <class_name>check</class_name>
         <color>default</color>
         <css/>
         <glyph>check-circle-o</glyph>
@@ -16,27 +16,27 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="2">4578be5b47c1f11021f49128436d435d</sp_column>
-        <sp_page/>
+        <sp_page display_value="approvals">d3485112cb13310000f8d856634c9c3e</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 17:05:30</sys_created_on>
         <sys_id>ed783ed34741f11021f49128436d4306</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>ตรวจสอบ</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_instance_link_ed783ed34741f11021f49128436d4306</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-08 17:16:37</sys_updated_on>
+        <sys_updated_on>2023-09-18 13:51:02</sys_updated_on>
         <title>ตรวจสอบ</title>
         <type>page</type>
         <url/>
         <widget_parameters><![CDATA[{
 	"link_template": {
-		"value": "Circle Icon",
-		"displayValue": "Circle Icon"
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
 	}
 }]]></widget_parameters>
     </sp_instance_link>
