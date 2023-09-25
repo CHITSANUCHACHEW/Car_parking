@@ -2,8 +2,7 @@
     <sp_page action="INSERT_OR_UPDATE">
         <category>custom</category>
         <css>body{
-  background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(93,93,210,1) 46%, rgba(2,0,36,1) 100%);
+  background-color: #FFFFFF;
 }
 section.page{
   padding-top: 0;
@@ -11,8 +10,13 @@ section.page{
   padding-top: 0;
 }
 
+.col-md-12{
+	padding-left: 0;
+  padding-right: 0;
+}
 
-.car_res, .card, .calendar, .edit, .fa-credit-card:before, .fa::before{
+
+.car_res, .card, .calendar, .edit, .fa-credit-card:before, .fa::before , .contact{
 	color: #FFFFFF;
 }
 
@@ -26,7 +30,7 @@ section.page{
 }
 
 .v3caa67afcb13020000f8d856634c9c2e a.top_icon:hover{
-    border-radius: 60px;
+  border-radius: 60px;
   background-color: #FFFFFF;
   color: #27374D;
 }
@@ -43,21 +47,21 @@ section.page{
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>false</public>
-        <roles>x_950909_car_park.admin,x_950909_car_park.employee,x_950909_car_park.customer</roles>
+        <roles>x_950909_car_park.admin,x_950909_car_park.customer</roles>
         <seo_script display_value="SPSEOHeaderTags">f060f7b377011010d81e7811a91061e3</seo_script>
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-11 02:27:46</sys_created_on>
         <sys_id>195c0700471d711021f49128436d4364</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>customer_car</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_page_195c0700471d711021f49128436d4364</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-19 16:20:16</sys_updated_on>
+        <sys_updated_on>2023-09-22 16:47:31</sys_updated_on>
         <title>Customer car</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

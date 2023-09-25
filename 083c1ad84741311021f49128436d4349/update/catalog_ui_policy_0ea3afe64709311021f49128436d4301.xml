@@ -6,7 +6,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:dca868f94701711021f49128436d4353!=^EQ</catalog_conditions>
+        <catalog_conditions>IO:dca868f94701711021f49128436d4353!=761862474715311021f49128436d4305^EQ</catalog_conditions>
         <catalog_item display_value="Car parking reservation">f64205c54709711021f49128436d433a</catalog_item>
         <conditions/>
         <description/>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0ea3afe64709311021f49128436d4301</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>show อื่นๆ</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>catalog_ui_policy_0ea3afe64709311021f49128436d4301</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-20 07:34:44</sys_updated_on>
+        <sys_updated_on>2023-09-21 09:32:57</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

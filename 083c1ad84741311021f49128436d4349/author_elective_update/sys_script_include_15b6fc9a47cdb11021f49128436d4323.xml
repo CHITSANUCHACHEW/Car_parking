@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_950909_car_park.Calculate_Datetime</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Calculate_Datetime</name>
+        <script><![CDATA[var Calculate_Datetime = Class.create();
+Calculate_Datetime.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    calculate: function() {
+        var st = new GlideDateTime(this.getParameter('st_dt'));
+        var ed = new GlideDateTime(this.getParameter('ed_dt'));
+        var st_day = st.getDayOfMonthLocalTime();
+        var ed_day = ed.getDayOfMonthLocalTime();
+
+        //ลบ ชั่วโมง 1 ชม เกิน 17.00
+		var st_hour = st.getTime().getByFormat('HH');
+        var ed_hour = ed.getTime().getByFormat('HH');
+        if (st_hour > 16) {
+            st_day -= 1;
+        }
+        if (ed_hour > 16) {
+            ed_day -= 1;
+        }
+
+
+        //คำนวณเวลาการจองให้อยู่ใน วันเดียวกัน
+        var st_month = st.getMonthLocalTime();
+        var ed_month = ed.getMonthLocalTime();
+        var calday = ed_day - st_day;
+        if (calday > 0 && st_month != ed_month || calday > 0) {
+            return "More_than";
+        }
+
+        //เลือกชั่วโมง ภายในระยะเวลาทำการ
+        if (st_hour < 10) {
+            return "st_Open_Close";
+            // 			return "เวลาเปิด-ปิด 10.00 น. - 21.00 น.";
+        } else if (ed_hour > 21) {
+            return "ed_Open_Close";
+        }
+
+        //ไม่มีไรผิดพลาด
+        return "correct";
+
+    },
+
+    type: 'Calculate_Datetime'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 05:06:12</sys_created_on>
+        <sys_id>15b6fc9a47cdb11021f49128436d4323</sys_id>
+        <sys_mod_count>102</sys_mod_count>
+        <sys_name>Calculate_Datetime</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_script_include_15b6fc9a47cdb11021f49128436d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-20 14:20:48</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sys_script_include_15b6fc9a47cdb11021f49128436d4323</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_950909_car_park.Calculate_Datetime&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Calculate_Datetime&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Calculate_Datetime = Class.create();
+Calculate_Datetime.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    calculate: function() {
+        var st = new GlideDateTime(this.getParameter('st_dt'));
+        var ed = new GlideDateTime(this.getParameter('ed_dt'));
+        var st_day = st.getDayOfMonthLocalTime();
+        var ed_day = ed.getDayOfMonthLocalTime();
+
+        //ลบ ชั่วโมง 1 ชม เกิน 17.00
+		var st_hour = st.getTime().getByFormat('HH');
+        var ed_hour = ed.getTime().getByFormat('HH');
+        if (st_hour &gt; 16) {
+            st_day -= 1;
+        }
+        if (ed_hour &gt; 16) {
+            ed_day -= 1;
+        }
+
+
+        //คำนวณเวลาการจองให้อยู่ใน วันเดียวกัน
+        var st_month = st.getMonthLocalTime();
+        var ed_month = ed.getMonthLocalTime();
+        var calday = ed_day - st_day;
+        if (calday &gt; 0 &amp;&amp; st_month != ed_month || calday &gt; 0) {
+            return "More_than";
+        }
+
+        //เลือกชั่วโมง ภายในระยะเวลาทำการ
+        if (st_hour &lt; 10) {
+            return "st_Open_Close";
+            // 			return "เวลาเปิด-ปิด 10.00 น. - 21.00 น.";
+        } else if (ed_hour &gt; 21) {
+            return "ed_Open_Close";
+        }
+
+        //ไม่มีไรผิดพลาด
+        return "correct";
+
+    },
+
+    type: 'Calculate_Datetime'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-05 05:06:12&lt;/sys_created_on&gt;&lt;sys_id&gt;15b6fc9a47cdb11021f49128436d4323&lt;/sys_id&gt;&lt;sys_mod_count&gt;102&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calculate_Datetime&lt;/sys_name&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_15b6fc9a47cdb11021f49128436d4323&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-20 14:20:48&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1709688021</payload_hash>
+        <record_name>Calculate_Datetime</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-20 14:20:48</sys_created_on>
+        <sys_id>4ad508df4759311021f49128436d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ab2f706b30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-20 14:20:48</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>42d508dfe15931105be2a72587e3376e</update_guid>
+        <update_guid_history>42d508dfe15931105be2a72587e3376e:1709688021,c3a548df7f593110e20c4bf3f0b36dae:785688525,217504dff3593110dffe880666b0657c:229717898,c805041f98593110255aeb797d21cc9b:449923604,74e40c9fc85931108e0692b59570a9e5:-1645245916,4664005f145931100ee35e9e4513d4af:-1848314973,b783485f0f59311086822153ec4a4708:2116693087,b173c45f165931106e76d92af769137a:-915058051,9723441f18593110edaed83e876ff391:-1149771592,dd3240dbbe5931108c2dc2983df04ae6:-1065781601,af3140dbe8593110486f91f1cee37cd5:2083837496,f5eb2ec768153110ef7871f9e4e041bd:1161247061,b53aae4747153110d2565bd6bb4318ab:2027851938,a81a2e47b615311012690f44b65ce033:1037364324,b0c9a6875215311077212157a33fea4a:-837401420,06caf1eefe4131104c2ea33bb99792e9:-1183369255,458a7122cd8131106572b9979bdde1e1:527209967,905abdee5e4131100ba096c6fada6ae9:996848413,be1af1eec24131103524342c5366d0b7:1791137600,f708796e2b4131103f0269ef8caf894f:2124451961,d267b9aa79413110c2c40c9a18a83004:1325578101,b8c45b56a449f1109e8f0c3881410489:1030228827,30e397966c49f1104110ecffb6b2a05a:1809107127,5f535b56d849f1102a540fdc48488a76:1665500072,50025b16ef49f110e67cf16bcacb756e:-1561584402,25a0dbd24b49f110109cd737b851e9a5:-669974694,259335d6cbc1f110937f27321a71bd03:-1644812672,5c63799628c1f1102476bb488c353b6b:780844288,478ead5249c1f1107b810bcedcfdc2bd:-1644812672,2bfd291251c1f110058f24d77bf893ab:-705944801,99bd2912a9c1f1109299f691c2471ca7:57412100,1f9d2912dac1f1103a775cca7fd761a3:1950512446,824da112d5c1f110ddd1ea180610b302:57412100,84eb21de6b81f110f7867cefcfe2961b:1476549589,f3cba19e5c81f110fbc5eb532e17649a:1163758875,dfb36d961a81f11068fd8a7f201e8844:8498325,438321d6b481f1101b4767320db20305:-1058081469,a3532d966f81f1100f631ffa00dc0852:153982247,5a0361162b81f11048abd541b376fe07:-193771050,4ce22d563181f110cd91baa40589fab7:153982247,5001e5163781f110b6422e55c95370b4:-64047149,4ba02dd28f81f110cdc9cc454660da6b:-297936998,d9802dd24c81f1104283ff4bf6988e67:1729647901,37502dd2f081f11096b425fcf612e6a9:1557188112,f440ed526281f110e0c5f1956ea37626:187752301,902021924981f110cc423ba29ba7131f:601781013,fdcf11920481f11058602356ea1363dc:779752160,32aedd122d81f110cbc441b958342187:-635019311,4a6e11928f81f110f5bb4567555d6f19:-254058736,be4e5d52bb81f1106cc1b55999bd1952:-1864713026,af1ed9524b81f110d9769af4b109f06f:-1449658094,9e8d99123e81f110372825f59750517f:441959411,355dd5123081f11033be20e7d2715d0e:888272309,26fc19125781f11087cd4900277aac36:349133041,efcc91128081f110de6ffd98134a74a2:-431847863,71cc9512f781f1100d85f2cb32aae114:1888053659,bfac9dde5041f110de32fdffb2079c03:409881281,c27c5d9e8041f1101677782521da5278:2079439919,355c1dde5641f110c9234449bb0cbb5c:-737354999,253c5d9ed841f110d73e6f3349420073:-1487388471,15eb5d9ef741f11001cec08e58744191:82242433,2e6bd59e7241f110aff5f684298bc055:1521437275,5a4b5d9e0341f1103452c528069e3f6d:-538255418,71ea515eae41f110a5f716acfd1b40d3:672871642,d8ba159ece41f11067a24eff06a26b8a:1053929690,608a515eba41f1106c188794b55088ae:2069794961,c92ad55ed441f110eac3f81c158fc8e6:-438666447,4fc9591e0541f11006cc1b7021836e10:-1171928656,fd99991e9f41f1109e417497a20386e6:-97773389,bf29991ea341f11029a2ad4b238b70b1:-1808591704,3919511e9541f11007011dd5ec5bc92f:-318872645,8ff89dda6f41f110974de08c0bd82092:-713765271,c2889dda5741f11049e13762e543668e:636521756,a05851da9741f110b0d7890607d8b8d6:307900188,a474c11a5201f110e9bcfde6173d4cbb:-1700846330,9e248d966e01f110d87e9b574663529f:-722770023,f214411a7d01f110450ff93dd62958e3:932685727,8414c5963801f11000ea36db407f1bdb:-1821835283,8ce3c9d6bb01f11095e6bc1ae90d1bbb:1857955261,5ea38d96f801f1107b7c3dbadf3803be:1790917568,5ef28d969601f1107ff318a09c90581a:-339526663,4c7205963a01f110a7fe24c183a6ed99:-203831968,0622c1560601f110f7e2ebe4e840cfcf:87313618,a41241567901f11006e86930152cbcde:1020972770,56e14d56f301f110ed2be1d57a166d70:582032184,7f818556db01f110e7eaa1c8c7ab1bf3:1614858996,0e7181564701f1103c90c0105b1f3495:156070394,9b210156cf01f110b445ff59102c8aff:1500247529,afe08552df01f110cc0bb3db16b7adad:-140507223,0e00cdd28301f11024a3a0bd322797b4:1029052886,0f4dfc12ee01f110102a9d93fcd58058:247723307,a04c3412ba01f1107ccbbfe70e3bcf25:1770842689,290b309ee5cdb11085ac74a71372f044:-742967430,bada309ee8cdb110e4eab78e56d8ce40:1814087633,4d1a705ea7cdb110bf89ce190ad1c9a7:-10366471,9f0ab05e14cdb110e6fa8fb51e480235:-2048096401,80e9705e77cdb110cf37746d3c322ba3:1649466238,ea09b05ed5cdb110534911d54a553815:2131851275,45e8705ec1cdb1104a7503659dead49c:1323490235,cf98b89a1ccdb110141bdeca93aeaaac:-235716094,5a88b81e9bcdb1107b1c09eae2074337:725410128,a728741e80cdb1102d5f74380880a360:1410347540,4c17b89affcdb110841ba9b1b538670e:-53806734</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 05:17:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>23f61df2fcaf43b08bb789a30b670521</sys_id>
+        <sys_metadata>15b6fc9a47cdb11021f49128436d4323</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate_Datetime</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sys_script_include_15b6fc9a47cdb11021f49128436d4323</sys_update_name>
+        <sys_update_version display_value="sys_script_include_15b6fc9a47cdb11021f49128436d4323">4ad508df4759311021f49128436d436e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 05:17:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

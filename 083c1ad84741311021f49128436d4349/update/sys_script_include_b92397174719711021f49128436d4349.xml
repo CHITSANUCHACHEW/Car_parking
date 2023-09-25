@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_950909_car_park.Calculate_Datetime</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Calculate_Datetime</name>
+        <script><![CDATA[var Calculate_Datetime = Class.create();
+Calculate_Datetime.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    calculate: function() {
+        var st = new GlideDateTime(this.getParameter('st_dt'));
+        var ed = new GlideDateTime(this.getParameter('ed_dt'));
+//         var st_day = st.getDayOfMonthLocalTime();
+		var st_day = st.getDate().getByFormat('dd');
+		var ed_day = ed.getDate().getByFormat('dd');
+//         var ed_day = ed.getDayOfMonthLocalTime();
+
+        //ลบ ชั่วโมง 1 ชม เกิน 17.00
+		var st_hour = st.getTime().getByFormat('HH');
+        var ed_hour = ed.getTime().getByFormat('HH');
+//         if (st_hour > 16) {
+//             st_day -= 1;
+//         }
+//         if (ed_hour > 16) {
+//             ed_day -= 1;
+//         }
+
+
+        //คำนวณเวลาการจองให้อยู่ใน วันเดียวกัน
+//         var st_month = st.getMonthLocalTime();
+		var st_month = st.getDate().getByFormat('MM');
+		var ed_month = ed.getDate().getByFormat('MM');
+//         var ed_month = ed.getMonthLocalTime();
+        var calday = ed_day - st_day;
+// 		return st_month +" || "+ ed_month + "|" + st_day +" "+ ed_day + " = " + calday;
+        if (st_month != ed_month || calday > 0 && st_month != ed_month || calday > 0) {
+            return "More_than";
+        }
+
+        //เลือกชั่วโมง ภายในระยะเวลาทำการ
+        if (st_hour < 10) {
+            return "st_Open_Close";
+            // 			return "เวลาเปิด-ปิด 10.00 น. - 21.00 น.";
+        } else if (ed_hour > 21) {
+            return "ed_Open_Close";
+        }
+
+        //ไม่มีไรผิดพลาด
+        return "correct";
+
+    },
+
+    type: 'Calculate_Datetime'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 05:18:13</sys_created_on>
+        <sys_id>b92397174719711021f49128436d4349</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Calculate_Datetime</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_script_include_b92397174719711021f49128436d4349</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 10:16:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

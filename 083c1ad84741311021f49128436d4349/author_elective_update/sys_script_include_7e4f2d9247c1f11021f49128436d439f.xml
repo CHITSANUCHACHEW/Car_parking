@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_950909_car_park.Calculate_price </api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Calculate_price </name>
+        <script><![CDATA[var Calculate_price = Class.create();
+Calculate_price.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    cal_hours: function() {
+        var st = new GlideDateTime(this.getParameter('st_dt'));
+        var ed = new GlideDateTime(this.getParameter('ed_dt'));
+        var st_hour = st.getTime().getByFormat('HH');
+        var ed_hour = ed.getTime().getByFormat('HH');
+
+        var hours = GlideDateTime.subtract(st, ed);
+        var min = hours.getByFormat('mm');
+        var hour = hours.getByFormat('HH');
+		
+        if (st_hour < 10 || ed_hour > 21) {
+            return "error";
+        } else if (min > 0) {
+            var int = parseInt(hour);
+            int += 1;
+            return int;
+        } else {
+            return hour;
+        }
+    },
+
+    type: 'Calculate_price '
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 09:13:13</sys_created_on>
+        <sys_id>7e4f2d9247c1f11021f49128436d439f</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>Calculate_price </sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_script_include_7e4f2d9247c1f11021f49128436d439f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 05:34:50</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sys_script_include_7e4f2d9247c1f11021f49128436d439f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_950909_car_park.Calculate_price &lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Calculate_price &lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Calculate_price = Class.create();
+Calculate_price.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    cal_hours: function() {
+        var st = new GlideDateTime(this.getParameter('st_dt'));
+        var ed = new GlideDateTime(this.getParameter('ed_dt'));
+        var st_hour = st.getTime().getByFormat('HH');
+        var ed_hour = ed.getTime().getByFormat('HH');
+
+        var hours = GlideDateTime.subtract(st, ed);
+        var min = hours.getByFormat('mm');
+        var hour = hours.getByFormat('HH');
+		
+        if (st_hour &lt; 10 || ed_hour &gt; 21) {
+            return "error";
+        } else if (min &gt; 0) {
+            var int = parseInt(hour);
+            int += 1;
+            return int;
+        } else {
+            return hour;
+        }
+    },
+
+    type: 'Calculate_price '
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-05 09:13:13&lt;/sys_created_on&gt;&lt;sys_id&gt;7e4f2d9247c1f11021f49128436d439f&lt;/sys_id&gt;&lt;sys_mod_count&gt;52&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calculate_price &lt;/sys_name&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_7e4f2d9247c1f11021f49128436d439f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-21 05:34:50&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-286020846</payload_hash>
+        <record_name>Calculate_price </record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 05:34:50</sys_created_on>
+        <sys_id>1b071fd74719711021f49128436d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ab63bdab20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 05:34:50</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>df071fd7371971103710c18fee0b3e26</update_guid>
+        <update_guid_history>df071fd7371971103710c18fee0b3e26:-286020846,dd1617d700197110a0e6eb08d3106e02:2123629049,6e7652d60445f110dba0c944e8ada691:519253974,2b5552d60345f1106318d0c0a3059a4e:-1838971,cfd41a963445f11089aa9426d72e5b09:154232332,dbb496965c45f110b8e3b6564c173022:-276956613,14a492563f45f110da00e623fc588bed:154232332,2474da561d45f110ab0564d3c319c52f:-1227745901,9f045e568645f110bc1ce4011ec71323:-1138858049,e2e3de16fa45f110b7090d715307cece:844290477,0bc3da161145f1108c6d641e1f97010c:-182470761,f3435ad25a45f110fe34e09fe7a4b19d:1876761177,6223da161445f110ff805edda029c101:-181129687,9b0392523c05f1107b6a4b486e27f0f3:625904686,7dd29a168745f11009046db21d3f8fad:1582260671,eb521e927445f110c275595d31880089:675238358,52221216a745f110b0f8e9528bee7179:1281417768,8a8192521005f1105c052a10e9846177:-43432536,13019e923145f1106c34533606883b81:1378564570,0f9d71528805f110bf85b56931effdc0:-537280623,2b2db112c605f110f95e1b709871a2c1:679062155,181db1122505f11059bc0c79fb836dcc:809190697,060db112c905f11030b3a617455e77b5:-1563295139,aeacf5dea4c1f110e48f1ee7f58c7128:246804709,b87cf5de5ec1f11044e323172b07bb03:12369799,c72c7d9ebfc1f110e5d14249f41b5a6c:1277174851,c2ebb5def5c1f110cef20f510fcffefc:-335885523,96db7d9ef3c1f110e1d42c2682d8d377:1694716685,6f3b351e07c1f1104dbe8d8cf251da0d:-438146612,b89afd5e0ac1f110e487911037f4dc66:-1846519952,698af95e98c1f1108621e99848f5cf99:171446833,3f5a7d1ecfc1f1100e69af9824820bab:1079626579,cf2ab51e71c1f110f82a86fb01614ea0:-145686132,300a39da26c1f110017fc1fb11b6bb64:-435063890,0139b51e92c1f1104ff544a5ad6898ba:489686923,2b09311ee3c1f110c9ab30c3482b497b:-91151929,94c8751e1dc1f1109e846d6b8b7ff166:684395687,eea8351e00c1f1108cc681abe32637b0:256317359,4588f5dab7c1f110bbd93e555a2241be:80719197,cc487596cec1f110d9414c52b0182d10:-505343130,25d7f5daa5c1f11076dc3442429d414a:-1599168346,17f3f5d6ffc1f110073218f0758355e5:-1316694736,c9823196d9c1f11054d1c99bd12b7c42:-196658994,1262fd568ac1f1104500e40adf265925:-936547303,e242fd56f8c1f110b9fd378767f4ba21:-708525778,5112f556efc1f110cecfe797210772b6:744355236,1302f55655c1f1104bdfbedfda3dfd68:-358811196,e8d1fd16c5c1f1108fc3b6a5d8854a5a:1455015702,87c1f91666c1f1100fe99e46efce2413:-575007884,6f317516e1c1f110260ab7ba8e60f83f:1770910664,f050b5d2dcc1f110f8dae17deae71d5d:1297552718,ddef65d22ac1f110b5f27ee12d7385db:695237457,429f61d292c1f110170ba1f869b05d38:-1810530430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 05:57:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>b9b3ad75b84a46d09d044208683f2100</sys_id>
+        <sys_metadata>7e4f2d9247c1f11021f49128436d439f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate_price </sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sys_script_include_7e4f2d9247c1f11021f49128436d439f</sys_update_name>
+        <sys_update_version display_value="sys_script_include_7e4f2d9247c1f11021f49128436d439f">1b071fd74719711021f49128436d4327</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 05:57:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

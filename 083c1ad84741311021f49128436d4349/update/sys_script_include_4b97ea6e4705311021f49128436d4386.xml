@@ -12,7 +12,6 @@ Check_location.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
     query_location: function() {
         var id = this.getParameter('id');
-        var num_car = this.getParameter('num_car');
         var location = this.getParameter('location');
         var st = new GlideDateTime(this.getParameter('st'));
         var ed = new GlideDateTime(this.getParameter('end'));
@@ -20,38 +19,73 @@ Check_location.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         var dt_all = new GlideDateTime(this.getParameter('date_all'));
 
         if (st != "" || ed != "") {
-			
+            var d_all = ed.getDate().getByFormat('yyyy-MM-dd');
+
             //format
-            //         var Date_st = st.getDate().getByFormat("yyyy-MM-dd");
-            //         var Time_st = st.getTime().getByFormat("HH:mm:ss");
-            //         var Date_ed = ed.getDate().getByFormat("yyyy-MM-dd");
-            //         var Time_ed = ed.getDate().getByFormat("HH:mm:ss");
+            var Date_st = st.getDate().getByFormat("yyyy-MM-dd");
+            var Time_st = st.getTime().getByFormat("HH:mm:ss");
+            var Date_ed = ed.getDate().getByFormat("yyyy-MM-dd");
+            var Time_ed = ed.getTime().getByFormat("HH:mm:ss");
 
             //Query
             var table = new GlideRecord('x_950909_car_park_car_parking');
-            table.addQuery('u_id_card', '=', id);
-            //         table.addQuery('u_number_car', '=', num_car);
-            //         table.addQuery('u_location', location);
-            //         table.addEncodedQuery("u_start_dtBETWEENjavascript:gs.dateGenerate('" + st + "')@javascript:gs.dateGenerate('" + ed + "')^u_end_dtBETWEENjavascript:gs.dateGenerate('" + st + "')@javascript:gs.dateGenerate('" + ed + "')");
-            table.addEncodedQuery("u_start_dt<=javascript:gs.dateGenerate('" + ed + "')^u_end_dt>=javascript:gs.dateGenerate('" + st + "')");
+            // 			table.addQuery('u_id_card','=',id);
+            table.addQuery('u_state_approve', '=', 1);
+            // 			table.addEncodedQuery("u_start_dt<=javascript:gs.dateGenerate('" + Date_ed + "','" + Time_ed + "')^u_end_dt>=javascript:gs.dateGenerate('" + Date_st + "','" + Time_st +"')^NQu_date_all_inON" + Date_st + "@javascript:gs.dateGenerate('" + Date_st + "','start')@javascript:gs.dateGenerate('" + Date_st + "','end')");
+            table.addEncodedQuery("u_id_card=" + id + "^u_start_dt<=javascript:gs.dateGenerate('" + Date_ed + "','" + Time_ed + "')^u_end_dt>=javascript:gs.dateGenerate('" + Date_st + "','" + Time_st + "')");
 
             table.query();
-
             while (table.next()) {
-                return table.getRowCount();
+                return Date_ed + Time_ed + Date_st + Time_st + table.getRowCount();
             }
+
         } else {
 
-            var d_all = dt_all.getDate().getByFormat('yyyy-MM-dd');
+            var d_all1 = dt_all.getDate().getByFormat('yyyy-MM-dd');
             var table1 = new GlideRecord('x_950909_car_park_car_parking');
-            table1.addQuery('u_id_card', '=', id);
-            table1.addEncodedQuery("u_date_all_inON2023-09-16@javascript:gs.dateGenerate('" + d_all + "','start')@javascript:gs.dateGenerate('" + d_all + "','end')");
+
+            //             table1.addQuery('u_id_card', '=', id);
+            //             table1.addEncodedQuery("u_date_all_inON2023-09-16@javascript:gs.dateGenerate('" + d_all + "','start')@javascript:gs.dateGenerate('" + d_all + "','end')");
+
+            // 			table1.addEncodedQuery("u_date_all_inON"+ d_all +"@javascript:gs.dateGenerate('" + d_all + "','start')@javascript:gs.dateGenerate('" + d_all + "','end')^NQu_start_dt<=javascript:gs.dateGenerate('" + d_all + "','23:59:59')^u_end_dt>=javascript:gs.dateGenerate('" + d_all + "','00:00:00')");
+
+            table1.addEncodedQuery("u_date_all_inON" + d_all1 + "@javascript:gs.dateGenerate('" + d_all1 + "','start')@javascript:gs.dateGenerate('" + d_all1 + "','end')^u_id_card=" + id + "^u_state_approve=1^NQu_start_dt<=javascript:gs.dateGenerate('" + d_all1 + "','23:59:59')^u_end_dt>=javascript:gs.dateGenerate('" + d_all1 + "','00:00:00')^u_id_card=" + id + "^u_state_approve=1");
 
             table1.query();
             while (table1.next()) {
-                return table1.getRowCount();
+                return "Adad" + table1.getRowCount();
             }
         }
+
+    },
+
+	//function query หาที่จอด เต็มหรือไม่ ในเวลาที่กรอกมา
+    location_full: function() {
+        var id1 = this.getParameter('id');
+        //         var num_car1 = this.getParameter('num_car');
+        var location1 = this.getParameter('location');
+        var st1 = new GlideDateTime(this.getParameter('st'));
+        var ed1 = new GlideDateTime(this.getParameter('end'));
+        //         //date all
+        var dt_all1 = new GlideDateTime(this.getParameter('date_all'));
+        //         //format
+        var Date_st1 = st1.getDate().getByFormat("yyyy-MM-dd");
+        var Time_st1 = st1.getTime().getByFormat("HH:mm:ss");
+        var Date_ed1 = ed1.getDate().getByFormat("yyyy-MM-dd");
+        var Time_ed1 = ed1.getTime().getByFormat("HH:mm:ss");
+
+        //         var date = dt_all1.getDate().getByFormat('yyyy-MM-dd');
+
+        var table2 = new GlideRecord('x_950909_car_park_car_parking');
+
+        table2.addEncodedQuery("u_start_dt<=javascript:gs.dateGenerate('" + Date_ed1 + "','" + Time_ed1 + "')^u_end_dt>=javascript:gs.dateGenerate('" + Date_st1 + "','" + Time_st1 + "')^u_state_approve=1^u_location=" + location1 + "^NQu_date_all_inON" + Date_st1 + "@javascript:gs.dateGenerate('" + Date_st1 + "','start')@javascript:gs.dateGenerate('" + Date_ed1 + "','end')^u_state_approve=1^u_location=" + location1 + "");
+
+        table2.query();
+
+        while (table2.next()) {
+            return table2.getRowCount();
+        }
+
     },
 
     type: 'Check_location'
@@ -60,13 +94,13 @@ Check_location.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-06 07:57:01</sys_created_on>
         <sys_id>4b97ea6e4705311021f49128436d4386</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>112</sys_mod_count>
         <sys_name>Check_location</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sys_script_include_4b97ea6e4705311021f49128436d4386</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 12:56:25</sys_updated_on>
+        <sys_updated_on>2023-09-25 02:07:31</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -30,9 +30,11 @@
         <element label="ตั้งแต่เวลา" max_length="40" name="u_start_dt" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State Approve" max_length="40" name="u_state_approve" type="string">
             <choice>
-                <element inactive_on_update="false" label="รออนุมัติ" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="อนุมัติ" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="ยกเลิก" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="รอเจ้าหน้าที่ดำเนินการ" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="อนุมัติเรียบเร้อย" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="ยกเลิกการจอง" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="เจ้าหน้าที่ยกเลิก" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="ไม่มีการตอบกลับจากเจ้าหน้าที่" sequence="4" value="5"/>
             </choice>
         </element>
     </element>
