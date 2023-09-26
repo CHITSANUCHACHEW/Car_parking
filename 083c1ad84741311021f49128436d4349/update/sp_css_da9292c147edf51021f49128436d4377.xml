@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>@font-face {&#13;
+  font-family: 'Kanitlight';&#13;
+  src: url('/sys_attachment.do?sys_id=1322160147edf51021f49128436d43b6');&#13;
+  &#13;
+  font-weight: normal;&#13;
+  font-style: normal;&#13;
+}&#13;
+&#13;
+@font-face {&#13;
+  font-family: 'Kanitbold';&#13;
+  src: url('/sys_attachment.do?sys_id=9322160147edf51021f49128436d43b5');&#13;
+  font-weight: normal;&#13;
+  font-style: normal;&#13;
+}&#13;
+@font-face {&#13;
+  font-family: 'Kanitreg';&#13;
+  src: url('/sys_attachment.do?sys_id=c642168147edf51021f49128436d43ca');&#13;
+  font-weight: normal;&#13;
+  font-style: normal;&#13;
+}&#13;
+</css>
+        <name>Kanit</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 11:10:30</sys_created_on>
+        <sys_id>da9292c147edf51021f49128436d4377</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Kanit</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_css_da9292c147edf51021f49128436d4377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 11:18:29</sys_updated_on>
+    </sp_css>
+</record_update>

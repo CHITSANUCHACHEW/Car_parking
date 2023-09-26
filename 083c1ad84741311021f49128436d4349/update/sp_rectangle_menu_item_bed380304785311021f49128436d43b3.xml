@@ -12,8 +12,8 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>Name card</label>
-        <order>100</order>
+        <label>สมัครสมาชิก</label>
+        <order>200</order>
         <record_script/>
         <sc_cat_item display_value="Name card">5129e80d4785711021f49128436d43fd</sc_cat_item>
         <sc_category/>
@@ -25,14 +25,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-31 09:37:28</sys_created_on>
         <sys_id>bed380304785311021f49128436d43b3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Name card</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>สมัครสมาชิก</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_bed380304785311021f49128436d43b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-01 06:59:49</sys_updated_on>
+        <sys_updated_on>2023-09-26 11:36:26</sys_updated_on>
         <table/>
         <type>sc_cat_item</type>
         <url/>

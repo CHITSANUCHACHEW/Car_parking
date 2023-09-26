@@ -51,8 +51,6 @@
 
         function getResponse(response) {
             var result = response.responseXML.documentElement.getAttribute('answer');
-			alert(result);
-			full();
             if (result != null) {
                 if (start == "" || end == "") {
                     g_form.addErrorMessage("คุณได้ทำการจองไปแล้ว");
@@ -65,18 +63,18 @@
                     g_form.clearValue('u_price');
                 }
             } else {
-//                 g_form.ajaxComplete = true;
-				full();
-//                 g_form.submit();
+                //                 g_form.ajaxComplete = true;
+                full();
+                //                 g_form.submit();
             }
         }
     }
-	
-	function full() {
+
+    function full() {
         var check = new GlideAjax('Check_location');
         check.addParam('sysparm_name', 'location_full');
         check.addParam('id', id_card);
-//         check.addParam('num_car', num_car);
+        //         check.addParam('num_car', num_car);
         check.addParam('location', location);
         check.addParam('st', start);
         check.addParam('end', end);
@@ -87,26 +85,24 @@
 
         function getResponse(response) {
             var result = response.responseXML.documentElement.getAttribute('answer');
-			alert(result);
-			
-//             if (result != null) {
-//                 if (start == "" || end == "") {
-//                     g_form.addErrorMessage("คุณได้ทำการจองไปแล้ว");
-//                     g_form.clearValue('u_date_all_in');
-//                     g_form.clearValue('u_hours');
-//                 } else {
-//                     g_form.addErrorMessage("คุณได้ทำการจองไปแล้ว");
-//                     g_form.clearValue('u_date_all_in');
-//                     g_form.clearValue('u_hours');
-//                     g_form.clearValue('u_price');
-//                 }
-//             } else {
-//                 g_form.ajaxComplete = true;
-//                 g_form.submit();
-//             }
+            if (result >= 10) {
+                if (start == "" || end == "") {
+                    g_form.addErrorMessage("ที่จอดรถชั้นที่ "+location+" ณ เวลาที่คุณกรอก เต็มแล้ว");
+                    g_form.clearValue('u_date_all_in');
+                    g_form.clearValue('u_hours');
+                } else {
+                    g_form.addErrorMessage("ที่จอดรถชั้นที่ "+location+" ณ เวลาที่คุณกรอก เต็มแล้ว");
+                    g_form.clearValue('u_date_all_in');
+                    g_form.clearValue('u_hours');
+                    g_form.clearValue('u_price');
+                }
+            } else {
+                g_form.ajaxComplete = true;
+                g_form.submit();
+            }
         }
     }
-	return false;
+
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -114,7 +110,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8aa3afe64709311021f49128436d431c</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name>Submit ที่จอดซ้ำ วันเวลาเดียวกัน</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
@@ -122,7 +118,7 @@
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>catalog_script_client_8aa3afe64709311021f49128436d431c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-24 16:18:50</sys_updated_on>
+        <sys_updated_on>2023-09-25 02:57:45</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

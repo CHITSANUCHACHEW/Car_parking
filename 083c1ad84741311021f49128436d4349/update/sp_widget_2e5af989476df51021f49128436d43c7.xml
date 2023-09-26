@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.image{
+  background-image: url("x_950909_car_park.Banner1.svg");
+  background-position: center;
+  background-size: cover;
+  height: 440px;
+  width: 100%;
+}
+
+.info h1{
+  color: #FFFFFF;
+  font-size: 96px;
+  font-family: "Kanitbold";
+}
+
+.image {
+  display: flex; 
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info{
+  display: flex;
+  margin-left: 18rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button{
+  width: 227px;
+  height: 51px;
+  border-radius: 20px;
+  border: none;
+  background-color: #EBFF00;
+  font-size: 20px;
+  font-family: "Kanitbold";
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Banner [Customer]</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 09:19:12</sys_created_on>
+        <sys_id>2e5af989476df51021f49128436d43c7</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>Banner [Customer]</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_widget_2e5af989476df51021f49128436d43c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 11:38:44</sys_updated_on>
+        <template><![CDATA[<div>
+  <div class="image">
+    <div class = "info">
+      <h1>
+        จองที่จอดรถ
+      </h1>
+      <button class="button" ng-click="">คลิกที่นี่</button>
+    </div>
+
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

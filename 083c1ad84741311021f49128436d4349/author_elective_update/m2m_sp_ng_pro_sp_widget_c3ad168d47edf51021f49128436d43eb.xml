@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="DELETE">
+        <sp_angular_provider display_value="spEllipsisTooltip">1d2b40e07323201081d3738234f6a714</sp_angular_provider>
+        <sp_widget display_value="Catalog Item">cfad160d47edf51021f49128436d4392</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 11:53:31</sys_created_on>
+        <sys_id>c3ad168d47edf51021f49128436d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spEllipsisTooltip.Catalog Item</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_c3ad168d47edf51021f49128436d43eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 11:53:31</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>m2m_sp_ng_pro_sp_widget_c3ad168d47edf51021f49128436d43eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="spEllipsisTooltip">1d2b40e07323201081d3738234f6a714</sp_angular_provider><sp_widget display_value="Catalog Item">cfad160d47edf51021f49128436d4392</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-26 11:53:31</sys_created_on><sys_id>c3ad168d47edf51021f49128436d43eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>spEllipsisTooltip.Catalog Item</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_c3ad168d47edf51021f49128436d43eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-26 11:53:31</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+        <payload_hash>-945587733</payload_hash>
+        <record_name>spEllipsisTooltip.Catalog Item</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 11:53:31</sys_created_on>
+        <sys_id>c3ad168d47edf51021f49128436d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ad15658d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 11:53:31</sys_updated_on>
+        <type>Angular Providers</type>
+        <update_guid>0fad168d4cedf51046296d329cf45aec</update_guid>
+        <update_guid_history>0fad168d4cedf51046296d329cf45aec:-945587733</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="spEllipsisTooltip.Catalog Item">c4ed5a8d47edf51021f49128436d43db</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 11:54:24</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_ng_pro_sp_widget">m2m_sp_ng_pro_sp_widget</sys_db_object>
+        <sys_id>8c181ffb5d844d07a0ce0442871c7969</sys_id>
+        <sys_metadata>c3ad168d47edf51021f49128436d43eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spEllipsisTooltip.Catalog Item</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_c3ad168d47edf51021f49128436d43eb</sys_update_name>
+        <sys_update_version display_value="m2m_sp_ng_pro_sp_widget_c3ad168d47edf51021f49128436d43eb">c3ad168d47edf51021f49128436d43ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 11:54:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
