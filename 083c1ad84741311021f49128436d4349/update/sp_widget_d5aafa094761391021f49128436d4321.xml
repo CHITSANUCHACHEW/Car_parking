@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.icon-1{
+  background-image: url("x_950909_car_park.icon-sec1-1.svg");
+  /*background-position: center;
+  background-size: cover;*/
+  width:57px;
+  height:50px;
+}
+.icon-2{
+  background-image: url("x_950909_car_park.icon-sec1-2.svg");
+  /*background-position: center;
+  background-size: cover;*/
+  width:73px;
+  height:52px;
+}
+.icon-3{
+  background-image: url("x_950909_car_park.icon-sec1-3.svg");
+  /*background-position: center;
+  background-size: cover;*/
+  width:62px;
+  height:60px;
+}
+
+.image-n-p{
+  background-image: url("x_950909_car_park.image-sec1-Notebook_phone.svg");
+  /*background-position: center;
+  background-size: cover;*/
+  width:520px;
+  height:414px;
+}
+
+.Container-sec1{
+  margin-left: 200px;
+  margin-right: 200px;
+  display: grid;
+  /* width: 100%; */
+  grid-template-columns: 50% auto;
+  justify-items: center;
+}
+
+.info{
+  width: 100%;
+  display: grid;
+}
+.image-notebook-phone{
+  width: 100%;
+}
+
+.detail-head h1{
+  color: #152661;
+  font-size: 40px;
+  font-family: "Kanitbold";
+  margin-top:0;
+}
+
+.detail-head{
+  display: flex;
+  margin-bottom:10px;
+  margin-top:5rem;
+}
+
+ul{
+  list-style: none;
+}
+ul h2{
+  font-size: 24px;
+  font-family: "Kanitreg";
+  margin:0;
+}
+ul p{
+  font-size: 16px; 
+  font-family: "Kanitlight";
+
+}
+li{
+  display:flex;
+  margin-top:1rem;
+}
+li-1{
+  display:grid; 
+}
+
+.icon-1,.icon-2,.icon-3{
+	margin-right:10px; 
+}
+.icon-1{
+  margin-right:2.5rem;
+}
+.icon-3{
+	margin-right:2rem;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>section1</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Section1</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 14:00:06</sys_created_on>
+        <sys_id>d5aafa094761391021f49128436d4321</sys_id>
+        <sys_mod_count>87</sys_mod_count>
+        <sys_name>Section1</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_widget_d5aafa094761391021f49128436d4321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 15:56:02</sys_updated_on>
+        <template><![CDATA[<div class="Container-sec1">
+  <div class="info">
+    <div class="info-header">
+      <div class="detail">
+        <div class="detail-head">
+          <h1>จองที่จอดผ่าน</h1>&nbsp;&nbsp;&nbsp;<h1 style="color:#0449FB;">Website</h1>
+        </div>
+        <ul style="padding:0;">
+          <li><div class="icon-1"></div><div class="li-1"><h2>สมัครสมาชิก</h2><p>สมัครสมาชิกเพื่อจองที่จอด การที่ไม่มีสมาชิกไม่สามารถจองได้</p></div></li>
+          <li><div class="icon-2"></div><div class="li-1"><h2>จองที่จอด</h2><p>เลือกวันเวลาที่คุณต้องการจอด</p></div></li>
+          <li><div class="icon-3"></div><div class="li-1"><h2>รอเจ้าหน้าที่ยืนยัน</h2><p>เจ้าหน้าที่จะทำการยืนยันการจองในระบบ ถ้าเกิดสถานที่จอดรถที่<br>เลือกมีปัญหาเจ้าหน้าที่จะปฏิเสธการจอง และแจ้งเหตุผลให้ลูกค้า</p></div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="image-notebook-phone">
+    <div class="image-n-p">
+      
+    </div>
+  </div>
+
+</div>]]></template>
+    </sp_widget>
+</record_update>

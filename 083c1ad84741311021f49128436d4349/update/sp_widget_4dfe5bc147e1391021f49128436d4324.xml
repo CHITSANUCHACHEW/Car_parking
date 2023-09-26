@@ -6,54 +6,47 @@
   var c = this;
 };]]></client_script>
         <controller_as>c</controller_as>
-        <css>.image{
-  background-image: url("x_950909_car_park.Banner1.svg");
-  background-position: center;
-  background-size: cover;
-  height: 440px;
-  width: 100%;
+        <css>.image-c{
+  background-image: url("x_950909_car_park.image-sec2-card.svg");
+  /*background-position: center;
+  background-size: cover;*/
+  width:720px;
+  height:762.55px;
 }
 
-.info h1{
-  color: #FFFFFF;
-  font-size: 96px;
-  font-family: "Kanitbold";
+.Container-sec1{
+  margin-left: 200px;
+  margin-right: 200px;
+  display: grid;
+  width: 100px;
+  height: 414px;
+  grid-template-columns: 50% auto;
+  justify-items: center;
 }
 
-.image {
-  display: flex; 
-  justify-content: flex-start;
-  align-items: center;
+.image-card{
+  position: absolute;
+  top: -23rem;
+  left: -10rem;
 }
 
 .info{
-  display: flex;
-  margin-left: 18rem;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
+  display: grid;
 }
-
-.button{
-  width: 227px;
-  height: 51px;
-  border-radius: 20px;
-  border: none;
-  background-color: #EBFF00;
-  font-size: 20px;
-  font-family: "Kanitbold";
-}</css>
+</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
         <docs/>
         <field_list/>
         <has_preview>true</has_preview>
-        <id/>
+        <id>section2</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {
   
 }]]></link>
-        <name>Banner [Customer]</name>
+        <name>Section2</name>
         <option_schema/>
         <public>true</public>
         <roles/>
@@ -65,26 +58,26 @@
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-26 09:19:12</sys_created_on>
-        <sys_id>2e5af989476df51021f49128436d43c7</sys_id>
-        <sys_mod_count>65</sys_mod_count>
-        <sys_name>Banner [Customer]</sys_name>
+        <sys_created_on>2023-09-26 16:38:44</sys_created_on>
+        <sys_id>4dfe5bc147e1391021f49128436d4324</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Section2</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
-        <sys_update_name>sp_widget_2e5af989476df51021f49128436d43c7</sys_update_name>
+        <sys_update_name>sp_widget_4dfe5bc147e1391021f49128436d4324</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-26 13:58:28</sys_updated_on>
-        <template><![CDATA[<div>
-  <div class="image">
-    <div class = "info">
-      <h1>
-        จองที่จอดรถ
-      </h1>
-      <button class="button"  onClick="location.href='?id=cat_item&sys_id=f64205c54709711021f49128436d433a'"?id=cat_item' ng-click="">คลิกที่นี่</button>
+        <sys_updated_on>2023-09-26 16:51:21</sys_updated_on>
+        <template><![CDATA[<div class="Container-sec1">
+  <div class="image-card">
+    <div class="image-c">
+      
     </div>
-
   </div>
+  <div class="info">
+    
+  </div>
+
 </div>]]></template>
     </sp_widget>
 </record_update>
