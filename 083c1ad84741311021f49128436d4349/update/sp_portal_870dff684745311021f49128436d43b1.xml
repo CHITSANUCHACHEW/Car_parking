@@ -21,10 +21,45 @@ $sp-logo-margin-x:.2rem;
 $btn-default-bg:#fff;
 $text-muted:#666666;
 
+.navbar-inverse .navbar-nav &gt; .open &gt; a, .navbar-inverse .navbar-nav &gt; .open &gt; a:hover, .navbar-inverse .navbar-nav &gt; .open &gt; a:focus{
+	border-radius:20px;
+}
 
 .v3c29786e87133200e0ef0cf888cb0bdf .sc-fixed{
 	position: none;
   width: 100%;
+}
+
+.vbf5ec2f2cb10120000f8d856634c9c0c .navbar-right{
+	margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.navbar-inverse .navbar-nav &gt; li &gt; a{
+	padding-top:10px
+  padding-bottom:10px;
+  background-color: #FFFFFF;
+  color:#000000;
+  border-radius:20px;
+}
+
+.navbar-nav &gt; li &gt; a {
+	border-radius: 20px;
+    background-color: #FFFFFF;
+
+}
+
+.navbar-nav &gt; li &gt; a:hover{
+	color:#FFFFFF;
+	background-color: #5A57FF;
+}
+
+.dropdown-menu &gt; li &gt; a:hover{
+	background-color: #85FFD3;
+}
+
+.fa::before{
+	color: #FFFFFF;
 }
 </css_variables>
         <default>false</default>
@@ -50,14 +85,14 @@ $text-muted:#666666;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-31 09:03:05</sys_created_on>
         <sys_id>870dff684745311021f49128436d43b1</sys_id>
-        <sys_mod_count>93</sys_mod_count>
+        <sys_mod_count>113</sys_mod_count>
         <sys_name>Car parking</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_portal_870dff684745311021f49128436d43b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-26 11:52:51</sys_updated_on>
+        <sys_updated_on>2023-09-27 14:47:02</sys_updated_on>
         <theme display_value="Theme Car parking">bd14967747d1f11021f49128436d431d</theme>
         <title>Car parking</title>
         <ts_index_group/>
