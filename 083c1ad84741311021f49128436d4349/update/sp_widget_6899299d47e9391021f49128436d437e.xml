@@ -20,12 +20,10 @@
 	}
 
 	c.cancel = function(idx){
-		alert(c.data.record[idx].sys_id);
 		c.server.get({
 			action: 'updateNote',
 			noteNumber: c.data.record[idx].sys_id
 		}).then(function(r) {
-			//var r = response.responseXML.documentElement.getAttribute('answer');
 		});
 	}
 };]]></client_script>
@@ -233,39 +231,36 @@
         <script><![CDATA[(function() {
 	/* populate the 'data' object */
 	/* e.g., data.table = $sp.getValue('table'); */
-	
+
 	if(input){
-		var r ;
-		var table1 = new GlideRecord('x_950909_car_park_detail');
-		table1.addQuery('number',"DET00001041");
-		//table1.addEncodedQuery("number=DET00001041");
-		table1.addQuery();
-		while(input.action == 'updateNote'){
-			r = table1.getRowCount();
+		var update = new GlideRecord('x_950909_car_park_detail');
+		if(input.action == 'updateNote'){
+			update.addEncodedQuery("sys_id="+input.noteNumber+"");
+			update.query();
+			while(update.next()){
+				update.setValue('u_cancel',true);
+				update.update();
+			}
 		}
-		table1.setValue('u_fname', r);
-		gs.print("Hello");
-			//table1.u_fname = "dddddddddddd";
-		//table1.update();
-	} 
+	}else{
+		data.record = [];
+		var table = new GlideRecord('x_950909_car_park_detail');
+		//table.addQuery('user', gs.getUser().getID());
+		table.addEncodedQuery("u_user_name=javascript:gs.getUserName()");
+		table.addQuery('u_state_approve',"1");
+		//table.orderByDesc('sys_created_on');
+		//table.setLimit(options.maximum_records_to_display);
 
-	data.record = [];
-	var table = new GlideRecord('x_950909_car_park_detail');
-	//table.addQuery('user', gs.getUser().getID());
-	table.addEncodedQuery("u_user_name=javascript:gs.getUserName()");
-	table.addQuery('u_state_approve',"1");
-	//table.orderByDesc('sys_created_on');
-	//table.setLimit(options.maximum_records_to_display);
-
-	table.query();
-	while (table.next()) {
-		var RecordObj = {};
-		//use service portal helper method to get some display values
-		$sp.getRecordDisplayValues(RecordObj, table, 'number,parent,u_fname,sys_id,u_state_approve');
-		//get the first 20 characters of the description
-		//noteObj.note = noteGR.getValue('u_fname').slice(0,20);
-		//push the populated obj into the array
-		data.record.push(RecordObj);	
+		table.query();
+		while (table.next()) {
+			var RecordObj = {};
+			//use service portal helper method to get some display values
+			$sp.getRecordDisplayValues(RecordObj, table, 'number,parent,u_fname,sys_id,u_state_approve');
+			//get the first 20 characters of the description
+			//noteObj.note = noteGR.getValue('u_fname').slice(0,20);
+			//push the populated obj into the array
+			data.record.push(RecordObj);	
+		}
 	}
 
 })();]]></script>
@@ -274,14 +269,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-27 02:44:21</sys_created_on>
         <sys_id>6899299d47e9391021f49128436d437e</sys_id>
-        <sys_mod_count>133</sys_mod_count>
+        <sys_mod_count>172</sys_mod_count>
         <sys_name>List_record_car_parking</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_6899299d47e9391021f49128436d437e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-27 09:00:25</sys_updated_on>
+        <sys_updated_on>2023-09-27 10:11:15</sys_updated_on>
         <template><![CDATA[<div>
   <div class="panel panel-default">
     <div class="panel-heading clearfix">
