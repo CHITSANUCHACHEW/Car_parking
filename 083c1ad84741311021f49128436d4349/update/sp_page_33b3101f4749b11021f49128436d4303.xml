@@ -2,15 +2,15 @@
     <sp_page action="INSERT_OR_UPDATE">
         <category>custom</category>
         <css>body{
-	background: rgb(0,117,108);
-	background: linear-gradient(0deg, rgba(0,117,108,1) 0%, rgba(0,238,241,1) 100%);
+	/*background: rgb(0,117,108);*/
+  background-image: linear-gradient(to top, rgba(242,254,255), rgba(146,203,206));
 }
 
 .sec1{
 	color: #000000;
 }</css>
         <draft>false</draft>
-        <dynamic_title_structure/>
+        <dynamic_title_structure>แก้ไขข้อมูล/ยกเลิก</dynamic_title_structure>
         <id>edit_info</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 05:05:51</sys_created_on>
         <sys_id>33b3101f4749b11021f49128436d4303</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>edit_info</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_page_33b3101f4749b11021f49128436d4303</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-22 07:55:57</sys_updated_on>
+        <sys_updated_on>2023-09-27 07:17:36</sys_updated_on>
         <title>edit_info</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

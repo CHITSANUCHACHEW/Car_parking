@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($rootScope,$scope,spModal) {
+	/* widget controller */
+	var c = this;
+	//click sys_id in record
+	c.selectItem = function(idx) {
+		var id = c.data.record[idx].sys_id;
+		c.id = id;
+		console.log('Note ID: ' + id);
+		$rootScope.noteID = id;
+		$rootScope.$emit('selectNote', id);
+	}	
+
+	c.webinfo = function(idx){
+		var id = c.data.record[idx].sys_id;
+		var url = "?sys_id="+id+"&view=sp&id=car_form&table=x_950909_car_park_detail"
+		window.location.href = url;
+	}
+
+	c.cancel = function(idx){
+		alert(c.data.record[idx].sys_id);
+		c.server.get({
+			action: 'updateNote',
+			noteNumber: c.data.record[idx].sys_id
+		}).then(function(r) {
+			//var r = response.responseXML.documentElement.getAttribute('answer');
+		});
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>
+.list-group-item{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.button{
+  font-family: "Kanitlight";
+  color: #FFFFFF;
+}
+.button .btn-edit{
+  background-color: #A615FF;
+  border-radius: 20px;
+}
+.button .btn-cancel{
+  border-radius: 20px;
+  background-color: red;
+}
+
+
+//button ยกเลิกการจอง
+.button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 0.4rem 1rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+  }
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+//button แก้ไขข้อมูล
+.button-79 {
+  backface-visibility: hidden;
+  background: #332cf2;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-79:disabled {
+  color: #787878;
+  cursor: auto;
+}
+
+.button-79:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-79:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.button-79:focus {
+  outline: 0 solid transparent;
+}
+
+.button-79:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-79:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-79:not(:disabled):active {
+  transform: translateY(.125rem);
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>list_record_car_parking</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>List_record_car_parking</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	
+	if(input){
+		var r ;
+		var table1 = new GlideRecord('x_950909_car_park_detail');
+		table1.addQuery('number',"DET00001041");
+		//table1.addEncodedQuery("number=DET00001041");
+		table1.addQuery();
+		while(input.action == 'updateNote'){
+			r = table1.getRowCount();
+		}
+		table1.setValue('u_fname', r);
+		gs.print("Hello");
+			//table1.u_fname = "dddddddddddd";
+		//table1.update();
+	} 
+
+	data.record = [];
+	var table = new GlideRecord('x_950909_car_park_detail');
+	//table.addQuery('user', gs.getUser().getID());
+	table.addEncodedQuery("u_user_name=javascript:gs.getUserName()");
+	table.addQuery('u_state_approve',"1");
+	//table.orderByDesc('sys_created_on');
+	//table.setLimit(options.maximum_records_to_display);
+
+	table.query();
+	while (table.next()) {
+		var RecordObj = {};
+		//use service portal helper method to get some display values
+		$sp.getRecordDisplayValues(RecordObj, table, 'number,parent,u_fname,sys_id,u_state_approve');
+		//get the first 20 characters of the description
+		//noteObj.note = noteGR.getValue('u_fname').slice(0,20);
+		//push the populated obj into the array
+		data.record.push(RecordObj);	
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 02:44:21</sys_created_on>
+        <sys_id>6899299d47e9391021f49128436d437e</sys_id>
+        <sys_mod_count>133</sys_mod_count>
+        <sys_name>List_record_car_parking</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_widget_6899299d47e9391021f49128436d437e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 09:00:25</sys_updated_on>
+        <template><![CDATA[<div>
+  <div class="panel panel-default">
+    <div class="panel-heading clearfix">
+      <h3 class="panel-title pull-left">
+        ประวัติ
+      </h3>
+    </div>
+    <div class="list-group">
+      <a class="list-group-item" ng-click="c.selectItem($index)" ng-repeat="record in data.record">
+        <div>
+          <h4 class="list-group-item-heading">
+            {{record.parent}}
+          </h4>
+          <p class="list-group-item-text">
+            {{record.u_state_approve}}
+          </p>
+        </div>
+        <div class="button">
+          <button class="button-82-pushable" role="button" ng-click="c.webinfo($index)">
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge" style="background: linear-gradient(
+                                                to left,
+                                                hsl(340deg 100% 16%) 0%,
+                                                hsl(180deg,100%,50%) 8%,
+                                                hsl(240deg,100%,50%) 50%,
+                                                hsl(180deg,100%,50%) 92%,
+                                                hsl(340deg 100% 16%) 100%
+                                                );"></span>
+            <span class="button-82-front text" style="background-color:#A615FF">
+              แก้ไขข้อมูล
+            </span>
+          </button>
+          <button class="button-82-pushable" role="button" ng-click="c.cancel($index)">
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge"></span>
+            <span class="button-82-front text">
+              ยกเลิกการจอง
+            </span>
+          </button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>
