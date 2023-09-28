@@ -28,6 +28,11 @@
   height:60px;
 }
 
+.image-notebook-phone{
+  display: flex;
+  justify-content: space-around;
+}
+
 .image-n-p{
   background-image: url("x_950909_car_park.image-sec1-Notebook_phone.svg");
   /*background-position: center;
@@ -88,13 +93,13 @@ li-1{
 }
 
 .icon-1,.icon-2,.icon-3{
-	margin-right:10px; 
+  margin-right:10px; 
 }
 .icon-1{
   margin-right:2.5rem;
 }
 .icon-3{
-	margin-right:2rem;
+  margin-right:2rem;
 }
 </css>
         <data_table>sp_instance</data_table>
@@ -122,14 +127,14 @@ li-1{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-26 14:00:06</sys_created_on>
         <sys_id>d5aafa094761391021f49128436d4321</sys_id>
-        <sys_mod_count>87</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_name>Section1</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_d5aafa094761391021f49128436d4321</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-26 15:56:02</sys_updated_on>
+        <sys_updated_on>2023-09-28 17:35:14</sys_updated_on>
         <template><![CDATA[<div class="Container-sec1">
   <div class="info">
     <div class="info-header">
