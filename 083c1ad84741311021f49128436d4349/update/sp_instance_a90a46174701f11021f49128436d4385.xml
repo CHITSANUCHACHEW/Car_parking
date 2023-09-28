@@ -10,20 +10,20 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">bc0ace5f4701f11021f49128436d43cb</sp_column>
+        <sp_column display_value="6">aa8c20f547e5311021f49128436d431b</sp_column>
         <sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 13:42:36</sys_created_on>
         <sys_id>a90a46174701f11021f49128436d4385</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_instance_a90a46174701f11021f49128436d4385</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-08 16:10:06</sys_updated_on>
+        <sys_updated_on>2023-09-28 13:13:45</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
@@ -32,8 +32,8 @@
 		"displayValue": ""
 	},
 	"max_number_of_elements_shown_on_the_list": {
-		"value": 3,
-		"displayValue": "3"
+		"value": 0,
+		"displayValue": "0"
 	}
 }]]></widget_parameters>
     </sp_instance>

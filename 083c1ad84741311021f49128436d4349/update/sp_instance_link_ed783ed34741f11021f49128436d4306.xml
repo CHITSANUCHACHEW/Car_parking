@@ -4,12 +4,12 @@
         <class_name>checkbox</class_name>
         <color>default</color>
         <css/>
-        <glyph>check-circle-o</glyph>
+        <glyph>file-archive-o</glyph>
         <id/>
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <order>1</order>
+        <order>3</order>
         <roles/>
         <sc_cat_item/>
         <sc_category/>
@@ -22,21 +22,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 17:05:30</sys_created_on>
         <sys_id>ed783ed34741f11021f49128436d4306</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>ตรวจสอบ</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>ประวัติการจอง</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_instance_link_ed783ed34741f11021f49128436d4306</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-22 08:55:30</sys_updated_on>
-        <title>ตรวจสอบ</title>
+        <sys_updated_on>2023-09-28 10:54:39</sys_updated_on>
+        <title>ประวัติการจอง</title>
         <type>page</type>
         <url/>
         <widget_parameters><![CDATA[{
 	"link_template": {
-		"value": "Top Icon",
-		"displayValue": "Top Icon"
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
 	}
 }]]></widget_parameters>
     </sp_instance_link>
