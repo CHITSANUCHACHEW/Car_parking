@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_target">
+    <sys_export_target action="INSERT_OR_UPDATE">
+        <description/>
+        <file_path>\P1_Car_parking</file_path>
+        <method>File on MID Server</method>
+        <mid_server display_value="SAASMIDServer1">d6c9d08a4721311021f49128436d43ec</mid_server>
+        <name>P1 Car parking_SAASMIDServer1</name>
+        <sys_class_name>sys_export_target</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 05:37:55</sys_created_on>
+        <sys_id>96746c4a4761311021f49128436d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>P1 Car parking_SAASMIDServer1</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_export_target_96746c4a4761311021f49128436d4392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 05:37:55</sys_updated_on>
+    </sys_export_target>
+</record_update>

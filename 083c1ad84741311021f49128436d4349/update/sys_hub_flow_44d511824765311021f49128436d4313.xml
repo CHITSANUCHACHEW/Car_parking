@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>020734ce47a1311021f49128436d4374</copied_from>
+        <copied_from_name>3</copied_from_name>
+        <description/>
+        <internal_name>export_data_to_mid_server</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>49565d824765311021f49128436d4398</master_snapshot>
+        <name>Export data to MID Server</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>85565d824765311021f49128436d43b9</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:13:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44d511824765311021f49128436d4313</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Export data to MID Server</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_hub_flow_44d511824765311021f49128436d4313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:15:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=44d511824765311021f49128436d4313"/>
+    <sys_variable_value action="delete_multiple" query="document_key=44d511824765311021f49128436d4313"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2023-09-29 09:15:45</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:15:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85565d824765311021f49128436d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:15:45</sys_updated_on>
+        <time>1970-01-01 15:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:85565d824765311021f49128436d43b9^sys_idNOT INc9565d824765311021f49128436d43b9"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:85565d824765311021f49128436d43b9</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2023-09-29 09:15:45</run_start>
+        <run_time>1970-01-01 15:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('85565d824765311021f49128436d43b9');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:15:45</sys_created_on>
+        <sys_id>c9565d824765311021f49128436d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:15:45</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">85565d824765311021f49128436d43b9</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=44d511824765311021f49128436d4313"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=44d511824765311021f49128436d4313^sys_idNOT IN44d511824765311021f49128436d4321"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Export data to MID Server">44d511824765311021f49128436d4313</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:13:29</sys_created_on>
+        <sys_id>44d511824765311021f49128436d4321</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:15:45</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=44d511824765311021f49128436d4321"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>44d511824765311021f49128436d4321</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:13:29</sys_created_on>
+        <sys_id>c8d511824765311021f49128436d4322</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:13:55</sys_updated_on>
+        <value>1970-01-01 22:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=44d511824765311021f49128436d4321"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=44d511824765311021f49128436d4313"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=44d511824765311021f49128436d4313^sys_idNOT IN40d511824765311021f49128436d4314"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>44d511824765311021f49128436d4313</id>
+        <name>Export data to MID Server</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:13:29</sys_created_on>
+        <sys_id>40d511824765311021f49128436d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:13:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=40d511824765311021f49128436d4314"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=44d511824765311021f49128436d4313"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=44d511824765311021f49128436d4313"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=44d511824765311021f49128436d4313"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=44d511824765311021f49128436d4313^sys_idNOT IN0c565d824765311021f49128436d4313"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Call script Export data to MID Server">5e3699824765311021f49128436d431d</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Export data to MID Server">44d511824765311021f49128436d4313</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:15:40</sys_created_on>
+        <sys_id>0c565d824765311021f49128436d4313</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-29 15:00:02</sys_updated_on>
+        <ui_id>1f6b400d-586e-4829-986b-fe63e564f3e5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0c565d824765311021f49128436d4313"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0c565d824765311021f49128436d4313"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0c565d824765311021f49128436d4313"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=44d511824765311021f49128436d4313"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=44d511824765311021f49128436d4313"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=44d511824765311021f49128436d4313"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=44d511824765311021f49128436d4313"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_44d511824765311021f49128436d4313"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_44d511824765311021f49128436d4313"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_44d511824765311021f49128436d4313"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_44d511824765311021f49128436d4313"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=44d511824765311021f49128436d4313^sys_idNOT IN4d565d824765311021f49128436d43ba"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"4d565d824765311021f49128436d43ba","name":"plan","plan_signature":null}}</plan>
+        <plan_id>44d511824765311021f49128436d4313</plan_id>
+        <snapshot>1c256a0a47a9311021f49128436d4307</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:15:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d565d824765311021f49128436d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:15:45</sys_updated_on>
+        <trigger display_value="">85565d824765311021f49128436d43b9</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=44d511824765311021f49128436d4313"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>020734ce47a1311021f49128436d4374</copied_from>
+        <copied_from_name/>
+        <description/>
+        <internal_name>export_data_to_mid_server</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Export data to MID Server</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Export data to MID Server">44d511824765311021f49128436d4313</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:15:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49565d824765311021f49128436d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:15:44</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=49565d824765311021f49128436d4398"/>
+    <sys_variable_value action="delete_multiple" query="document_key=49565d824765311021f49128436d4398"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=49565d824765311021f49128436d4398^sys_idNOT IN0d565d824765311021f49128436d43a1"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Export data to MID Server">49565d824765311021f49128436d4398</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:15:44</sys_created_on>
+        <sys_id>0d565d824765311021f49128436d43a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:15:45</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0d565d824765311021f49128436d43a1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0d565d824765311021f49128436d43a1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:15:44</sys_created_on>
+        <sys_id>85565d824765311021f49128436d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:15:44</sys_updated_on>
+        <value>1970-01-01 22:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=0d565d824765311021f49128436d43a1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=49565d824765311021f49128436d4398"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=49565d824765311021f49128436d4398^sys_idNOT INc5565d824765311021f49128436d4399"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>49565d824765311021f49128436d4398</id>
+        <name>Export data to MID Server</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:15:44</sys_created_on>
+        <sys_id>c5565d824765311021f49128436d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:15:44</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c5565d824765311021f49128436d4399"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=49565d824765311021f49128436d4398"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=49565d824765311021f49128436d4398"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=49565d824765311021f49128436d4398"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=49565d824765311021f49128436d4398^sys_idNOT IN05565d824765311021f49128436d43a1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Call script Export data to MID Server">5e3699824765311021f49128436d431d</action_type>
+        <action_type_parent display_value="Call script Export data to MID Server">720615824765311021f49128436d43d6</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Export data to MID Server">49565d824765311021f49128436d4398</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:15:44</sys_created_on>
+        <sys_id>05565d824765311021f49128436d43a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:15:44</sys_updated_on>
+        <ui_id>1f6b400d-586e-4829-986b-fe63e564f3e5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=05565d824765311021f49128436d43a1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=05565d824765311021f49128436d43a1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=05565d824765311021f49128436d43a1"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=49565d824765311021f49128436d4398"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=49565d824765311021f49128436d4398"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=49565d824765311021f49128436d4398"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=49565d824765311021f49128436d4398"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_49565d824765311021f49128436d4398"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_49565d824765311021f49128436d4398"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_49565d824765311021f49128436d4398"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_49565d824765311021f49128436d4398"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>44d511824765311021f49128436d4313</sys_id>
+        <latest_snapshot>49565d824765311021f49128436d4398</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2-06-07-2023_06-23-2023_1740.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

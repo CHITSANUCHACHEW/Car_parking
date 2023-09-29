@@ -328,10 +328,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-11 07:00:21</sys_created_on>
         <sys_id>1aba0c904711b11021f49128436d43ff</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 07:21:22</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-21 04:57:30</sys_updated_on>
         <ui_id>aa940dcd-f228-40d2-82cd-df627c0468fb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1aba0c904711b11021f49128436d43ff"/>
@@ -447,9 +447,9 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d89a84904711b11021f49128436d4350^sys_idNOT INe5ecc4544711b11021f49128436d43dd"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e5ecc4544711b11021f49128436d43dd","name":"plan","plan_signature":null}}</plan>
         <plan_id>d89a84904711b11021f49128436d4350</plan_id>
-        <snapshot>a1ecc4544711b11021f49128436d43af</snapshot>
+        <snapshot>588e83df47d5711021f49128436d4399</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-11 07:09:51</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -855,6 +855,6 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>d89a84904711b11021f49128436d4350</sys_id>
         <latest_snapshot>a1ecc4544711b11021f49128436d43af</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2-06-07-2023_06-23-2023_1740.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

@@ -63,6 +63,7 @@ $text-muted:#979797;
         <title>Service Car parking</title>
         <ts_index_group/>
         <url_suffix>cs</url_suffix>
+        <user_registration_config/>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=ca2fbdd34701f11021f49128436d437e"/>
 </record_update>

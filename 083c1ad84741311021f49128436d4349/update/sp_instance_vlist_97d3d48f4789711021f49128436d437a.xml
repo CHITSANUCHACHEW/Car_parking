@@ -6,7 +6,7 @@
         <css/>
         <display_field>number</display_field>
         <field_list/>
-        <filter table="x_950909_car_park_detail">u_state_approve=1<item display_value="รออนุมัติ" endquery="false" field="u_state_approve" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        <filter table="x_950909_car_park_detail">u_state_approve=1<item display_value="รอเจ้าหน้าที่ดำเนินการ" endquery="false" field="u_state_approve" goto="false" newquery="false" operator="=" or="false" value="1"/>
         </filter>
         <glyph>th-list</glyph>
         <id/>

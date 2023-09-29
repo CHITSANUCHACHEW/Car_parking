@@ -7,41 +7,65 @@
 };]]></client_script>
         <controller_as>c</controller_as>
         <css>/*.image-c{
-  background-image: url("x_950909_car_park.image-sec2-card.svg");
-  /*background-position: center;
-  background-size: cover;
-  width:69.5rem;
-  height:66.455rem;
+background-image: url("x_950909_car_park.image-sec2-card.svg");
+/*background-position: center;
+background-size: cover;
+width:69.5rem;
+height:66.455rem;
 }*/
 
 .image-bg{
-	background-image: url("x_950909_car_park.sec2-background.svg");
+  //background-image: url("x_950909_car_park.sec2-background.svg");
   /*background-position: center;
   background-size: cover;*/
-  width: 102.2rem;
+  width: 100%;
   height:414px;
 }
 
 .Container-sec1{
   background-color:#FFFFFF;
   display: flex;
+  justify-content: space-around;
+  height: 414px;
 }
 .image-bg{
-	position: relative;
+  /*position: relative;
   left: 401px;
   display: flex;
-	justify-content: space-around;
-}
-.image-c{
-	position: absolute;
-  z-index: 1;
-  bottom:4rem;
-  left:11.46rem	;
+  justify-content: space-around;*/
 }
 
+.con-bg{
+  width: 100%;
+  height: 414px;
+
+}
+
+.image-bg{
+  border-radius: 20px 0 0 20px;
+  background-image: linear-gradient(to right, rgba(0,112,216,99%), rgba(0,112,216,50%), rgba(0,112,216,8%));
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-c{
+  //position: absolute;
+  //z-index: 1;
+      bottom: 4rem;
+    left: 9rem;
+    position: absolute;
+    top: -167px;
+    width: 70rem;
+    height: 70rem;
+}
+.image-card{
+  width:30%;
+}
 
 .info h1{
-  margin-top: 68px;
+  margin-top:3rem;
+  //margin-top: 68px;
   color: #FFFFFF;
   font-size:50px;
   font-family:"Kanitbold";
@@ -71,23 +95,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-26 16:38:44</sys_created_on>
         <sys_id>4dfe5bc147e1391021f49128436d4324</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>103</sys_mod_count>
         <sys_name>Section2</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_4dfe5bc147e1391021f49128436d4324</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-28 17:30:48</sys_updated_on>
+        <sys_updated_on>2023-09-29 13:44:49</sys_updated_on>
         <template><![CDATA[<div class="Container-sec1">
-  <div class="image-c" >
-		 <img class="image-c" src="x_950909_car_park.image-sec2-card2.svg"/>
+  <div class="image-card">
+    <img class="image-c" src="x_950909_car_park.image-sec2-card2.png"/>
   </div>
-  <div class="image-bg">
-    <div class="info">
-			<h1>
-        บัตรสมาชิก
-      </h1>
+  <div class="con-bg">
+    <div class="image-bg">
+      <div class="info">
+        <h1>
+          บัตรสมาชิก
+        </h1>
+      </div>
     </div>
   </div>
 

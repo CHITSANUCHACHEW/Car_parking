@@ -7,7 +7,7 @@
         <display_field>number</display_field>
         <field_list/>
         <filter table="x_950909_car_park_car_parking">sys_created_by=javascript:gs.getUserName();^u_state_approve=2<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName();"/>
-            <item display_value="อนุมัติ" endquery="false" field="u_state_approve" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item display_value="อนุมัติเรียบเร้อย" endquery="false" field="u_state_approve" goto="false" newquery="false" operator="=" or="false" value="2"/>
         </filter>
         <glyph/>
         <id/>

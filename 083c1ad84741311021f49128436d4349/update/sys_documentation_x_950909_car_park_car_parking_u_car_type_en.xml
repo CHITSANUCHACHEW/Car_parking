@@ -10,7 +10,7 @@
             <plural>ประเภทรถs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-09-05 03:24:43</sys_created_on>
+            <sys_created_on>2023-09-20 07:18:21</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>ประเภทรถ</sys_name>
             <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
@@ -18,7 +18,7 @@
             <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
             <sys_update_name>sys_documentation_x_950909_car_park_car_parking_u_car_type_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-09-05 03:24:43</sys_updated_on>
+            <sys_updated_on>2023-09-20 07:18:21</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
