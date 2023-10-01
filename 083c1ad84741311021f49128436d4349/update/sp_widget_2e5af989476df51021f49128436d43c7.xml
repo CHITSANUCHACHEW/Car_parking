@@ -6,24 +6,50 @@
   var c = this;
 };]]></client_script>
         <controller_as>c</controller_as>
-        <css>.image{
-  background-image: url("x_950909_car_park.Banner1.svg");
-  background-position: center;
-  background-size: cover;
+        <css>.container{
   height: 440px;
   width: 100%;
+  padding:0;
+}
+
+.image-bg{
+  background-image: url("x_950909_car_park.Banner-bg.svg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex; 
+  align-items: center;
+}
+.image-icon{
+  background-image: url("x_950909_car_park.Banner-icon1.svg");
+  background-position: center;
+  background-size: cover;
+  width: 45%;
+  height: 126%;
+  display: flex;
+  align-items: center;
+}
+
+.con-icon{
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 59% 50%;
+  align-content: center;
+  align-items: center;
+}
+
+.banner-icon-color{
+  background-image: linear-gradient(to left, rgba(31, 255, 25, 95.65%),rgba(31, 255, 25, 76%), rgba(35, 255, 19, 32.25%));
+  width: 100%;
+  HEIGHT: 23rem;
 }
 
 .info h1{
   color: #FFFFFF;
   font-size: 96px;
   font-family: "Kanitbold";
-}
-
-.image {
-  display: flex; 
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .info{
@@ -41,7 +67,26 @@
   background-color: #EBFF00;
   font-size: 20px;
   font-family: "Kanitbold";
-}</css>
+}
+
+
+//media
+@media screen and (min-width: 1980px){
+  .image-icon{
+    height: 137%;
+    width: 36%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1390px) {
+  .image-icon{
+    height: 137%;
+    width: 54%;
+  }
+}
+
+
+</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -67,24 +112,29 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-26 09:19:12</sys_created_on>
         <sys_id>2e5af989476df51021f49128436d43c7</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>149</sys_mod_count>
         <sys_name>Banner [Customer]</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_2e5af989476df51021f49128436d43c7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-26 13:58:28</sys_updated_on>
-        <template><![CDATA[<div>
-  <div class="image">
-    <div class = "info">
-      <h1>
-        จองที่จอดรถ
-      </h1>
-      <button class="button"  onClick="location.href='?id=cat_item&sys_id=f64205c54709711021f49128436d433a'"?id=cat_item' ng-click="">คลิกที่นี่</button>
+        <sys_updated_on>2023-10-01 15:56:22</sys_updated_on>
+        <template><![CDATA[<div class = "container">
+  <div class="image-bg">
+    <div class="con-icon">
+      <div class="banner-icon-color">
+        <div class = "info">
+          <h1>จองที่จอดรถ</h1>
+          <button class="button"  onClick="location.href='?id=cat_item&sys_id=f64205c54709711021f49128436d433a'">คลิกที่นี่</button>
+        </div>
+      </div>
+      <div class="image-icon">
+      </div>
     </div>
-
   </div>
-</div>]]></template>
+</div>
+
+]]></template>
     </sp_widget>
 </record_update>
