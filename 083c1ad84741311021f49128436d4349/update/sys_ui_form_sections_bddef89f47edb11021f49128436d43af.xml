@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="bddef89f47edb11021f49128436d43af" sys_domain="global" table="x_950909_car_park_tasknamecard" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-03 04:45:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5de3c9f47edb11021f49128436d432f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_950909_car_park_tasknamecard" name="x_950909_car_park_tasknamecard" sys_domain="global" view="Default view">bddef89f47edb11021f49128436d43af</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_tasknamecard" sys_domain="global" view="Default view">01dc3cdb47edb11021f49128436d433a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-03 04:45:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_950909_car_park_tasknamecard</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-03 04:45:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bddef89f47edb11021f49128436d43af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_950909_car_park_tasknamecard</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bddef89f47edb11021f49128436d43af</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-03 04:45:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

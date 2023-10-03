@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/*.container-card{
+display:flex;
+justify-content: center;
+margin-top:3rem;
+}
+
+.image-lg{
+background-image: url("x_950909_car_park.Banner-icon1.svg");
+background-position: center;
+background-size: cover;
+width: 67px;
+height: 6rem;
+margin: 2rem 1rem 2rem 0;
+}
+
+.con-card{
+border: solid;
+border-radius:20px;
+border-color:#FFFFFF;
+background: linear-gradient(304deg, #c3faf3 40%, #78ccff 20%);
+width:400px;
+height:200px;
+display:grid;
+grid-template-columns: 80% 20%;
+}
+h3{
+font-size:20px;
+margin-top:0;
+font-family: "Kanitreg";
+color: #000000;
+}
+h4{
+font-size: 16px;
+margin-top:4px;
+color: #000000;
+}
+
+.con-info{
+margin: 2rem 0 2rem 2rem;
+}
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --background: white;
+
+  --primary: #ff1ead;
+  --secondary: #1effc3;
+
+  --card-size: 300px;
+}
+
+.container-id-card{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: var(--background);
+  font-family: 'Source Code Pro', monospace;
+
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.c-card { 
+  width: 39.7rem;
+  //width:100%;
+  height: 20.6rem;
+
+  border-radius: 0.75rem;
+  //background: black;
+  background: linear-gradient(146deg, rgba(203,250,5,1) 0%, rgba(203,250,5,1) 34%, rgba(0,67,84,1) 34%, rgba(0,67,84,1) 100%);
+  //border: 10px solid;
+  //border-color: #daa520;
+  display: grid;
+  grid-template-columns: 40% auto;
+  color: white;
+
+  align-items: center;
+
+  will-change: transform;
+  transition: transform 0.25s cubic-bezier(0.4, 0.0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0.0, 0.2, 1);
+
+  &amp;:hover {
+    transform: scale(1.1);
+    box-shadow:  0 32px 80px 14px rgba(0,0,0,0.36), 0 0 0 1px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.card-details {
+  padding: 1rem;
+}
+
+.name {
+  font-size: 1.25rem;
+}
+
+.occupation {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.card-avatar {
+  display: grid;
+  place-items: center;
+}
+
+svg {
+  fill: white;
+  width: 65%;
+}
+
+.card-about {
+  margin-top: 1rem;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+
+  .value {
+    font-size: 1rem;
+  }
+
+  .label {
+    margin-top: 0.15rem;
+    text-align: left;
+    padding-left: 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--primary);
+  }
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+
+  .label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary);
+  }
+
+  .value {
+    margin-top: 0.15rem;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
+}
+
+
+
+.container-info-id{
+  border:solid;
+  background-color: #FFFFFF;
+  border-radius:10px;
+  height: 100%;
+}
+
+.info-id-card{
+  color: #000000;
+  margin:1rem;
+}
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>card_info</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Card info</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	data.record = [];
+		var table = new GlideRecord('x_950909_car_park_name_card');
+		//table.addQuery('user', gs.getUser().getID());
+		table.addEncodedQuery("	sys_created_by=javascript:gs.getUserName()");
+		//table.addQuery('u_state_approve',"1");
+		//table.orderByDesc('sys_created_on');
+		//table.setLimit(options.maximum_records_to_display);
+
+		table.query();
+		while (table.next()) {
+			var RecordObj = {};
+			//use service portal helper method to get some display values
+			$sp.getRecordDisplayValues(RecordObj, table, 'number,u_fname,u_lname,sys_id,u_phone,u_email,u_sub_phone,u_subemail,u_id_card,u_number_home,u_moo,u_village,u_road,u_alley,u_district,u_subdistrict,u_province,u_zipcode,u_state_approve');
+			//get the first 20 characters of the description
+			//noteObj.note = noteGR.getValue('u_fname').slice(0,20);
+			//push the populated obj into the array
+			data.record.push(RecordObj);	
+		}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 05:02:51</sys_created_on>
+        <sys_id>4a39b73a472d711021f49128436d43fa</sys_id>
+        <sys_mod_count>216</sys_mod_count>
+        <sys_name>Card info</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_widget_4a39b73a472d711021f49128436d43fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 16:12:25</sys_updated_on>
+        <template><![CDATA[<!--div class="container-card">
+  <div class="con-card">
+    <div class="con-info" ng-repeat="record in data.record">
+      <div style="display:flex; ">
+        <h3>ชื่อ </h3>&emsp; <h4>{{record.u_fname}}</h4>&emsp;&emsp; <h3>นามสกุล</h3>&emsp; <h4>{{record.u_lname}}</h4>
+      </div>
+      <div style="display:flex; ">
+        <h3>เบอร์</h3>&emsp;<h4>{{record.u_phone}}</h4>
+      </div>
+      <div style="display:flex; ">
+        <h3>อีเมลล์</h3>&emsp;<h4>{{record.u_email}}</h4>
+      </div>
+      <div style="display:flex; ">
+        <h4 style="font-size:18px font-family: "Kanitlight";"> <br>{{record.sys_id}}</h4>
+      </div>
+    </div>
+    <div style="display:flex; align-items: flex-end;">
+      <div class="image-lg"></div>
+    </div>
+  </div>
+</div>-->
+
+<div class="container-id-card"ng-repeat="record in data.record">
+  <div class="con-ic" style="display:flex;
+                             justify-content: center;">
+    <div class="c-card">
+      <div class="card-avatar">
+        <img src="x_950909_car_park.Card-info-icon1.svg" alt="Girl in a jacket" width="100" height="100"> 
+      </div>
+      <div class="card-details">
+        <div class="occupation">{{record.u_fname}}</div>
+        <div class="name">{{record.u_lname}}</div>
+
+        <div class="card-about">
+          <div class="item">
+            <span class="label">Phone</span>
+            <span class="value">{{record.u_phone}}</span>
+          </div>
+          <div class="item">
+            <span class="label">Email</span>
+            <span class="value">{{record.u_email}} </span>
+          </div>
+          <!--<div class="item">
+          <span class="value">175 cm</span>
+          <span class="label">Height</span>
+        </div>-->
+        </div>
+        <div class="skills">
+          <span class="value" style="font-size:12px;"><br>{{record.sys_id}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-info-id">
+  	<div class="info-id-card">
+      <span>ชื่อ&emsp;</span>
+      <span>{{record.u_fname}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>นามสกุล&emsp;</span>
+      <span>{{record.u_lname}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>บัตรประชาชน&emsp;</span>
+      <span>{{record.u_id_card}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>เบอร์มือถือ&emsp;</span>
+      <span>{{record.u_phone}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>เบอร์มือถือรอง&emsp;</span>
+      <span>{{record.u_sub_phone}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>อีเมลล์&emsp;</span>
+      <span>{{record.u_email}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>อีเมลล์รอง&emsp;</span>
+      <span>{{record.u_subemail}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>บ้านเลขที่&emsp;</span>
+      <span>{{record.u_number_home}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>หมู่&emsp;</span>
+      <span>{{record.u_moo}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>หมู่บ้าน&emsp;</span>
+      <span>{{record.u_village}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>ถนน&emsp;</span>
+      <span>{{record.u_road}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>ซอย&emsp;</span>
+      <span>{{record.u_alley}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>อำเภอ&emsp;</span>
+      <span>{{record.u_district}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>ตำบล&emsp;</span>
+      <span>{{record.u_subdistrict}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>จังหวัด&emsp;</span>
+      <span>{{record.u_province}}</span>
+    </div>
+    <div class="info-id-card">
+      <span>รหัสไปรษณีย์&emsp;</span>
+      <span>{{record.u_zipcode}}</span>
+    </div>
+    
+  </div>
+  
+</div>
+
+]]></template>
+    </sp_widget>
+</record_update>

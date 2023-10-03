@@ -75,14 +75,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-11 03:39:51</sys_created_on>
         <sys_id>65cc9380475d711021f49128436d439a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>u_subdistrict</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ตำบล</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>item_option_new_65cc9380475d711021f49128436d439a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 03:43:40</sys_updated_on>
+        <sys_updated_on>2023-10-03 05:35:45</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

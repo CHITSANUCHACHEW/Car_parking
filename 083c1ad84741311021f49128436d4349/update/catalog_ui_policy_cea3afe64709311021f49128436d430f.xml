@@ -27,22 +27,22 @@
 	g_form.showFieldMsg("u_date_all_in", "Please select Day future", "error");	
 }]]></script_true>
         <set_values/>
-        <short_description>Date เหมา</short_description>
+        <short_description>เหมาทั้งวัน ห้ามเลือกวันที่ผ่านมา</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-06 12:18:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cea3afe64709311021f49128436d430f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Date เหมา</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>เหมาทั้งวัน ห้ามเลือกวันที่ผ่านมา</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>catalog_ui_policy_cea3afe64709311021f49128436d430f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 10:24:58</sys_updated_on>
+        <sys_updated_on>2023-10-03 14:07:36</sys_updated_on>
         <table/>
         <ui_type>10</ui_type>
         <variable_set/>

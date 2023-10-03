@@ -16,7 +16,11 @@
         <element label="ตำบล" max_length="40" name="u_subdistrict" type="string"/>
         <element label="อีเมล รอง" max_length="40" name="u_subemail" type="string"/>
         <element label="เบอร์มือถือ รอง" max_length="40" name="u_sub_phone" type="string"/>
+        <element label="UserID" max_length="32" name="u_user_id" reference="sys_user" type="reference"/>
         <element label="หมู่บ้าน" max_length="40" name="u_village" type="string"/>
         <element label="รหัสไปรษณีย์" max_length="40" name="u_zipcode" type="string"/>
+        <index name="index">
+            <element name="u_user_id"/>
+        </index>
     </element>
 </database>

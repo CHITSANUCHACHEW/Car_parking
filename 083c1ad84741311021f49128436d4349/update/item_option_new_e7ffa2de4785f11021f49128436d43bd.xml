@@ -75,14 +75,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-06 12:18:47</sys_created_on>
         <sys_id>e7ffa2de4785f11021f49128436d43bd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>เหมาทั้งวัน (10.00 - 21.00 น.)</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>item_option_new_e7ffa2de4785f11021f49128436d43bd</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-09-06 12:21:22</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 14:21:12</sys_updated_on>
         <table/>
         <tooltip/>
         <type>7</type>
