@@ -8,9 +8,20 @@
 
 .sec1{
 	color: #000000;
+}
+
+p.ng-binding.ng-scope {
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img.img-qr{
+	width: 20rem;
 }</css>
         <draft>false</draft>
-        <dynamic_title_structure>แก้ไขข้อมูล/ยกเลิก</dynamic_title_structure>
+        <dynamic_title_structure>ข้อมูลการจอง</dynamic_title_structure>
         <id>edit_info</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
@@ -22,14 +33,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-08 05:05:51</sys_created_on>
         <sys_id>33b3101f4749b11021f49128436d4303</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>edit_info</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_page_33b3101f4749b11021f49128436d4303</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-27 07:17:36</sys_updated_on>
+        <sys_updated_on>2023-10-06 10:42:36</sys_updated_on>
         <title>edit_info</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

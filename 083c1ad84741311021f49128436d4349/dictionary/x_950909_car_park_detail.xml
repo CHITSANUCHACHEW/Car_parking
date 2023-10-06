@@ -26,6 +26,13 @@
         <element label="เบอร์มือถือ" max_length="40" name="u_phone" read_only="true" type="string"/>
         <element label="ค่าบริการ" max_length="40" name="u_price" read_only="true" type="string"/>
         <element label="ตั้งแต่เวลา" max_length="40" name="u_start_dt" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="state" max_length="40" name="u_state" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Close" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Cancel" sequence="2" value="3"/>
+            </choice>
+        </element>
         <element choice="1" label="State Approve" max_length="40" name="u_state_approve" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="รอเจ้าหน้าที่ดำเนินการ" sequence="0" value="1"/>
@@ -35,9 +42,20 @@
                 <element inactive_on_update="false" label="ไม่มีการตอบกลับจากเจ้าหน้าที่" sequence="4" value="5"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="state เข้า - ออก" max_length="40" name="u_state_in_out" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ยังไม่เข้าจอด" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="เข้า" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="ออก" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="UserID" max_length="32" name="u_user_id" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="UserName" max_length="40" name="u_user_name" read_only="true" type="string"/>
         <index name="index">
             <element name="u_car_type"/>
+        </index>
+        <index name="index2">
+            <element name="u_user_id"/>
         </index>
     </element>
 </database>

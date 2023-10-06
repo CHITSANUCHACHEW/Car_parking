@@ -29,38 +29,26 @@ Check_location.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 			
             //Query
             var table = new GlideRecord('x_950909_car_park_car_parking');
-            // 			table.addQuery('u_id_card','=',id);
-//             table.addQuery('u_state_approve', '=', 1);
-//             table.addEncodedQuery("u_start_dt<=javascript:gs.dateGenerate('" + Date_ed + "','" + Time_ed + "')^u_end_dt>=javascript:gs.dateGenerate('" + Date_st + "','" + Time_st + "')^NQu_date_all_inON" + Date_st + "@javascript:gs.dateGenerate('" + Date_st + "','start')@javascript:gs.dateGenerate('" + Date_st + "','end')");
-//             table.addEncodedQuery("u_id_card=" + id + "^u_start_dt<=javascript:gs.dateGenerate('" + Date_ed + "','" + Time_ed + "')^u_end_dt>=javascript:gs.dateGenerate('" + Date_st + "','" + Time_st + "')");
-			
-			table.addEncodedQuery("u_start_dt<=javascript:gs.dateGenerate('"+Date_ed+"','"+Time_ed+"')^u_end_dt>=javascript:gs.dateGenerate('"+Date_st+"','"+Time_st+"')^u_id_card="+id+"^u_state_approve=1^NQu_date_all_inON"+Date_st+"@javascript:gs.dateGenerate('"+Date_st+"','start')@javascript:gs.dateGenerate('"+Date_st+"','end')^u_id_card="+id+"^u_state_approve=1");
-
+table.addEncodedQuery("u_start_dt<=javascript:gs.dateGenerate('"+Date_ed+"','"+Time_ed+"')^u_end_dt>=javascript:gs.dateGenerate('"+Date_st+"','"+Time_st+"')^u_id_card="+id+"^u_state_approve=1^NQu_date_all_inON"+Date_st+"@javascript:gs.dateGenerate('"+Date_st+"','start')@javascript:gs.dateGenerate('"+Date_st+"','end')^u_id_card="+id+"^u_state_approve=1");
             table.query();
             while (table.next()) {
                 return table.getRowCount();
             }
 
         } else {
-
+			
             var d_all1 = dt_all.getDate().getByFormat('yyyy-MM-dd');
             var table1 = new GlideRecord('x_950909_car_park_car_parking');
-
-            //             table1.addQuery('u_id_card', '=', id);
-            //             table1.addEncodedQuery("u_date_all_inON2023-09-16@javascript:gs.dateGenerate('" + d_all + "','start')@javascript:gs.dateGenerate('" + d_all + "','end')");
-
-            // 			table1.addEncodedQuery("u_date_all_inON"+ d_all +"@javascript:gs.dateGenerate('" + d_all + "','start')@javascript:gs.dateGenerate('" + d_all + "','end')^NQu_start_dt<=javascript:gs.dateGenerate('" + d_all + "','23:59:59')^u_end_dt>=javascript:gs.dateGenerate('" + d_all + "','00:00:00')");
-
             table1.addEncodedQuery("u_date_all_inON" + d_all1 + "@javascript:gs.dateGenerate('" + d_all1 + "','start')@javascript:gs.dateGenerate('" + d_all1 + "','end')^u_id_card=" + id + "^u_state_approve=1^NQu_start_dt<=javascript:gs.dateGenerate('" + d_all1 + "','23:59:59')^u_end_dt>=javascript:gs.dateGenerate('" + d_all1 + "','00:00:00')^u_id_card=" + id + "^u_state_approve=1");
-
             table1.query();
             while (table1.next()) {
-                return "Adad" + table1.getRowCount();
+                return table1.getRowCount();
             }
         }
-
     },
 
+	
+	
     //function query หาที่จอด เต็มหรือไม่ ในเวลาที่กรอกมา
     location_full: function() {
         var id1 = this.getParameter('id');
@@ -96,13 +84,13 @@ Check_location.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-06 07:57:01</sys_created_on>
         <sys_id>4b97ea6e4705311021f49128436d4386</sys_id>
-        <sys_mod_count>118</sys_mod_count>
+        <sys_mod_count>121</sys_mod_count>
         <sys_name>Check_location</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sys_script_include_4b97ea6e4705311021f49128436d4386</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-25 02:42:50</sys_updated_on>
+        <sys_updated_on>2023-10-06 18:29:20</sys_updated_on>
     </sys_script_include>
 </record_update>

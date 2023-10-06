@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_950909_car_park.check_scan_qrcode </api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>check_scan_qrcode </name>
+        <script><![CDATA[var check_scan_qrcode  = Class.create();
+check_scan_qrcode .prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	check: function(){
+		var st = new GlideDateTime(this.getParameter('st_dt'));
+		var ed = new GlideDateTime(this.getParameter('ed_dt'));
+		var all = new GlideDateTime(this.getParameter('all_dt'));
+
+		var time = new GlideDateTime();
+		var hours = 7*60*60;
+		time.addSeconds(hours);
+		var time_day = time.getDate().getByFormat('dd');
+		var time_time = time.getTime().getByFormat('HH:mm');
+
+		var open = new GlideTime();
+		open.setValue("10:00:00");
+		var open_time = open.getByFormat('HH:mm');
+		
+		var close = new GlideTime();
+		close.setValue("21:00:00");
+		var close_time = close.getByFormat('HH:mm');		//var close = new GlideTime("21:00:00");
+		
+		
+		if(all != ""){
+			var all_day = all.getDate().getByFormat('dd');
+			if(all_day == time_day && time_time >= open_time && time_time <= close_time){
+				return "Daily-correct";
+			}else{
+				return "Error";
+			}
+
+		}else if(all == ""){
+			var st_day = st.getDate().getByFormat('dd');
+			var ed_day = ed.getDate().getByFormat('dd');
+			var ed_time = ed.getTime().getByFormat('HH:mm');
+			var st_time = st.getTime().getByFormat('HH:mm');
+
+			if(st_day == time_day && time_time >= st_time && time_time <= ed_time){
+				return "Hourly-correct";
+			}else{
+				return "Errorrr";
+			}
+		}
+	},
+
+	type: 'check_scan_qrcode '
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 15:27:51</sys_created_on>
+        <sys_id>cbe4a5804731b51021f49128436d4341</sys_id>
+        <sys_mod_count>91</sys_mod_count>
+        <sys_name>check_scan_qrcode </sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_script_include_cbe4a5804731b51021f49128436d4341</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 16:56:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

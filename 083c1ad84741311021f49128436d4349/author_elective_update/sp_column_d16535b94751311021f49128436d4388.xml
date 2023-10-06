@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name>box-cancel</class_name>
+        <order>1</order>
+        <size>5</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">d96535b94751311021f49128436d4385</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-16 06:37:17</sys_created_on>
+        <sys_id>d16535b94751311021f49128436d4388</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_column_d16535b94751311021f49128436d4388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-16 07:21:14</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sp_column_d16535b94751311021f49128436d4388</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name>box-cancel</class_name><order>1</order><size>5</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">d96535b94751311021f49128436d4385</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-16 06:37:17</sys_created_on><sys_id>d16535b94751311021f49128436d4388</sys_id><sys_mod_count>3</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>sp_column_d16535b94751311021f49128436d4388</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-16 07:21:14</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1673979537</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-16 07:21:14</sys_created_on>
+        <sys_id>f47f717d4751311021f49128436d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a9cdd768a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-16 07:21:14</sys_updated_on>
+        <type>Column</type>
+        <update_guid>fc7f717d6d51311088e8e1e8dfbb7e7f</update_guid>
+        <update_guid_history>fc7f717d6d51311088e8e1e8dfbb7e7f:-1673979537,d6d5b1f949513110851fc6ad7253278c:460431214,d07535b917513110fb73148a1e249e96:-1233829827,5d6535b9db5131103c1558c269e60289:-2056889311</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">cfd6e008473d751021f49128436d43f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 10:56:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>7e3a8dcf73884372b98b292ea525deb9</sys_id>
+        <sys_metadata>d16535b94751311021f49128436d4388</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sp_column_d16535b94751311021f49128436d4388</sys_update_name>
+        <sys_update_version display_value="sp_column_d16535b94751311021f49128436d4388">f47f717d4751311021f49128436d4380</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 10:56:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

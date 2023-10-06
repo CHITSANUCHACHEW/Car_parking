@@ -5,6 +5,7 @@
 	/* widget controller */
 	var c = this;
 	//click sys_id in record
+	
 	c.selectItem = function(idx) {
 		var id = c.data.record[idx].sys_id;
 		c.id = id;
@@ -25,7 +26,36 @@
 			noteNumber: c.data.record[idx].sys_id
 		}).then(function(r) {
 		});
+		window.location.reload();
 	}
+
+	c.openModal = function(record){
+		
+		//var all_dt = c.data.record[idx].u_date_all_in;
+		var all_dt = record.u_date_all_in;
+		var st_dt = record.u_start_dt;
+		var ed_dt = record.u_end_dt;
+		var location = record.u_location;
+		var id = record.sys_id;
+		var ins = record.ins;
+		
+		if(all_dt==""){
+			spModal.open({
+				title: "QR Code",
+				//size: "lg",
+				message: "<h4>ตั้งแต่เวลา : "+st_dt+"&ensp;ถึง : "+ed_dt+"</h4><br><h4>ชั้น : "+location+"</h4><br><img src='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://"+ins+".service-now.com/x_950909_car_park_detail.do?sys_id="+id+"' class='img-qr' /> "
+			})
+		}else{
+			spModal.open({
+				title: "QR Code",
+				//size: "lg",
+				message: "<h4>วันที่ : "+all_dt +"</h4><br><h4>ชั้น : "+location+"</h4><br><div><img src='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://"+ins+".service-now.com/x_950909_car_park_detail.do?sys_id="+id+"' class='img-qr' /></div>"
+
+			})
+		}
+	}
+
+
 };]]></client_script>
         <controller_as>c</controller_as>
         <css>
@@ -49,6 +79,10 @@
   background-color: red;
 }
 
+.list-group{
+  display: grid;
+  grid-template-columns: 1fr 10%;
+}
 
 //button ยกเลิกการจอง
 .button-82-pushable {
@@ -214,7 +248,25 @@
 
 .button-79:not(:disabled):active {
   transform: translateY(.125rem);
-}</css>
+}
+
+
+//QR
+
+img#qrImage{
+  z-index: 1;
+  opacity: 0.2;
+}
+
+.qr-h2{
+  position: absolute;
+  font-family: 'Kanitbold';
+  z-index: 2;
+  left: 14px;
+  top: 20px;
+  color: #0c00ff;
+}
+</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -243,20 +295,22 @@
 			}
 		}
 	}else{
+		var instanceName = gs.getProperty('instance_name');
+
 		data.record = [];
 		var table = new GlideRecord('x_950909_car_park_detail');
 		//table.addQuery('user', gs.getUser().getID());
 		//table.addEncodedQuery("u_user_name=javascript:gs.getUserName()");
-		table.addEncodedQuery("u_user_name=javascript:gs.getUserName();^u_state_approve=1");
+		table.addEncodedQuery("u_user_name=javascript:gs.getUserName();^u_state_approve=1^u_state=1");
 		//table.addQuery('u_state_approve',"1");
 		//table.orderByDesc('sys_created_on');
 		//table.setLimit(options.maximum_records_to_display);
 
 		table.query();
 		while (table.next()) {
-			var RecordObj = {};
+			var RecordObj = {ins: gs.getProperty('instance_name')};
 			//use service portal helper method to get some display values
-			$sp.getRecordDisplayValues(RecordObj, table, 'number,parent,u_fname,sys_id,u_state_approve');
+			$sp.getRecordDisplayValues(RecordObj, table, 'number,parent,u_fname,sys_id,u_state_approve,u_date_all_in,u_start_dt,u_end_dt,u_location');
 			//get the first 20 characters of the description
 			//noteObj.note = noteGR.getValue('u_fname').slice(0,20);
 			//push the populated obj into the array
@@ -270,23 +324,23 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-27 02:44:21</sys_created_on>
         <sys_id>6899299d47e9391021f49128436d437e</sys_id>
-        <sys_mod_count>174</sys_mod_count>
+        <sys_mod_count>314</sys_mod_count>
         <sys_name>List_record_car_parking</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_6899299d47e9391021f49128436d437e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-28 13:28:05</sys_updated_on>
+        <sys_updated_on>2023-10-06 17:57:09</sys_updated_on>
         <template><![CDATA[<div>
   <div class="panel panel-default">
     <div class="panel-heading clearfix">
       <h3 class="panel-title pull-left">
-        ประวัติ
+        ข้อมูลการจอง
       </h3>
     </div>
-    <div class="list-group">
-      <a class="list-group-item" ng-click="c.selectItem($index)" ng-repeat="record in data.record">
+    <div class="list-group" ng-repeat="record in data.record">
+      <a class="list-group-item" ng-click="c.selectItem($index)">
         <div>
           <h4 class="list-group-item-heading">
             {{record.parent}}
@@ -296,6 +350,7 @@
           </p>
         </div>
         <div class="button">
+          <!--<button ng-click="c.qrcode($index)">QRCode</button>-->
           <button class="button-82-pushable" role="button" ng-click="c.webinfo($index)">
             <span class="button-82-shadow"></span>
             <span class="button-82-edge" style="background: linear-gradient(
@@ -319,8 +374,20 @@
           </button>
         </div>
       </a>
+      <div id="imgBox" class="list-group-item" style="padding-left:0;" ng-click="c.openModal(record)">
+        <h2 class="qr-h2">Click</h2>
+        <img src="" id="qrImage" style="width:100px; height:100px;">
+      </div>
+      <script>
+        let imgBox = document.getElementById("imgBox");
+        let qrImage = document.getElementById("qrImage");
+        let sysid = document.getElementById("sysid");
+        qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://dev129080.service-now.com/x_950909_car_park_detail.do?sys_id="+sysid+"&parm1=test";
+      </script>
     </div>
   </div>
-</div>]]></template>
+</div>
+
+]]></template>
     </sp_widget>
 </record_update>

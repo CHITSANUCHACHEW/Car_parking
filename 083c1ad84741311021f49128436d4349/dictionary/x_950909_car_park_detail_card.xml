@@ -14,6 +14,12 @@
         <element label="เบอร์มือถือ" max_length="40" name="u_phone" type="string"/>
         <element label="จังหวัด" max_length="40" name="u_province" type="string"/>
         <element label="ถนน" max_length="40" name="u_road" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="state" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="สมาชิก" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="ยกเลิกสมาชิก" sequence="1" value="2"/>
+            </choice>
+        </element>
         <element label="ตำบล" max_length="40" name="u_subdistrict" type="string"/>
         <element label="อีเมล รอง" max_length="40" name="u_sub_email" type="string"/>
         <element label="เบอร์มือถือ รอง" max_length="40" name="u_sub_phone" type="string"/>
