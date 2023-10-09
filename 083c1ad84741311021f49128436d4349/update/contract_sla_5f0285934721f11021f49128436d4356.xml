@@ -8,7 +8,7 @@
         <duration>1970-01-02 00:00:00</duration>
         <duration_type/>
         <enable_logging>false</enable_logging>
-        <flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow>
+        <flow display_value="SLA Card Last day of month">b562b51d47f5b11021f49128436d43ab</flow>
         <name>SLA Card Expire</name>
         <pause_condition/>
         <relative_duration_works_on>Task record</relative_duration_works_on>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5f0285934721f11021f49128436d4356</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>SLA Card Expire</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>contract_sla_5f0285934721f11021f49128436d4356</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 05:19:22</sys_updated_on>
+        <sys_updated_on>2023-10-09 13:41:22</sys_updated_on>
         <target>response</target>
         <timezone/>
         <timezone_source>task.caller_id.time_zone</timezone_source>

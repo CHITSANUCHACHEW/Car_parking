@@ -12,7 +12,7 @@
         <element label="ยืนยันข้อมูล" max_length="40" name="u_confirm" read_only="true" type="boolean"/>
         <element label="วันที่เหมา" max_length="40" name="u_date_all_in" read_only="true" type="glide_date"/>
         <element label="อีเมล" max_length="40" name="u_email" read_only="true" type="string"/>
-        <element label="ถึง" max_length="40" name="u_end_dt" read_only="true" type="glide_date_time"/>
+        <element label="ถึง" max_length="40" name="u_end_dt" type="glide_date_time"/>
         <element label="ชื่อ" max_length="40" name="u_fname" read_only="true" type="string"/>
         <element label="ชั่วโมง" max_length="40" name="u_hours" read_only="true" type="string"/>
         <element label="เลขบัตรประชาชน" max_length="40" name="u_id_card" read_only="true" type="string"/>
