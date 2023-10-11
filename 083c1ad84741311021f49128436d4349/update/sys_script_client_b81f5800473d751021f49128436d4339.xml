@@ -24,16 +24,14 @@
 	var url = new GlideURL();
 	url.setFromCurrent();
 	var record_sysid = url.getParam("sys_id");
-	//alert(url.getParam("sys_id"));
 
-	if (top.window.location.href.indexOf("Reservation_hours=in") > -1 && state_case == 1) {
-		g_form.setValue('u_brand','dddddddddddddddddddddddddddddd');
-		qr();
-	}else if (top.window.location.href.indexOf("Daily=in") > -1 && state_case == 1) {
-		g_form.setValue('u_brand','Daily');
+	if (top.window.location.href.indexOf("x_950909_car_park_detail.do?sys_id="+record_sysid+"&") > -1) {
+	}else if (top.window.location.href.indexOf("x_950909_car_park_detail.do?sys_id="+record_sysid+"") > -1) {
+		//g_form.setValue('u_brand','Daily');
+// 		alert("ADAD");
 		qr();
 	}
-
+	
 
 	function qr(){
 		var call = new GlideAjax('check_scan_qrcode');
@@ -77,7 +75,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b81f5800473d751021f49128436d4339</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_name>ผู้ใช้งาน เข้า - ออก </sys_name>
         <sys_overrides/>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
@@ -85,7 +83,7 @@
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sys_script_client_b81f5800473d751021f49128436d4339</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-06 18:01:42</sys_updated_on>
+        <sys_updated_on>2023-10-11 08:53:31</sys_updated_on>
         <table>x_950909_car_park_detail</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

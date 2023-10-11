@@ -10,6 +10,7 @@
   background-image: url("x_950909_car_park.icon-sec1-1.svg");
   /*background-position: center;
   background-size: cover;*/
+  max-width:57px;
   width:57px;
   height:50px;
 }
@@ -17,6 +18,7 @@
   background-image: url("x_950909_car_park.icon-sec1-2.svg");
   /*background-position: center;
   background-size: cover;*/
+  max-width:73px;
   width:73px;
   height:52px;
 }
@@ -24,6 +26,7 @@
   background-image: url("x_950909_car_park.icon-sec1-3.svg");
   /*background-position: center;
   background-size: cover;*/
+  max-width:62px;
   width:62px;
   height:60px;
 }
@@ -104,12 +107,15 @@ li-1{
   margin-right:2rem;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1390px) {
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
   .icon-1{
-    width: 61px;
+		width: 96px;
   }
   .icon-3{
-    width:68px;
+    width:108px;
+  }
+  .detail-head h1{
+		font-size: 3rem;
   }
 }
 
@@ -149,14 +155,14 @@ li-1{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-26 14:00:06</sys_created_on>
         <sys_id>d5aafa094761391021f49128436d4321</sys_id>
-        <sys_mod_count>104</sys_mod_count>
+        <sys_mod_count>110</sys_mod_count>
         <sys_name>Section1</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_d5aafa094761391021f49128436d4321</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-02 16:42:57</sys_updated_on>
+        <sys_updated_on>2023-10-10 17:46:25</sys_updated_on>
         <template><![CDATA[<div class="Container-sec1">
   <div class="info">
     <div class="info-header">

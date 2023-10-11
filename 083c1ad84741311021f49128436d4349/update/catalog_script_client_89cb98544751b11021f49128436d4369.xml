@@ -30,15 +30,49 @@
             g_form.setMandatory('u_confirm', false);
             g_form.setValue('u_confirm', false);
             g_form.setReadOnly('u_confirm', true);
+			
+			g_form.setMandatory('u_fname', false);
+			g_form.setMandatory('u_lname', false);
+			g_form.setMandatory('u_phone', false);
+			g_form.setMandatory('u_email', false);
+			g_form.setMandatory('u_id_card', false);
+			g_form.setMandatory('u_number_car', false);
+			g_form.setMandatory('u_brand', false);
+			g_form.setMandatory('u_model', false);
+			g_form.setMandatory('u_car_type', false);
+			g_form.setMandatory('u_car_detail', false);
+			g_form.setMandatory('u_start_dt', false);
+			g_form.setMandatory('u_end_dt', false);
+			g_form.setMandatory('u_all_in', false);
+			g_form.setMandatory('u_location', false);
+			
+			g_form.setReadOnly('u_fname', true);
+			g_form.setReadOnly('u_lname', true);
+			g_form.setReadOnly('u_phone', true);
+			g_form.setReadOnly('u_email', true);
+			g_form.setReadOnly('u_id_card', true);
+			
+			g_form.setReadOnly('u_number_car', true);
+			g_form.setReadOnly('u_brand', true);
+			g_form.setReadOnly('u_model', true);
+			g_form.setReadOnly('u_car_type', true);
+			g_form.setReadOnly('u_car_detail', true);	
+			
+			g_form.setReadOnly('u_start_dt', true);
+			g_form.setReadOnly('u_end_dt', true);
+			g_form.setReadOnly('u_all_in', true);
+			g_form.setReadOnly('u_location', true);
+			
+			
         } else {
             var result = JSON.parse(answer);
 
             //read only
-            g_form.setReadOnly('u_fname', true);
-            g_form.setReadOnly('u_lname', true);
-            g_form.setReadOnly('u_phone', true);
-            g_form.setReadOnly('u_email', true);
-            g_form.setReadOnly('u_id_card', true);
+//             g_form.setReadOnly('u_fname', true);
+//             g_form.setReadOnly('u_lname', true);
+//             g_form.setReadOnly('u_phone', true);
+//             g_form.setReadOnly('u_email', true);
+//             g_form.setReadOnly('u_id_card', true);
 
             //input info to fields
             g_form.setValue('u_fname', result.fname);
@@ -46,6 +80,13 @@
             g_form.setValue('u_phone', result.phone);
             g_form.setValue('u_email', result.email);
             g_form.setValue('u_id_card', result.id_card);
+			
+			 //read only
+            g_form.setReadOnly('u_fname', true);
+            g_form.setReadOnly('u_lname', true);
+            g_form.setReadOnly('u_phone', true);
+            g_form.setReadOnly('u_email', true);
+            g_form.setReadOnly('u_id_card', true);
         }
     }
 }]]></script>
@@ -55,7 +96,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>89cb98544751b11021f49128436d4369</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Populate section ข้อมูลผู้จอง</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
@@ -63,7 +104,7 @@
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>catalog_script_client_89cb98544751b11021f49128436d4369</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 14:12:56</sys_updated_on>
+        <sys_updated_on>2023-10-10 19:38:42</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

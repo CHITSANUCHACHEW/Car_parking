@@ -79,13 +79,21 @@ height:66.455rem;
   }
 }
 
-@media screen and (min-width: 1112px) and (max-width: 1204px){
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
   .image-c{
-    left: 2rem;
-    top: -5.7rem;
-    width: 50rem;
-    height: 50rem; 
+    top: -0.7rem;
+    width: 40rem;
+    height: 40rem;
   }
+}
+
+/*@media screen and (min-width: 1112px) and (max-width: 1204px){
+.image-c{
+left: 2rem;
+top: -5.7rem;
+width: 50rem;
+height: 50rem; 
+}*/
 </css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -112,14 +120,14 @@ height:66.455rem;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-26 16:38:44</sys_created_on>
         <sys_id>4dfe5bc147e1391021f49128436d4324</sys_id>
-        <sys_mod_count>108</sys_mod_count>
+        <sys_mod_count>112</sys_mod_count>
         <sys_name>Section2</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_4dfe5bc147e1391021f49128436d4324</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-02 16:16:01</sys_updated_on>
+        <sys_updated_on>2023-10-10 17:44:30</sys_updated_on>
         <template><![CDATA[<div class="Container-sec1">
   <div class="image-card">
     <img class="image-c" src="x_950909_car_park.image-sec2-card2.png"/>

@@ -25,12 +25,14 @@
 
     function getResponse(response) {
         var result = response.responseXML.documentElement.getAttribute('answer');
-        if (result > 5 ) {
+        if (result > 35 ) {
             var fields = g_form.getEditableFields();
             for (var x = 0; x < fields.length; x++) {
                 g_form.setMandatory(fields[x], false);
                 g_form.setReadOnly(fields[x], true);
+				
             }
+			alert("ไม่สามารถสมัครได้ เนื่องจากสมาชิกเต็มแล้ว");
         }
     }
 
@@ -41,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d963e748475d711021f49128436d4396</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>check จำนวณสมาชิก</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
@@ -49,7 +51,7 @@
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>catalog_script_client_d963e748475d711021f49128436d4396</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-11 08:07:17</sys_updated_on>
+        <sys_updated_on>2023-10-10 16:49:48</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

@@ -56,21 +56,21 @@
         <name>car_bread</name>
         <option_schema/>
         <public>false</public>
-        <roles/>
+        <roles>x_950909_car_park.customer,x_950909_car_park.admin</roles>
         <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-09 11:58:05</sys_created_on>
         <sys_id>b46b515547b5b11021f49128436d43ad</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>car_bread</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_b46b515547b5b11021f49128436d43ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-09 12:00:00</sys_updated_on>
+        <sys_updated_on>2023-10-10 06:54:36</sys_updated_on>
         <template><![CDATA[<div aria-label="${Page breadcrumbs}" role="navigation" class="breadcrumbs">
 <ul class="nav nav-pills nav-sm">
   <li>
