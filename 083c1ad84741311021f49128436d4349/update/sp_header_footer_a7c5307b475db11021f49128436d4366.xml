@@ -4,6 +4,9 @@
         <client_script><![CDATA[function() {
   // widget controller
   var c = this;
+	
+	
+	
 }]]></client_script>
         <controller_as>c</controller_as>
         <css>.footer {
@@ -23,39 +26,137 @@ $sp-space--xxl: 32px !default;
     height:100%;
     background: $footer-main-background;
     display: grid;
-    grid-template-columns: 20% 1fr;
+    grid-template-columns: 30% auto;
     color: $footer-main-text-color;
     margin-top: $sp-space--xxl;
 
     /* Logo section */
     .sf-logo-container{
-    	background-color: #000000;
-      border: solid;
-      border-color:#FFFFFF;
+      background-color: #33072d;
+      //border: solid;
+      //border-color:#FFFFFF;
       display: grid;
-      grid-template-columns: 50% 1fr;
+      grid-template-columns: 1fr 1fr;
     }
     .sf-links-container{
       width: 100%;
-    	//background-color: #000000;
-			background: linear-gradient(86deg, rgba(0,0,0,0.9668242296918768) 0%, rgba(103,10,90,0.908000700280112) 100%);
+      padding-left: 5rem;
+      color: #FFFFFF;
+      background-color: #33072d;
+      //background: linear-gradient(86deg, rgba(0,0,0,0.9668242296918768) 0%, rgba(103,10,90,0.908000700280112) 100%);
     }
-    
-     
-    }
+
+
+  }
+}
+
+.info-con{
+  color: #FFFFFF;
+}
+.info-con-d{
+  display: grid;
+  grid-template-columns: 18% 1fr;
 }
 
 .con-image-footer{
   display:flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 3rem;
 }
 
 #image-ic{
-	background-image: url("x_950909_car_park.footer-icon.svg");
+  background-image: url("x_950909_car_park.footer-icon.svg");
+  max-width:104px;
   width:104px;
+  max-height:92px;
   height:92px;
-}</css>
+}
+
+.con-link{
+  width: 40rem;
+}
+.con-link hr{
+  text-align:left;
+  margin: 1.5rem 0 1.5rem 0;
+  width: 16rem;
+}
+
+.con-link-o{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.con-link-left{
+  padding-left: 5rem;
+}
+
+
+.con-link-o h5:hover{
+	cursor: pointer;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  .scrub-footer .sf-main .sf-logo-container {
+    grid-template-columns: 39% 1fr;
+  }
+  .scrub-footer .sf-main {
+    grid-template-columns: 32% 1fr;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+  .scrub-footer .sf-main {
+    grid-template-columns: 45% 1fr;
+  }
+  .scrub-footer .sf-main .sf-logo-container {
+    grid-template-columns: 37% 1fr;
+  }
+  .scrub-footer .sf-main .sf-links-container {
+    width: 100%;
+    padding-left: 0;
+  }
+  .info-con {
+    margin-left: 14px;
+		width: 22rem;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .scrub-footer .sf-main {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    flex-direction: column;
+  }
+  .con-link-left{
+    padding-left: 0;
+  }
+  .scrub-footer .sf-main .sf-links-container {
+    padding-left: 2rem;
+  }
+  .con-link {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 424px){
+  .scrub-footer .sf-main .sf-logo-container {
+    background-color: #33072d;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+  }
+  .con-link hr {
+    width: 13rem;
+  }
+  .con-link {
+    width: 100%;
+  }
+
+}  
+
+
+</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -78,14 +179,14 @@ $sp-space--xxl: 32px !default;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-22 07:07:18</sys_created_on>
         <sys_id>a7c5307b475db11021f49128436d4366</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>159</sys_mod_count>
         <sys_name>Footer</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_header_footer_a7c5307b475db11021f49128436d4366</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-10 06:56:37</sys_updated_on>
+        <sys_updated_on>2023-10-16 13:03:44</sys_updated_on>
         <template><![CDATA[<div class="scrub-footer">
   <div class="sf-main">
 
@@ -95,12 +196,41 @@ $sp-space--xxl: 32px !default;
         <div id="image-ic">
         </div>
       </div>
-      <h1>FDSFSDF</h1>
+      <div class="info-con">
+        <h3 style="margin-bottom:0;">ติดต่อ</h3>
+        <div class="info-con-d">
+          <div>
+            <h5>เบอร์ :</h5>
+            <h5>อีเมล :</h5>
+            <h5>ที่อยู่ :</h5>
+          </div>
+          <div>
+            <h5>091-132-1234</h5>
+            <h5>Email@gmail.com</h5>
+            <h5>11/11 หมู่ 1 ต.ตำบล <br> อ.อำเภอ จ.จังหวัด 00000</h5>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Menu links Section -->
     <div class="sf-links-container" >
-      <h1>DDDDDDDDDDDDD</h1>
+      <div class="con-link">
+        <h3>เกี่ยวกับเรา</h3>
+        <div class="con-link-o">
+          <div>
+            <h5 onClick="location.href='cps'">&#127968; หน้าแรก<hr></h5>
+            <h5 onClick="location.href='?id=cat_item&sys_id=f64205c54709711021f49128436d433a'">&#128663; จองที่จอดรถ<hr></h5>
+            <h5 onClick="location.href='?id=cat_item_name_card&sys_id=5129e80d4785711021f49128436d43fd'">&#128179; สมัครมาชิก<hr></h5>
+            <h5 onClick="location.href='?id=edit_info'">&#127999; QR-Code<hr></h5>
+          </div>
+          <div class="con-link-left">
+            <h5 onClick="location.href='?id=edit_info'">&#128221; แก้ไขข้อมูลการจอง<hr></h5>
+            <h5 onClick="location.href='?id=edit_info'">&#128219; ยกเลิกการจอง<hr></h5>
+            <h5 onClick="location.href='?id=all_record'">&#128214; ประวัติการจอง<hr></h5>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>]]></template>

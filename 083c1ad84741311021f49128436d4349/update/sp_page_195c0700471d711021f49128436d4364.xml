@@ -4,7 +4,7 @@
         <css>body{
  // background-color: #FFFFFF;
   background: linear-gradient(317deg, rgba(252,255,117,1) 0%, rgba(252,255,117,0.8407738095238095) 34%, rgba(198,207,115,1) 34%, rgba(100,108,126,1) 100%);
-
+	//background-repeat: no-repeat;
 }
 section.page{
   padding-top: 0;
@@ -44,8 +44,23 @@ section.page{
   color: #27374D;
 }
 
+@media screen and (max-width: 1023px){
+  body {
+    background-color: lightgray;
+    background: linear-gradient(317deg, #fcff75 0%, rgba(252, 255, 117, .84077) 34%, #c6cf73 34%, #646c7e 100%);
+    background-repeat: no-repeat;
+    background-size: auto 136rem
+  }
+}
 
-</css>
+@media screen and (max-width: 767px){
+  body {
+    background-color: lightgray;
+    background: linear-gradient(317deg, #fcff75 0%, rgba(252, 255, 117, .84077) 34%, #c6cf73 34%, #646c7e 100%);
+    background-repeat: no-repeat;
+    background-size: auto 136rem
+  }
+}</css>
         <draft>false</draft>
         <dynamic_title_structure>Homepage</dynamic_title_structure>
         <id>customer_car</id>
@@ -59,14 +74,14 @@ section.page{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-11 02:27:46</sys_created_on>
         <sys_id>195c0700471d711021f49128436d4364</sys_id>
-        <sys_mod_count>86</sys_mod_count>
+        <sys_mod_count>93</sys_mod_count>
         <sys_name>customer_car</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_page_195c0700471d711021f49128436d4364</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-02 16:15:23</sys_updated_on>
+        <sys_updated_on>2023-10-16 10:55:56</sys_updated_on>
         <title>Customer car</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

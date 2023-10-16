@@ -6,22 +6,22 @@
         <bootstrap_alt>false</bootstrap_alt>
         <class_name/>
         <container_class_name/>
-        <name>Customer car - Container 6</name>
-        <order>6</order>
-        <sp_page display_value="customer_car">195c0700471d711021f49128436d4364</sp_page>
+        <name> Catalog Item name card - Container 3</name>
+        <order>3</order>
+        <sp_page display_value="cat_item_name_card">88fca1af4735311021f49128436d4313</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-22 07:13:06</sys_created_on>
-        <sys_id>902730fb475db11021f49128436d436d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Customer car - Container 6</sys_name>
+        <sys_created_on>2023-10-16 13:01:06</sys_created_on>
+        <sys_id>8cfce9af4735311021f49128436d43fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name> Catalog Item name card - Container 3</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
-        <sys_update_name>sp_container_902730fb475db11021f49128436d436d</sys_update_name>
+        <sys_update_name>sp_container_8cfce9af4735311021f49128436d43fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-13 20:20:44</sys_updated_on>
+        <sys_updated_on>2023-10-16 13:01:55</sys_updated_on>
         <title/>
         <width>container</width>
     </sp_container>

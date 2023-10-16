@@ -95,15 +95,46 @@
 //Tablet
 @media screen and (min-width: 1112px) and (max-width: 1204px){
   .info h1{
-  	font-size: 7.6rem;
+    //font-size: 7.6rem;
   }
   .image-icon{
-  	//height: 128%;
+    //height: 128%;
     //width: 58%;
   }
 }
 
+@media screen and (max-width: 1023px){
+  .info {
+    margin-left: 4rem;
+  }
+  .info h1 {
+    font-size: 5.6rem;
+  }
+  .con-icon {
+    grid-template-columns: 51% 50%;
+  }
+}
 
+@media screen and (max-width: 767px){
+  .con-icon {
+    grid-template-columns: 0;
+    display: flex;
+    /* justify-items: center; */
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .info {
+    margin-left: 0rem;
+  }
+  .banner-icon-color {
+    width: 100%;
+    HEIGHT: 16rem;
+  }
+  .image-icon {
+    width: 216px;
+    height: 20rem;
+  }
+}
 </css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -130,14 +161,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-26 09:19:12</sys_created_on>
         <sys_id>2e5af989476df51021f49128436d43c7</sys_id>
-        <sys_mod_count>178</sys_mod_count>
+        <sys_mod_count>186</sys_mod_count>
         <sys_name>Banner [Customer]</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_2e5af989476df51021f49128436d43c7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-10 17:36:40</sys_updated_on>
+        <sys_updated_on>2023-10-16 10:53:11</sys_updated_on>
         <template><![CDATA[<div class = "container">
   <div class="image-bg">
     <div class="con-icon">

@@ -11,7 +11,7 @@
   /*background-position: center;
   background-size: cover;*/
   max-width:57px;
-  width:57px;
+  width:100%;
   height:50px;
 }
 .icon-2{
@@ -19,7 +19,7 @@
   /*background-position: center;
   background-size: cover;*/
   max-width:73px;
-  width:73px;
+  width:100%;
   height:52px;
 }
 .icon-3{
@@ -27,7 +27,7 @@
   /*background-position: center;
   background-size: cover;*/
   max-width:62px;
-  width:62px;
+  width:100%;
   height:60px;
 }
 
@@ -40,6 +40,7 @@
   background-image: url("x_950909_car_park.image-sec1-Notebook_phone.svg");
   /*background-position: center;
   background-size: cover;*/
+  max-width:520px;
   width:520px;
   height:414px;
 }
@@ -86,7 +87,7 @@ ul h2{
 ul p{
   font-size: 16px; 
   font-family: "Kanitlight";
-	  color:#302849;
+  color:#302849;
 
 }
 li{
@@ -109,25 +110,99 @@ li-1{
 
 @media screen and (min-width: 1024px) and (max-width: 1390px) {
   .icon-1{
-		width: 96px;
+    width: 96px;
   }
   .icon-3{
     width:108px;
   }
   .detail-head h1{
-		font-size: 3rem;
+    font-size: 3rem;
+  }
+  .Container-sec1 {
+    margin-left: 4rem;
+    grid-template-columns: 63% auto;
   }
 }
 
-//Tablet
-@media screen and (min-width: 1112px) and (max-width: 1204px){
+//Tablet(min-width: 1112px) and (max-width: 1204px)
+@media screen and (min-width: 1024px) and (max-width: 1390px){
   .detail-head h1{
     font-size: 3rem;
   }
   .Container-sec1 {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 5rem;
+    margin-right: 21rem;
     height: 414px;  
+  }
+  .image-n-p {
+    width: 49rem;
+  }
+}
+@media screen and (max-width: 1023px){
+  .Container-sec1 {
+    margin-left: 2rem;
+    grid-template-columns: 93% auto;
+    height: 389px;
+  }
+  .info {
+    z-index: 1;
+  }
+  .image-n-p {
+    width: 447px;
+    position: absolute;
+    left: 32rem;
+    z-index: 0;
+    bottom: 13px;
+  }
+}
+@media screen and (max-width: 1023px){
+  .Container-sec1 {
+    margin-left: 2rem;
+    grid-template-columns: 93% auto;
+    height: 389px;
+  }
+  .info {
+    z-index: 1;
+  }
+  .image-n-p {
+    width: 447px;
+    position: absolute;
+    left: 32rem;
+    z-index: 0;
+    bottom: 13px;
+  }
+}
+
+@media screen and (max-width: 740px){
+  .Container-sec1 {
+    display: unset;
+    margin-right: 0;
+  }
+  .image-n-p {
+    display:none;
+  }
+  ul p{
+    font-size: 13px;
+  }
+  .detail-head {
+    margin-top: 1rem;
+  }
+  .info {
+    padding-left: 1rem;
+  }
+}
+@media screen and (max-width: 424px){
+  .detail-head h1 {
+    font-size: 31px;
+  }
+  ul p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 374px){
+	.detail-head h1 {
+    font-size: 29px;
   }
 }</css>
         <data_table>sp_instance</data_table>
@@ -155,14 +230,14 @@ li-1{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-26 14:00:06</sys_created_on>
         <sys_id>d5aafa094761391021f49128436d4321</sys_id>
-        <sys_mod_count>110</sys_mod_count>
+        <sys_mod_count>147</sys_mod_count>
         <sys_name>Section1</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_d5aafa094761391021f49128436d4321</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-10 17:46:25</sys_updated_on>
+        <sys_updated_on>2023-10-16 11:06:01</sys_updated_on>
         <template><![CDATA[<div class="Container-sec1">
   <div class="info">
     <div class="info-header">

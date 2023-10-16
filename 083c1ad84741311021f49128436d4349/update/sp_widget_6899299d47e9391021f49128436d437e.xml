@@ -267,6 +267,53 @@ img#qrImage{
   color: #0c00ff;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  .list-group{
+    grid-template-columns: 1fr 12%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .list-group{
+    grid-template-columns: 1fr 16%;
+  }
+}
+
+@media screen and (max-width: 765px){
+  .list-group{
+    grid-template-columns: 1fr 28%;
+  }
+  .button {
+    display: flex;
+    flex-direction: column;
+    height: 72%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 452px){
+  .list-group {
+    grid-template-columns: 1fr 31%;
+  }
+}
+
+@media screen and (max-width: 374px){
+  .list-group {
+    display: flex;
+    flex-direction: column;
+  }
+   div#imgBox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .qr-h2 {
+    left: 190px;
+  }
+  a.list-group-item {
+    height: 11rem;
+  }
+}
 
 
 </css>
@@ -327,14 +374,14 @@ img#qrImage{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-27 02:44:21</sys_created_on>
         <sys_id>6899299d47e9391021f49128436d437e</sys_id>
-        <sys_mod_count>390</sys_mod_count>
+        <sys_mod_count>405</sys_mod_count>
         <sys_name>List_record_car_parking</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_widget_6899299d47e9391021f49128436d437e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-11 08:54:30</sys_updated_on>
+        <sys_updated_on>2023-10-12 11:51:24</sys_updated_on>
         <template><![CDATA[<head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>

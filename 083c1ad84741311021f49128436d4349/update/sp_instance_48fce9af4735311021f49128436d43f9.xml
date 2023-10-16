@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">84fce9af4735311021f49128436d43f7</sp_column>
+        <sp_widget display_value="SC Catalog Item">3c29786e87133200e0ef0cf888cb0bdf</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 13:01:06</sys_created_on>
+        <sys_id>48fce9af4735311021f49128436d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SC Catalog Item</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_instance_48fce9af4735311021f49128436d43f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 13:01:06</sys_updated_on>
+        <title>SC Catalog Item</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"show_add_cart_button": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=48fce9af4735311021f49128436d43f9"/>
+</record_update>
