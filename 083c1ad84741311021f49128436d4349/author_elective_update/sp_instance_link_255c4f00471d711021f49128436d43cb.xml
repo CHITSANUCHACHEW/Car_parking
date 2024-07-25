@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name>card</class_name>
+        <color>default</color>
+        <css/>
+        <glyph>credit-card</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value="Name card">5129e80d4785711021f49128436d43fd</sc_cat_item>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">255c4f00471d711021f49128436d43c9</sp_column>
+        <sp_page display_value="cat_item">2a2b1e8947edf51021f49128436d4316</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 02:27:47</sys_created_on>
+        <sys_id>255c4f00471d711021f49128436d43cb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>สมัครสมาชิก</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_instance_link_255c4f00471d711021f49128436d43cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 11:58:02</sys_updated_on>
+        <title>สมัครสมาชิก</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=255c4f00471d711021f49128436d43cb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sp_instance_link_255c4f00471d711021f49128436d43cb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name&gt;card&lt;/class_name&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;credit-card&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item display_value="Name card"&gt;5129e80d4785711021f49128436d43fd&lt;/sc_cat_item&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;255c4f00471d711021f49128436d43c9&lt;/sp_column&gt;&lt;sp_page display_value="cat_item"&gt;2a2b1e8947edf51021f49128436d4316&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-11 02:27:47&lt;/sys_created_on&gt;&lt;sys_id&gt;255c4f00471d711021f49128436d43cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;สมัครสมาชิก&lt;/sys_name&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_255c4f00471d711021f49128436d43cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-26 11:58:02&lt;/sys_updated_on&gt;&lt;title&gt;สมัครสมาชิก&lt;/title&gt;&lt;type&gt;sc_cat_item&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=255c4f00471d711021f49128436d43cb"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1097999676</payload_hash>
+        <record_name>สมัครสมาชิก</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 11:58:02</sys_created_on>
+        <sys_id>d9be16cd47edf51021f49128436d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ad15a7bb90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 11:58:02</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>15be16cd90edf510a8b8232be39d3c87</update_guid>
+        <update_guid_history>15be16cd90edf510a8b8232be39d3c87:-1097999676,adf0be7a63ddf1106ba18abb0d2899b3:-1119206150,80f03eba12ddf11033834b57e697f640:1074701007,695c4f00331d71105ad2be808083c1cc:-1119206150</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="สมัครสมาชิก">5a2cd4b547a5311021f49128436d4367</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 10:23:07</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>77c89f719a114e22ba8693425918ea59</sys_id>
+        <sys_metadata>255c4f00471d711021f49128436d43cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>สมัครสมาชิก</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sp_instance_link_255c4f00471d711021f49128436d43cb</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_255c4f00471d711021f49128436d43cb">d9be16cd47edf51021f49128436d4387</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 10:23:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

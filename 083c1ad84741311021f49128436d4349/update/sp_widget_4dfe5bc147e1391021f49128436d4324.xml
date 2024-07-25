@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/*.image-c{
+background-image: url("x_950909_car_park.image-sec2-card.svg");
+/*background-position: center;
+background-size: cover;
+width:69.5rem;
+height:66.455rem;
+}*/
+
+.image-bg{
+  //background-image: url("x_950909_car_park.sec2-background.svg");
+  /*background-position: center;
+  background-size: cover;*/
+  width: 100%;
+  height:414px;
+}
+
+.Container-sec1{
+  //background-color:#FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  height: 414px;
+}
+.image-bg{
+  /*position: relative;
+  left: 401px;
+  display: flex;
+  justify-content: space-around;*/
+}
+
+.con-bg{
+  width: 100%;
+  height: 414px;
+
+}
+
+.image-bg{
+  border-radius: 20px 0 0 20px;
+  background-image: linear-gradient(to left, rgba(0,112,216,99%), rgba(0,112,216,50%), rgba(0,112,216,8%));
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-c{
+  //position: absolute;
+  //z-index: 1;
+  bottom: 4rem;
+  left: 9rem;
+  position: absolute;
+  top: -9.7rem;
+  max-width: 60rem;
+  width: 60rem;
+  height: 60rem;
+}
+.image-card{
+  width:30%;
+}
+
+.info h1{
+  margin-top:3rem;
+  //margin-top: 68px;
+  color: #FFFFFF;
+  font-size:50px;
+  font-family:"Kanitbold";
+}
+
+@media screen and (min-width: 1980px){
+  .image-c{
+    top: -20.7rem;
+    width: 80rem;
+    height: 80rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  .image-c{
+    top: -0.7rem;
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+  .image-c {
+    left: 1rem;
+    top: 1.3rem;
+    width: 33rem;
+    height: 34rem;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .image-c {
+    display:none;
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>section2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Section2</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 16:38:44</sys_created_on>
+        <sys_id>4dfe5bc147e1391021f49128436d4324</sys_id>
+        <sys_mod_count>120</sys_mod_count>
+        <sys_name>Section2</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_widget_4dfe5bc147e1391021f49128436d4324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 10:36:16</sys_updated_on>
+        <template><![CDATA[<div class="Container-sec1">
+  <div class="image-card">
+    <img class="image-c" src="x_950909_car_park.image-sec2-card2.png"/>
+  </div>
+  <div class="con-bg">
+    <div class="image-bg">
+      <div class="info">
+        <h1>
+          บัตรสมาชิก
+        </h1>
+      </div>
+    </div>
+  </div>
+
+</div>]]></template>
+    </sp_widget>
+</record_update>

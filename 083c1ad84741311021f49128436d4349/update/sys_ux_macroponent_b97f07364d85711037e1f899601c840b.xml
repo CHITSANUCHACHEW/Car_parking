@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "dashboard",
+  "elementLabel" : "Dashboard",
+  "propertyValues" : {
+    "userInfo" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user" ],
+        "category" : "session"
+      }
+    },
+    "hideShareButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "editMode" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "dashboardSysId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "hideCreateNewButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideEditButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defaultDashboard" : {
+      "type" : "JSON_LITERAL",
+      "value" : "b17f0736ac857110d0cc6795731e6507"
+    },
+    "defaultDrilldowns" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideDashboardPicker" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "f552e6a932780394b6f06c14071aa115",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <dispatched_events>fd7f073694857110f03e02da0c59680d</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"dashboard","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"var(--now-static-space--lg)","height":"100%"},
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "grid"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "openInEditMode",
+  "label" : "openInEditMode",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 05:29:04</sys_created_on>
+        <sys_id>b97f07364d85711037e1f899601c840b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_ux_macroponent_b97f07364d85711037e1f899601c840b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 05:44:42</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=b97f07364d85711037e1f899601c840b"/>
+</record_update>

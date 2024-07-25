@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Name card">5129e80d4785711021f49128436d43fd</sc_cat_item>
+        <sc_category display_value="Services">d67c446ec0a80165000335aa37eafbc1</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 06:59:08</sys_created_on>
+        <sys_id>0f8a648d4785711021f49128436d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Name card</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sc_cat_item_category_0f8a648d4785711021f49128436d4355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 06:59:08</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sc_cat_item_category_0f8a648d4785711021f49128436d4355</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Name card">5129e80d4785711021f49128436d43fd</sc_cat_item><sc_category display_value="Services">d67c446ec0a80165000335aa37eafbc1</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-01 06:59:08</sys_created_on><sys_id>0f8a648d4785711021f49128436d4355</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Name card</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>sc_cat_item_category_0f8a648d4785711021f49128436d4355</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-01 06:59:08</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1672847400</payload_hash>
+        <record_name>Services.Name card</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 06:59:08</sys_created_on>
+        <sys_id>038a648d4785711021f49128436d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a4f89d9be0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 06:59:08</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>4b8a648d71857110437b19fd65980d58</update_guid>
+        <update_guid_history>4b8a648d71857110437b19fd65980d58:-1672847400</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Name card">a5cb6ccd4785711021f49128436d4324</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 07:04:30</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>f952b2d49aa44e32ab0d4f9d3bf4bbc4</sys_id>
+        <sys_metadata>0f8a648d4785711021f49128436d4355</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Name card</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_0f8a648d4785711021f49128436d4355</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_0f8a648d4785711021f49128436d4355">038a648d4785711021f49128436d4359</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 07:04:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

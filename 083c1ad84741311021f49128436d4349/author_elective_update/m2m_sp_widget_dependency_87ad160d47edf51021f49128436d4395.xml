@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="dialog-polyfill">2eaf31f30b301200b0b02c6317673a84</sp_dependency>
+        <sp_widget display_value="Catalog Item">cfad160d47edf51021f49128436d4392</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 11:53:31</sys_created_on>
+        <sys_id>87ad160d47edf51021f49128436d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dialog-polyfill.Catalog Item</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_87ad160d47edf51021f49128436d4395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 11:53:31</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>m2m_sp_widget_dependency_87ad160d47edf51021f49128436d4395</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="dialog-polyfill">2eaf31f30b301200b0b02c6317673a84</sp_dependency><sp_widget display_value="Catalog Item">cfad160d47edf51021f49128436d4392</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-26 11:53:31</sys_created_on><sys_id>87ad160d47edf51021f49128436d4395</sys_id><sys_mod_count>0</sys_mod_count><sys_name>dialog-polyfill.Catalog Item</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>m2m_sp_widget_dependency_87ad160d47edf51021f49128436d4395</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-26 11:53:31</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>-1894333143</payload_hash>
+        <record_name>dialog-polyfill.Catalog Item</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 11:53:31</sys_created_on>
+        <sys_id>8bad168d47edf51021f49128436d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ad15658900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 11:53:31</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>c3ad168da5edf5105464db54615869e6</update_guid>
+        <update_guid_history>c3ad168da5edf5105464db54615869e6:-1894333143</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="dialog-polyfill.Catalog Item">88ed5a8d47edf51021f49128436d43fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 11:54:25</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>1acf750cc79e45549151b8a82893f9a4</sys_id>
+        <sys_metadata>87ad160d47edf51021f49128436d4395</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dialog-polyfill.Catalog Item</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_87ad160d47edf51021f49128436d4395</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_87ad160d47edf51021f49128436d4395">8bad168d47edf51021f49128436d43e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-26 11:54:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>qrcode</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>QRcode</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	data.record = [];
+		var table = new GlideRecord('x_950909_car_park_detail');
+		//table.addQuery('user', gs.getUser().getID());
+		//table.addEncodedQuery("u_user_name=javascript:gs.getUserName()");
+		table.addEncodedQuery("u_user_name=javascript:gs.getUserName();^u_state_approve=1");
+		//table.addQuery('u_state_approve',"1");
+		//table.orderByDesc('sys_created_on');
+		//table.setLimit(options.maximum_records_to_display);
+
+		table.query();
+		while (table.next()) {
+			var RecordObj = {};
+			//use service portal helper method to get some display values
+			$sp.getRecordDisplayValues(RecordObj, table, 'number,parent,u_fname,sys_id,u_state_approve');
+			//get the first 20 characters of the description
+			//noteObj.note = noteGR.getValue('u_fname').slice(0,20);
+			//push the populated obj into the array
+			data.record.push(RecordObj);	
+		}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 09:40:33</sys_created_on>
+        <sys_id>c385948447f9751021f49128436d4354</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>QRcode</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_widget_c385948447f9751021f49128436d4354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 07:46:45</sys_updated_on>
+        <template><![CDATA[<div ng-repeat="record in data.record">
+  <div class="panel panel-default">
+    <div class="panel-heading clearfix">
+      <h3 class="panel-title pull-left">
+        ประวัติ
+      </h3>
+    </div>
+    <div class="list-group">
+      <a class="list-group-item" ng-click="c.selectItem($index)">
+        <div>
+          <h4 class="list-group-item-heading">
+            {{record.parent}}
+          </h4>
+          <p class="list-group-item-text">
+            {{record.u_state_approve}}
+          </p>
+        </div>
+        <div class="button">
+          <button class="button-82-pushable" role="button" ng-click="c.webinfo($index)">
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge" style="background: linear-gradient(
+                                                to left,
+                                                hsl(340deg 100% 16%) 0%,
+                                                hsl(180deg,100%,50%) 8%,
+                                                hsl(240deg,100%,50%) 50%,
+                                                hsl(180deg,100%,50%) 92%,
+                                                hsl(340deg 100% 16%) 100%
+                                                );"></span>
+            <span class="button-82-front text" n>
+              แก้ไขข้อมูล
+            </span>
+          </button>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div>
+    <div id="imgBox">
+      <img src="" id="qrImage" style="width:100px; height:100px;" >
+      {{record.number}}
+      <p id="sysid">{{record.sys_id}}</p>
+    </div>
+    <script>
+      let imgBox = document.getElementById("imgBox");
+      let qrImage = document.getElementById("qrImage");
+      let sysid = document.getElementById("sysid");
+      qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://dev129080.service-now.com/x_950909_car_park_detail.do?sys_id="+sysid+"&parm1=test";
+    </script>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

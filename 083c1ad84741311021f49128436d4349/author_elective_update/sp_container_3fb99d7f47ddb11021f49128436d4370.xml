@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Customer car - Container 4</name>
+        <order>4</order>
+        <sp_page display_value="customer_car">195c0700471d711021f49128436d4364</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-22 09:44:20</sys_created_on>
+        <sys_id>3fb99d7f47ddb11021f49128436d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer car - Container 4</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_container_3fb99d7f47ddb11021f49128436d4370</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-22 09:44:20</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sp_container_3fb99d7f47ddb11021f49128436d4370</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Customer car - Container 4</name><order>4</order><sp_page display_value="customer_car">195c0700471d711021f49128436d4364</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-22 09:44:20</sys_created_on><sys_id>3fb99d7f47ddb11021f49128436d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer car - Container 4</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>sp_container_3fb99d7f47ddb11021f49128436d4370</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-22 09:44:20</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1710303805</payload_hash>
+        <record_name>Customer car - Container 4</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-22 09:44:20</sys_created_on>
+        <sys_id>7bb99d7f47ddb11021f49128436d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18abc46a4a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-22 09:44:20</sys_updated_on>
+        <type>Container</type>
+        <update_guid>b3b99d7f99ddb110acdbf6c6af59a272</update_guid>
+        <update_guid_history>b3b99d7f99ddb110acdbf6c6af59a272:1710303805</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Customer car - Container 4">09d911bf47ddb11021f49128436d431c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-22 09:44:42</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>454a243f15bb4cb8a4eb09736c9dd9a4</sys_id>
+        <sys_metadata>3fb99d7f47ddb11021f49128436d4370</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer car - Container 4</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sp_container_3fb99d7f47ddb11021f49128436d4370</sys_update_name>
+        <sys_update_version display_value="sp_container_3fb99d7f47ddb11021f49128436d4370">7bb99d7f47ddb11021f49128436d4372</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-22 09:44:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

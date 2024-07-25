@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Master table</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Master table</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">cd6f9cb6d423211095d7c105f1bf43f1</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-30 07:24:24</sys_created_on>
+        <sys_id>f92d16544781311021f49128436d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Master table</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_wizard_answer_f92d16544781311021f49128436d4370</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-30 07:24:24</sys_updated_on>
+        <table/>
+        <target_url>x_950909_car_park_master_table.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sys_wizard_answer_f92d16544781311021f49128436d4370</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Master table</answer><button_label/><dependent_value/><element/><name>Master table</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">cd6f9cb6d423211095d7c105f1bf43f1</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-30 07:24:24</sys_created_on><sys_id>f92d16544781311021f49128436d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Master table</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>sys_wizard_answer_f92d16544781311021f49128436d4370</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-30 07:24:24</sys_updated_on><table/><target_url>x_950909_car_park_master_table.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-816143927</payload_hash>
+        <record_name>Master table</record_name>
+        <reverted_from/>
+        <source>468668b34720311021f49128436d434e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-08-15 23:13:29</sys_created_on>
+        <sys_id>f8a3e3b947c9711021f49128436d4340</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>189fb79c5a80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>b8a3e3b9e3c97110d126c058c31c7440</update_guid>
+        <update_guid_history>b8a3e3b9e3c97110d126c058c31c7440:-816143927</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-04 04:23:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>4942286ed5184532ae4c04316805e909</sys_id>
+        <sys_metadata>f92d16544781311021f49128436d4370</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Master table</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent display_value="Task">cd6f9cb6d423211095d7c105f1bf43f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_f92d16544781311021f49128436d4370</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_f92d16544781311021f49128436d4370">f8a3e3b947c9711021f49128436d4340</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-04 04:23:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

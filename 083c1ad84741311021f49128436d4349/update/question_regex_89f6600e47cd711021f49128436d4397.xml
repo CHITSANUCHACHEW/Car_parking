@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_regex">
+    <question_regex action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>String Thai</name>
+        <regex>^[ก-๏\s]+$</regex>
+        <regex_flag/>
+        <sys_class_name>question_regex</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-04 09:23:52</sys_created_on>
+        <sys_id>89f6600e47cd711021f49128436d4397</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>String Thai</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>question_regex_89f6600e47cd711021f49128436d4397</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-04 09:25:18</sys_updated_on>
+        <validation_message>Not a vaild string </validation_message>
+    </question_regex>
+    <sys_translated_text action="delete_multiple" query="documentkey=89f6600e47cd711021f49128436d4397"/>
+</record_update>

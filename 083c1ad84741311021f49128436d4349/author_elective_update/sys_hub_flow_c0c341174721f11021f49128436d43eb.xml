@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test</internal_name>
+        <label_cache>[{"name":"1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73.Record.u_user_id.sys_id","label":"1 - Look Up Record➛TaskNamecard Record➛UserID➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"SLA Task_1.task_sla_record.task.number","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"task","column_name":"number"},{"name":"1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73.Record.u_user_id.user_name","label":"1➛TaskNamecard Record➛UserID➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"8f4fad0c-4744-4af9-9402-c7b03912b1bf.Record","label":"3 - Look Up Record➛Detail Record","reference":"x_950909_car_park_detail","reference_display":"Detail Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"39c1dc11-f3b3-43b2-972b-c1829e0c111b.Record","label":"2 - Look Up Record➛Car parking Record","reference":"x_950909_car_park_car_parking","reference_display":"Car parking","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>29b41e6b4725351021f49128436d438e</master_snapshot>
+        <name>test</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>79b41e6b4725351021f49128436d43f4</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 05:06:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0c341174721f11021f49128436d43eb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_hub_flow_c0c341174721f11021f49128436d43eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=c0c341174721f11021f49128436d43eb"/>
+    <sys_variable_value action="DELETE" query="document_key=c0c341174721f11021f49128436d43eb"/>
+    <sys_flow_trigger action="DELETE">
+        <active>true</active>
+        <name>sla_task</name>
+        <sys_class_name>sys_flow_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79b41e6b4725351021f49128436d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:12</sys_updated_on>
+    </sys_flow_trigger>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=c0c341174721f11021f49128436d43eb"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=c0c341174721f11021f49128436d43eb^sys_idNOT IN8d84cd174721f11021f49128436d4388"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="test">c0c341174721f11021f49128436d43eb</flow>
+        <name>SLA Task</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 05:10:19</sys_created_on>
+        <sys_id>8d84cd174721f11021f49128436d4388</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <trigger_definition display_value="SLA Task">f5ce00a873723300d70877186bf6a759</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>sla_task</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=8d84cd174721f11021f49128436d4388"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=c0c341174721f11021f49128436d43eb"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=c0c341174721f11021f49128436d43eb^sys_idNOT INccc341174721f11021f49128436d43eb"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>c0c341174721f11021f49128436d43eb</id>
+        <name>test</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 05:06:58</sys_created_on>
+        <sys_id>ccc341174721f11021f49128436d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 05:06:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=ccc341174721f11021f49128436d43eb"/>
+    <sys_hub_flow_input action="DELETE" query="model=c0c341174721f11021f49128436d43eb^sys_idNOT IN0184cd174721f11021f49128436d4380,4184cd174721f11021f49128436d4384"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_sla_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task_sla_record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="test">c0c341174721f11021f49128436d43eb</model>
+        <model_id>c0c341174721f11021f49128436d43eb</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="task_sla">task_sla</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 05:10:19</sys_created_on>
+        <sys_id>0184cd174721f11021f49128436d4380</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD7bf5a451bdf1b110627b907ee13af47f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sla_flow_inputs</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sla_flow_inputs</label>
+        <mandatory>false</mandatory>
+        <max_length>4096</max_length>
+        <model display_value="test">c0c341174721f11021f49128436d43eb</model>
+        <model_id>c0c341174721f11021f49128436d43eb</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 05:10:19</sys_created_on>
+        <sys_id>4184cd174721f11021f49128436d4384</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=c0c341174721f11021f49128436d43eb"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=c0c341174721f11021f49128436d43eb"/>
+    <sys_hub_action_instance action="DELETE" query="flow=c0c341174721f11021f49128436d43eb^sys_idNOT IN0406a45147f1b11021f49128436d4396,2d03fbe347a9351021f49128436d4326,4406a45147f1b11021f49128436d43bd,4c06a45147f1b11021f49128436d43b7,8406a45147f1b11021f49128436d43ac,8c06a45147f1b11021f49128436d43b1"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="test">c0c341174721f11021f49128436d43eb</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>0406a45147f1b11021f49128436d4396</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <ui_id>39c1dc11-f3b3-43b2-972b-c1829e0c111b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=0406a45147f1b11021f49128436d4396"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0406a45147f1b11021f49128436d4396</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>0406a45147f1b11021f49128436d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <value>x_950909_car_park_car_parking</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=0406a45147f1b11021f49128436d4396"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>0406a45147f1b11021f49128436d4396</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>0406a45147f1b11021f49128436d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>number={{SLA Task_1.task_sla_record.task.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>0406a45147f1b11021f49128436d4396</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>8006a45147f1b11021f49128436d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=0406a45147f1b11021f49128436d4396"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=0406a45147f1b11021f49128436d4396"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="SLA Percentage Timer">a1a50c4573873300d70877186bf6a762</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="test">c0c341174721f11021f49128436d43eb</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 12:31:14</sys_created_on>
+        <sys_id>2d03fbe347a9351021f49128436d4326</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <ui_id>105e7147-b7db-4e97-874f-fe95d70d883c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=2d03fbe347a9351021f49128436d4326"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2d03fbe347a9351021f49128436d4326</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 12:31:14</sys_created_on>
+        <sys_id>2103fbe347a9351021f49128436d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:31:14</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"duration":{"$cv":{"$c":"java.lang.String","$v":""}},"relative_duration_works_on":{"$cv":{"$c":"java.lang.String","$v":""}},"is_repair":{"$cv":{"$c":"java.lang.String","$v":"false"}},"duration_type":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDcdbd0dc2bc7233000dbdb4d30db4851a":{"duration":"String","duration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"duration\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}"},"relative_duration_works_on":"String","relative_duration_works_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"relative_duration_works_on\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"32\"}"},"is_repair":"Boolean","is_repair.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"is_repair\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"32\"}"},"duration_type":"String","duration_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"duration_type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}"}},"FlowDesigner:FDcdbd0dc2bc7233000dbdb4d30db4851a.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDcdbd0dc2bc7233000dbdb4d30db4851a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"sla_flow_inputs\",\"mandatory\":\"false\",\"order\":\"100\",\"max_length\":\"4096\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="SLA Flow Inputs">2da50c4573873300d70877186bf6a76e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2d03fbe347a9351021f49128436d4326</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 12:31:14</sys_created_on>
+        <sys_id>e503fbe347a9351021f49128436d4329</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <value>100</value>
+        <variable display_value="Percentage">29a50c4573873300d70877186bf6a764</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_a1a50c4573873300d70877186bf6a762^id=2d03fbe347a9351021f49128436d4326"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=2d03fbe347a9351021f49128436d4326"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=2d03fbe347a9351021f49128436d4326"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Comment">85716f6473210300e4fd234ffff6a7d7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="test">c0c341174721f11021f49128436d43eb</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>4406a45147f1b11021f49128436d43bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <ui_id>d707d09d-cbe9-4e2b-a683-14191034293e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=4406a45147f1b11021f49128436d43bd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4406a45147f1b11021f49128436d43bd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>4c06a45147f1b11021f49128436d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <value>ไม่เข้าจอด</value>
+        <variable display_value="comment">fd716f6473210300e4fd234ffff6a7e8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=4406a45147f1b11021f49128436d43bd"/>
+    <sys_element_mapping action="DELETE">
+        <field>ah_comment</field>
+        <id>4406a45147f1b11021f49128436d43bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>c806a45147f1b11021f49128436d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_85716f6473210300e4fd234ffff6a7d7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_task</field>
+        <id>4406a45147f1b11021f49128436d43bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>0806a45147f1b11021f49128436d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_85716f6473210300e4fd234ffff6a7d7</table>
+        <value>{{39c1dc11-f3b3-43b2-972b-c1829e0c111b.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=4406a45147f1b11021f49128436d43bd"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=4406a45147f1b11021f49128436d43bd"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="test">c0c341174721f11021f49128436d43eb</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>4c06a45147f1b11021f49128436d43b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <ui_id>83fd85b2-6e5c-4732-984e-7de1ad850f0b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=4c06a45147f1b11021f49128436d43b7"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c06a45147f1b11021f49128436d43b7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>4806a45147f1b11021f49128436d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <value>x_950909_car_park_car_parking</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c06a45147f1b11021f49128436d43b7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>8406a45147f1b11021f49128436d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <value>u_state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=4c06a45147f1b11021f49128436d43b7"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>4c06a45147f1b11021f49128436d43b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>0406a45147f1b11021f49128436d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{39c1dc11-f3b3-43b2-972b-c1829e0c111b.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>4c06a45147f1b11021f49128436d43b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>8c06a45147f1b11021f49128436d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>4c06a45147f1b11021f49128436d43b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>4006a45147f1b11021f49128436d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=4c06a45147f1b11021f49128436d43b7"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=4c06a45147f1b11021f49128436d43b7"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="test">c0c341174721f11021f49128436d43eb</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>8406a45147f1b11021f49128436d43ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <ui_id>8f4fad0c-4744-4af9-9402-c7b03912b1bf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=8406a45147f1b11021f49128436d43ac"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8406a45147f1b11021f49128436d43ac</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>8006a45147f1b11021f49128436d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <value>x_950909_car_park_detail</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=8406a45147f1b11021f49128436d43ac"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>8406a45147f1b11021f49128436d43ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>4c06a45147f1b11021f49128436d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>parent={{SLA Task_1.task_sla_record.task.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>8406a45147f1b11021f49128436d43ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>0006a45147f1b11021f49128436d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=8406a45147f1b11021f49128436d43ac"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=8406a45147f1b11021f49128436d43ac"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="test">c0c341174721f11021f49128436d43eb</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>8c06a45147f1b11021f49128436d43b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <ui_id>ea0e9e14-b170-4961-bfda-881ad135c759</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=8c06a45147f1b11021f49128436d43b1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8c06a45147f1b11021f49128436d43b1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>0c06a45147f1b11021f49128436d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <value>u_state=3</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8c06a45147f1b11021f49128436d43b1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>cc06a45147f1b11021f49128436d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <value>x_950909_car_park_detail</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=8c06a45147f1b11021f49128436d43b1"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>8c06a45147f1b11021f49128436d43b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>8806a45147f1b11021f49128436d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{8f4fad0c-4744-4af9-9402-c7b03912b1bf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>8c06a45147f1b11021f49128436d43b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>0406a45147f1b11021f49128436d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>8c06a45147f1b11021f49128436d43b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:50</sys_created_on>
+        <sys_id>c406a45147f1b11021f49128436d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=8c06a45147f1b11021f49128436d43b1"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=8c06a45147f1b11021f49128436d43b1"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=c0c341174721f11021f49128436d43eb"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=c0c341174721f11021f49128436d43eb"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=c0c341174721f11021f49128436d43eb"/>
+    <sys_hub_flow_variable action="DELETE" query="model=c0c341174721f11021f49128436d43eb"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb^sys_idNOT IN8184cd174721f11021f49128436d4383,8584cd174721f11021f49128436d4386"/>
+    <sys_documentation action="DELETE">
+        <element>task_sla_record</element>
+        <help/>
+        <hint/>
+        <label>task_sla_record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 05:10:19</sys_created_on>
+        <sys_id>8184cd174721f11021f49128436d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 05:10:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>sla_flow_inputs</element>
+        <help/>
+        <hint/>
+        <label>sla_flow_inputs</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 05:10:19</sys_created_on>
+        <sys_id>8584cd174721f11021f49128436d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 05:10:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_c0c341174721f11021f49128436d43eb"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_c0c341174721f11021f49128436d43eb"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=c0c341174721f11021f49128436d43eb^sys_idNOT INb1b41e6b4725351021f49128436d43f5"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>c0c341174721f11021f49128436d43eb</plan_id>
+        <snapshot>29b41e6b4725351021f49128436d438e</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1b41e6b4725351021f49128436d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:12</sys_updated_on>
+        <trigger display_value="sla_task">79b41e6b4725351021f49128436d43f4</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=c0c341174721f11021f49128436d43eb"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test</internal_name>
+        <label_cache>[{"name":"1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73.Record.u_user_id.user_name","label":"1➛TaskNamecard Record➛UserID➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"SLA Task_1.task_sla_record.task.number","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"task","column_name":"number"},{"name":"1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73.Record.u_user_id.sys_id","label":"1 - Look Up Record➛TaskNamecard Record➛UserID➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"}]</label_cache>
+        <master>true</master>
+        <name>test</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="test">c0c341174721f11021f49128436d43eb</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29b41e6b4725351021f49128436d438e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:31:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=29b41e6b4725351021f49128436d438e"/>
+    <sys_variable_value action="DELETE" query="document_key=29b41e6b4725351021f49128436d438e"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=29b41e6b4725351021f49128436d438e^sys_idNOT INf5b41e6b4725351021f49128436d43cb"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="test">29b41e6b4725351021f49128436d438e</flow>
+        <name>SLA Task</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:11</sys_created_on>
+        <sys_id>f5b41e6b4725351021f49128436d43cb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:31:23</sys_updated_on>
+        <trigger_definition display_value="SLA Task">f5ce00a873723300d70877186bf6a759</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>sla_task</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=f5b41e6b4725351021f49128436d43cb"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=29b41e6b4725351021f49128436d438e"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=29b41e6b4725351021f49128436d438e^sys_idNOT INa1b41e6b4725351021f49128436d438f"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>29b41e6b4725351021f49128436d438e</id>
+        <name>test</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:10</sys_created_on>
+        <sys_id>a1b41e6b4725351021f49128436d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=a1b41e6b4725351021f49128436d438f"/>
+    <sys_hub_flow_input action="DELETE" query="model=29b41e6b4725351021f49128436d438e^sys_idNOT IN21b41e6b4725351021f49128436d4392,e5b41e6b4725351021f49128436d439f"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD2f033fe30ea93510e16af5455fbcf4b8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sla_flow_inputs</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sla_flow_inputs</label>
+        <mandatory>false</mandatory>
+        <max_length>4096</max_length>
+        <model display_value="test">29b41e6b4725351021f49128436d438e</model>
+        <model_id>29b41e6b4725351021f49128436d438e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:10</sys_created_on>
+        <sys_id>21b41e6b4725351021f49128436d4392</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:31:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_sla_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task_sla_record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="test">29b41e6b4725351021f49128436d438e</model>
+        <model_id>29b41e6b4725351021f49128436d438e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="task_sla">task_sla</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:10</sys_created_on>
+        <sys_id>e5b41e6b4725351021f49128436d439f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:31:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=29b41e6b4725351021f49128436d438e"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=29b41e6b4725351021f49128436d438e"/>
+    <sys_hub_action_instance action="DELETE" query="flow=29b41e6b4725351021f49128436d438e^sys_idNOT IN61b41e6b4725351021f49128436d43bf,79b41e6b4725351021f49128436d43c9,ab033fe347a9351021f49128436d43b6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="test">29b41e6b4725351021f49128436d438e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:11</sys_created_on>
+        <sys_id>61b41e6b4725351021f49128436d43bf</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:31:22</sys_updated_on>
+        <ui_id>1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=61b41e6b4725351021f49128436d43bf"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>61b41e6b4725351021f49128436d43bf</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:11</sys_created_on>
+        <sys_id>69b41e6b4725351021f49128436d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:11</sys_updated_on>
+        <value>x_950909_car_park_tasknamecard</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=61b41e6b4725351021f49128436d43bf"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>61b41e6b4725351021f49128436d43bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:11</sys_created_on>
+        <sys_id>21b41e6b4725351021f49128436d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>number={{SLA Task_1.task_sla_record.task.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>61b41e6b4725351021f49128436d43bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:11</sys_created_on>
+        <sys_id>e5b41e6b4725351021f49128436d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=61b41e6b4725351021f49128436d43bf"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=61b41e6b4725351021f49128436d43bf"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="test">29b41e6b4725351021f49128436d438e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:11</sys_created_on>
+        <sys_id>79b41e6b4725351021f49128436d43c9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:31:22</sys_updated_on>
+        <ui_id>42275f51-9d2a-4a60-872e-874113c4cebd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=79b41e6b4725351021f49128436d43c9"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>79b41e6b4725351021f49128436d43c9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:11</sys_created_on>
+        <sys_id>f1b41e6b4725351021f49128436d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:11</sys_updated_on>
+        <value>x_950909_car_park_car_parking</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=79b41e6b4725351021f49128436d43c9"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>79b41e6b4725351021f49128436d43c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:11</sys_created_on>
+        <sys_id>bdb41e6b4725351021f49128436d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>u_user_id={{1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73.Record.u_user_id.sys_id}}^sys_created_onONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>79b41e6b4725351021f49128436d43c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:11</sys_created_on>
+        <sys_id>71b41e6b4725351021f49128436d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=79b41e6b4725351021f49128436d43c9"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=79b41e6b4725351021f49128436d43c9"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="SLA Percentage Timer">a1a50c4573873300d70877186bf6a762</action_type>
+        <action_type_parent display_value="SLA Percentage Timer">6f0ebf3c73833300d70877186bf6a729</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="test">29b41e6b4725351021f49128436d438e</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 12:31:22</sys_created_on>
+        <sys_id>ab033fe347a9351021f49128436d43b6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:31:22</sys_updated_on>
+        <ui_id>105e7147-b7db-4e97-874f-fe95d70d883c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=ab033fe347a9351021f49128436d43b6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ab033fe347a9351021f49128436d43b6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 12:31:22</sys_created_on>
+        <sys_id>23033fe347a9351021f49128436d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:31:22</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"duration":{"$cv":{"$c":"java.lang.String","$v":""}},"relative_duration_works_on":{"$cv":{"$c":"java.lang.String","$v":""}},"is_repair":{"$cv":{"$c":"java.lang.String","$v":"false"}},"duration_type":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDcdbd0dc2bc7233000dbdb4d30db4851a":{"duration":"String","duration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"duration\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}"},"relative_duration_works_on":"String","relative_duration_works_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"relative_duration_works_on\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"32\"}"},"is_repair":"Boolean","is_repair.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"is_repair\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"32\"}"},"duration_type":"String","duration_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"duration_type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}"}},"FlowDesigner:FDcdbd0dc2bc7233000dbdb4d30db4851a.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDcdbd0dc2bc7233000dbdb4d30db4851a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"sla_flow_inputs\",\"mandatory\":\"false\",\"order\":\"100\",\"max_length\":\"4096\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="SLA Flow Inputs">2da50c4573873300d70877186bf6a76e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ab033fe347a9351021f49128436d43b6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 12:31:22</sys_created_on>
+        <sys_id>e3033fe347a9351021f49128436d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 12:31:22</sys_updated_on>
+        <value>2</value>
+        <variable display_value="Percentage">29a50c4573873300d70877186bf6a764</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_a1a50c4573873300d70877186bf6a762^id=ab033fe347a9351021f49128436d43b6"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=ab033fe347a9351021f49128436d43b6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=ab033fe347a9351021f49128436d43b6"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=29b41e6b4725351021f49128436d438e"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=29b41e6b4725351021f49128436d438e"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=29b41e6b4725351021f49128436d438e"/>
+    <sys_hub_flow_variable action="DELETE" query="model=29b41e6b4725351021f49128436d438e"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e^sys_idNOT IN29b41e6b4725351021f49128436d43a3,a1b41e6b4725351021f49128436d439c"/>
+    <sys_documentation action="DELETE">
+        <element>task_sla_record</element>
+        <help/>
+        <hint/>
+        <label>task_sla_record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:10</sys_created_on>
+        <sys_id>29b41e6b4725351021f49128436d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>sla_flow_inputs</element>
+        <help/>
+        <hint/>
+        <label>sla_flow_inputs</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 05:39:10</sys_created_on>
+        <sys_id>a1b41e6b4725351021f49128436d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 05:39:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_29b41e6b4725351021f49128436d438e"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_29b41e6b4725351021f49128436d438e"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>c0c341174721f11021f49128436d43eb</sys_id>
+        <latest_snapshot>29b41e6b4725351021f49128436d438e</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sys_hub_flow_c0c341174721f11021f49128436d43eb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;test&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73.Record.u_user_id.sys_id","label":"1 - Look Up Record➛TaskNamecard Record➛UserID➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"SLA Task_1.task_sla_record.task.number","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"task","column_name":"number"},{"name":"1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73.Record.u_user_id.user_name","label":"1➛TaskNamecard Record➛UserID➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"8f4fad0c-4744-4af9-9402-c7b03912b1bf.Record","label":"3 - Look Up Record➛Detail Record","reference":"x_950909_car_park_detail","reference_display":"Detail Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"39c1dc11-f3b3-43b2-972b-c1829e0c111b.Record","label":"2 - Look Up Record➛Car parking Record","reference":"x_950909_car_park_car_parking","reference_display":"Car parking","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;29b41e6b4725351021f49128436d438e&lt;/master_snapshot&gt;&lt;name&gt;test&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;79b41e6b4725351021f49128436d43f4&lt;/remote_trigger_id&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-03 05:06:57&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c0c341174721f11021f49128436d43eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;test&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_c0c341174721f11021f49128436d43eb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_flow_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;name&gt;sla_task&lt;/name&gt;&lt;sys_class_name&gt;sys_flow_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;79b41e6b4725351021f49128436d43f4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:12&lt;/sys_updated_on&gt;&lt;/sys_flow_trigger&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=c0c341174721f11021f49128436d43eb^sys_idNOT IN8d84cd174721f11021f49128436d4388"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;c0c341174721f11021f49128436d43eb&lt;/flow&gt;&lt;name&gt;SLA Task&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-03 05:10:19&lt;/sys_created_on&gt;&lt;sys_id&gt;8d84cd174721f11021f49128436d4388&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="SLA Task"&gt;f5ce00a873723300d70877186bf6a759&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;sla_task&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8d84cd174721f11021f49128436d4388"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=c0c341174721f11021f49128436d43eb^sys_idNOT INccc341174721f11021f49128436d43eb"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;c0c341174721f11021f49128436d43eb&lt;/id&gt;&lt;name&gt;test&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-03 05:06:58&lt;/sys_created_on&gt;&lt;sys_id&gt;ccc341174721f11021f49128436d43eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-03 05:06:58&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ccc341174721f11021f49128436d43eb"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=c0c341174721f11021f49128436d43eb^sys_idNOT IN0184cd174721f11021f49128436d4380,4184cd174721f11021f49128436d4384"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;task_sla_record&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;task_sla_record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="test"&gt;c0c341174721f11021f49128436d43eb&lt;/model&gt;&lt;model_id&gt;c0c341174721f11021f49128436d43eb&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="task_sla"&gt;task_sla&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-03 05:10:19&lt;/sys_created_on&gt;&lt;sys_id&gt;0184cd174721f11021f49128436d4380&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;co_type_name=FD7bf5a451bdf1b110627b907ee13af47f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sla_flow_inputs&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;sla_flow_inputs&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4096&lt;/max_length&gt;&lt;model display_value="test"&gt;c0c341174721f11021f49128436d43eb&lt;/model&gt;&lt;model_id&gt;c0c341174721f11021f49128436d43eb&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-03 05:10:19&lt;/sys_created_on&gt;&lt;sys_id&gt;4184cd174721f11021f49128436d4384&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=c0c341174721f11021f49128436d43eb^sys_idNOT IN0406a45147f1b11021f49128436d4396,2d03fbe347a9351021f49128436d4326,4406a45147f1b11021f49128436d43bd,4c06a45147f1b11021f49128436d43b7,8406a45147f1b11021f49128436d43ac,8c06a45147f1b11021f49128436d43b1"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;c0c341174721f11021f49128436d43eb&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;0406a45147f1b11021f49128436d4396&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;ui_id&gt;39c1dc11-f3b3-43b2-972b-c1829e0c111b&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0406a45147f1b11021f49128436d4396"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0406a45147f1b11021f49128436d4396&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;0406a45147f1b11021f49128436d43a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;value&gt;x_950909_car_park_car_parking&lt;/value&gt;&lt;variable display_value="Table"&gt;d909f99587003300663ca1bb36cb0ba4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=0406a45147f1b11021f49128436d4396"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;0406a45147f1b11021f49128436d4396&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;0406a45147f1b11021f49128436d4398&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value&gt;number={{SLA Task_1.task_sla_record.task.number}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;0406a45147f1b11021f49128436d4396&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;8006a45147f1b11021f49128436d43a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=0406a45147f1b11021f49128436d4396"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=0406a45147f1b11021f49128436d4396"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="SLA Percentage Timer"&gt;a1a50c4573873300d70877186bf6a762&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;c0c341174721f11021f49128436d43eb&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 12:31:14&lt;/sys_created_on&gt;&lt;sys_id&gt;2d03fbe347a9351021f49128436d4326&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;ui_id&gt;105e7147-b7db-4e97-874f-fe95d70d883c&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2d03fbe347a9351021f49128436d4326"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;2d03fbe347a9351021f49128436d4326&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 12:31:14&lt;/sys_created_on&gt;&lt;sys_id&gt;2103fbe347a9351021f49128436d4329&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 12:31:14&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObject":{"duration":{"$cv":{"$c":"java.lang.String","$v":""}},"relative_duration_works_on":{"$cv":{"$c":"java.lang.String","$v":""}},"is_repair":{"$cv":{"$c":"java.lang.String","$v":"false"}},"duration_type":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDcdbd0dc2bc7233000dbdb4d30db4851a":{"duration":"String","duration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"duration\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}"},"relative_duration_works_on":"String","relative_duration_works_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"relative_duration_works_on\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"32\"}"},"is_repair":"Boolean","is_repair.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"is_repair\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"32\"}"},"duration_type":"String","duration_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"duration_type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}"}},"FlowDesigner:FDcdbd0dc2bc7233000dbdb4d30db4851a.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDcdbd0dc2bc7233000dbdb4d30db4851a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"sla_flow_inputs\",\"mandatory\":\"false\",\"order\":\"100\",\"max_length\":\"4096\"}"}},"serializationFormat":"JSON"}&lt;/value&gt;&lt;variable display_value="SLA Flow Inputs"&gt;2da50c4573873300d70877186bf6a76e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;2d03fbe347a9351021f49128436d4326&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 12:31:14&lt;/sys_created_on&gt;&lt;sys_id&gt;e503fbe347a9351021f49128436d4329&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;value&gt;100&lt;/value&gt;&lt;variable display_value="Percentage"&gt;29a50c4573873300d70877186bf6a764&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_a1a50c4573873300d70877186bf6a762^id=2d03fbe347a9351021f49128436d4326"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=2d03fbe347a9351021f49128436d4326"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=2d03fbe347a9351021f49128436d4326"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Add Comment"&gt;85716f6473210300e4fd234ffff6a7d7&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;c0c341174721f11021f49128436d43eb&lt;/flow&gt;&lt;order&gt;6&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;4406a45147f1b11021f49128436d43bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;ui_id&gt;d707d09d-cbe9-4e2b-a683-14191034293e&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4406a45147f1b11021f49128436d43bd"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4406a45147f1b11021f49128436d43bd&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;4c06a45147f1b11021f49128436d43be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;value&gt;ไม่เข้าจอด&lt;/value&gt;&lt;variable display_value="comment"&gt;fd716f6473210300e4fd234ffff6a7e8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=4406a45147f1b11021f49128436d43bd"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_comment&lt;/field&gt;&lt;id&gt;4406a45147f1b11021f49128436d43bd&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;c806a45147f1b11021f49128436d43be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_85716f6473210300e4fd234ffff6a7d7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_task&lt;/field&gt;&lt;id&gt;4406a45147f1b11021f49128436d43bd&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;0806a45147f1b11021f49128436d43be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_85716f6473210300e4fd234ffff6a7d7&lt;/table&gt;&lt;value&gt;{{39c1dc11-f3b3-43b2-972b-c1829e0c111b.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=4406a45147f1b11021f49128436d43bd"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=4406a45147f1b11021f49128436d43bd"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;c0c341174721f11021f49128436d43eb&lt;/flow&gt;&lt;order&gt;5&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;4c06a45147f1b11021f49128436d43b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;ui_id&gt;83fd85b2-6e5c-4732-984e-7de1ad850f0b&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4c06a45147f1b11021f49128436d43b7"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4c06a45147f1b11021f49128436d43b7&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;4806a45147f1b11021f49128436d43b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;value&gt;x_950909_car_park_car_parking&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4c06a45147f1b11021f49128436d43b7&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;8406a45147f1b11021f49128436d43b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;value&gt;u_state=3&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=4c06a45147f1b11021f49128436d43b7"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;4c06a45147f1b11021f49128436d43b7&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;0406a45147f1b11021f49128436d43b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{39c1dc11-f3b3-43b2-972b-c1829e0c111b.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;4c06a45147f1b11021f49128436d43b7&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;8c06a45147f1b11021f49128436d43b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;4c06a45147f1b11021f49128436d43b7&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;4006a45147f1b11021f49128436d43b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=4c06a45147f1b11021f49128436d43b7"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=4c06a45147f1b11021f49128436d43b7"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;c0c341174721f11021f49128436d43eb&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;8406a45147f1b11021f49128436d43ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;ui_id&gt;8f4fad0c-4744-4af9-9402-c7b03912b1bf&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8406a45147f1b11021f49128436d43ac"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;8406a45147f1b11021f49128436d43ac&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;8006a45147f1b11021f49128436d43ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;value&gt;x_950909_car_park_detail&lt;/value&gt;&lt;variable display_value="Table"&gt;d909f99587003300663ca1bb36cb0ba4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=8406a45147f1b11021f49128436d43ac"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;8406a45147f1b11021f49128436d43ac&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;4c06a45147f1b11021f49128436d43ad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value&gt;parent={{SLA Task_1.task_sla_record.task.number}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;8406a45147f1b11021f49128436d43ac&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;0006a45147f1b11021f49128436d43ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=8406a45147f1b11021f49128436d43ac"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=8406a45147f1b11021f49128436d43ac"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;c0c341174721f11021f49128436d43eb&lt;/flow&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;8c06a45147f1b11021f49128436d43b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;ui_id&gt;ea0e9e14-b170-4961-bfda-881ad135c759&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8c06a45147f1b11021f49128436d43b1"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;8c06a45147f1b11021f49128436d43b1&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;0c06a45147f1b11021f49128436d43b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;value&gt;u_state=3&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;8c06a45147f1b11021f49128436d43b1&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;cc06a45147f1b11021f49128436d43b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;value&gt;x_950909_car_park_detail&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=8c06a45147f1b11021f49128436d43b1"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;8c06a45147f1b11021f49128436d43b1&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;8806a45147f1b11021f49128436d43b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{8f4fad0c-4744-4af9-9402-c7b03912b1bf.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;8c06a45147f1b11021f49128436d43b1&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;0406a45147f1b11021f49128436d43b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;8c06a45147f1b11021f49128436d43b1&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-09 08:04:50&lt;/sys_created_on&gt;&lt;sys_id&gt;c406a45147f1b11021f49128436d43b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-09 08:04:50&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=8c06a45147f1b11021f49128436d43b1"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=8c06a45147f1b11021f49128436d43b1"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb^sys_idNOT IN8184cd174721f11021f49128436d4383,8584cd174721f11021f49128436d4386"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;task_sla_record&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;task_sla_record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-03 05:10:19&lt;/sys_created_on&gt;&lt;sys_id&gt;8184cd174721f11021f49128436d4383&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-03 05:10:19&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;sla_flow_inputs&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;sla_flow_inputs&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-03 05:10:19&lt;/sys_created_on&gt;&lt;sys_id&gt;8584cd174721f11021f49128436d4386&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-03 05:10:19&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=c0c341174721f11021f49128436d43eb^sys_idNOT INb1b41e6b4725351021f49128436d43f5"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.RunAlways&lt;/binding_strategy&gt;&lt;plan/&gt;&lt;plan_id&gt;c0c341174721f11021f49128436d43eb&lt;/plan_id&gt;&lt;snapshot&gt;29b41e6b4725351021f49128436d438e&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b1b41e6b4725351021f49128436d43f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:12&lt;/sys_updated_on&gt;&lt;trigger display_value="sla_task"&gt;79b41e6b4725351021f49128436d43f4&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=c0c341174721f11021f49128436d43eb"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;test&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73.Record.u_user_id.user_name","label":"1➛TaskNamecard Record➛UserID➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"SLA Task_1.task_sla_record.task.number","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"task","column_name":"number"},{"name":"1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73.Record.u_user_id.sys_id","label":"1 - Look Up Record➛TaskNamecard Record➛UserID➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;test&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="test"&gt;c0c341174721f11021f49128436d43eb&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;29b41e6b4725351021f49128436d438e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 12:31:22&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=29b41e6b4725351021f49128436d438e^sys_idNOT INf5b41e6b4725351021f49128436d43cb"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;29b41e6b4725351021f49128436d438e&lt;/flow&gt;&lt;name&gt;SLA Task&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;f5b41e6b4725351021f49128436d43cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 12:31:23&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="SLA Task"&gt;f5ce00a873723300d70877186bf6a759&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;sla_task&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f5b41e6b4725351021f49128436d43cb"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=29b41e6b4725351021f49128436d438e^sys_idNOT INa1b41e6b4725351021f49128436d438f"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;29b41e6b4725351021f49128436d438e&lt;/id&gt;&lt;name&gt;test&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:10&lt;/sys_created_on&gt;&lt;sys_id&gt;a1b41e6b4725351021f49128436d438f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:10&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a1b41e6b4725351021f49128436d438f"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=29b41e6b4725351021f49128436d438e^sys_idNOT IN21b41e6b4725351021f49128436d4392,e5b41e6b4725351021f49128436d439f"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;co_type_name=FD2f033fe30ea93510e16af5455fbcf4b8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sla_flow_inputs&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;sla_flow_inputs&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4096&lt;/max_length&gt;&lt;model display_value="test"&gt;29b41e6b4725351021f49128436d438e&lt;/model&gt;&lt;model_id&gt;29b41e6b4725351021f49128436d438e&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:10&lt;/sys_created_on&gt;&lt;sys_id&gt;21b41e6b4725351021f49128436d4392&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 12:31:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;task_sla_record&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;task_sla_record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="test"&gt;29b41e6b4725351021f49128436d438e&lt;/model&gt;&lt;model_id&gt;29b41e6b4725351021f49128436d438e&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="task_sla"&gt;task_sla&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:10&lt;/sys_created_on&gt;&lt;sys_id&gt;e5b41e6b4725351021f49128436d439f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 12:31:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=29b41e6b4725351021f49128436d438e^sys_idNOT IN61b41e6b4725351021f49128436d43bf,79b41e6b4725351021f49128436d43c9,ab033fe347a9351021f49128436d43b6"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;29b41e6b4725351021f49128436d438e&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;61b41e6b4725351021f49128436d43bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 12:31:22&lt;/sys_updated_on&gt;&lt;ui_id&gt;1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=61b41e6b4725351021f49128436d43bf"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;61b41e6b4725351021f49128436d43bf&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;69b41e6b4725351021f49128436d43c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:11&lt;/sys_updated_on&gt;&lt;value&gt;x_950909_car_park_tasknamecard&lt;/value&gt;&lt;variable display_value="Table"&gt;d909f99587003300663ca1bb36cb0ba4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=61b41e6b4725351021f49128436d43bf"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;61b41e6b4725351021f49128436d43bf&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;21b41e6b4725351021f49128436d43c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:11&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value&gt;number={{SLA Task_1.task_sla_record.task.number}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;61b41e6b4725351021f49128436d43bf&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;e5b41e6b4725351021f49128436d43c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:11&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=61b41e6b4725351021f49128436d43bf"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=61b41e6b4725351021f49128436d43bf"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;29b41e6b4725351021f49128436d438e&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;79b41e6b4725351021f49128436d43c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 12:31:22&lt;/sys_updated_on&gt;&lt;ui_id&gt;42275f51-9d2a-4a60-872e-874113c4cebd&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=79b41e6b4725351021f49128436d43c9"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;79b41e6b4725351021f49128436d43c9&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;f1b41e6b4725351021f49128436d43cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:11&lt;/sys_updated_on&gt;&lt;value&gt;x_950909_car_park_car_parking&lt;/value&gt;&lt;variable display_value="Table"&gt;8f400a1587003300663ca1bb36cb0b4b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=79b41e6b4725351021f49128436d43c9"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;79b41e6b4725351021f49128436d43c9&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;bdb41e6b4725351021f49128436d43ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:11&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value&gt;u_user_id={{1e4fad36-0a1f-4c9a-9e9e-94dc7e589f73.Record.u_user_id.sys_id}}^sys_created_onONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;79b41e6b4725351021f49128436d43c9&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;71b41e6b4725351021f49128436d43cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:11&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=79b41e6b4725351021f49128436d43c9"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=79b41e6b4725351021f49128436d43c9"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="SLA Percentage Timer"&gt;a1a50c4573873300d70877186bf6a762&lt;/action_type&gt;&lt;action_type_parent display_value="SLA Percentage Timer"&gt;6f0ebf3c73833300d70877186bf6a729&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="test"&gt;29b41e6b4725351021f49128436d438e&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 12:31:22&lt;/sys_created_on&gt;&lt;sys_id&gt;ab033fe347a9351021f49128436d43b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 12:31:22&lt;/sys_updated_on&gt;&lt;ui_id&gt;105e7147-b7db-4e97-874f-fe95d70d883c&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ab033fe347a9351021f49128436d43b6"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;ab033fe347a9351021f49128436d43b6&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 12:31:22&lt;/sys_created_on&gt;&lt;sys_id&gt;23033fe347a9351021f49128436d43b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 12:31:22&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObject":{"duration":{"$cv":{"$c":"java.lang.String","$v":""}},"relative_duration_works_on":{"$cv":{"$c":"java.lang.String","$v":""}},"is_repair":{"$cv":{"$c":"java.lang.String","$v":"false"}},"duration_type":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDcdbd0dc2bc7233000dbdb4d30db4851a":{"duration":"String","duration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"duration\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}"},"relative_duration_works_on":"String","relative_duration_works_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"relative_duration_works_on\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"32\"}"},"is_repair":"Boolean","is_repair.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"is_repair\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"32\"}"},"duration_type":"String","duration_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"duration_type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}"}},"FlowDesigner:FDcdbd0dc2bc7233000dbdb4d30db4851a.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDcdbd0dc2bc7233000dbdb4d30db4851a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"sla_flow_inputs\",\"mandatory\":\"false\",\"order\":\"100\",\"max_length\":\"4096\"}"}},"serializationFormat":"JSON"}&lt;/value&gt;&lt;variable display_value="SLA Flow Inputs"&gt;2da50c4573873300d70877186bf6a76e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;ab033fe347a9351021f49128436d43b6&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 12:31:22&lt;/sys_created_on&gt;&lt;sys_id&gt;e3033fe347a9351021f49128436d43b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 12:31:22&lt;/sys_updated_on&gt;&lt;value&gt;2&lt;/value&gt;&lt;variable display_value="Percentage"&gt;29a50c4573873300d70877186bf6a764&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_a1a50c4573873300d70877186bf6a762^id=ab033fe347a9351021f49128436d43b6"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=ab033fe347a9351021f49128436d43b6"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=ab033fe347a9351021f49128436d43b6"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e^sys_idNOT IN29b41e6b4725351021f49128436d43a3,a1b41e6b4725351021f49128436d439c"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;task_sla_record&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;task_sla_record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:10&lt;/sys_created_on&gt;&lt;sys_id&gt;29b41e6b4725351021f49128436d43a3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;sla_flow_inputs&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;sla_flow_inputs&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-04 05:39:10&lt;/sys_created_on&gt;&lt;sys_id&gt;a1b41e6b4725351021f49128436d439c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-04 05:39:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_29b41e6b4725351021f49128436d438e"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;c0c341174721f11021f49128436d43eb&lt;/sys_id&gt;&lt;latest_snapshot&gt;29b41e6b4725351021f49128436d438e&lt;/latest_snapshot&gt;&lt;compiler_build/&gt;&lt;/sys_hub_flow&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1064293453</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:04:51</sys_created_on>
+        <sys_id>1006e45147f1b11021f49128436d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b1377abba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:04:51</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>5806e45100f1b1109a9792bfbf2d4931</update_guid>
+        <update_guid_history>5806e45100f1b1109a9792bfbf2d4931:1064293453,08137fe34ba93510a9f464b465450c6a:-1256040144,17033fe391a93510e324631dc4b88b5e:-492176145,f103fbe3f4a93510d01bd93743df8a55:403475479,42b45e6b5f253510ffd84905764fcd3c:-930008949,29b41e6b912535109aaf0551d8f00468:-147579372,87a4da6b752535107bd0dc36f1b20059:-2107502844,7cae022735253510ff20dbbef9e8046e:-1777390211,363ace6f19e13510d8aa2a6be2218fc4:830343091,1584cd175e21f110b2cf2ed3835e8ca7:-1503821325,08c381177321f110278b452af23bf9ea:1325701100</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 08:05:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>53f1e970dd0947c1bc30a518815eb6d9</sys_id>
+        <sys_metadata>c0c341174721f11021f49128436d43eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_c0c341174721f11021f49128436d43eb</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_c0c341174721f11021f49128436d43eb">1006e45147f1b11021f49128436d4332</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 08:05:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter table="x_950909_car_park_detail">sys_created_by=javascript:gs.getUserName();<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName();"/>
+        </filter>
+        <glyph>th-list</glyph>
+        <id/>
+        <maximum_entries/>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">69e354db4749b11021f49128436d43f5</sp_column>
+        <sp_page display_value="car_form">85d89c134789b11021f49128436d4397</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-08 05:06:58</sys_created_on>
+        <sys_id>400454db4749b11021f49128436d43fa</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_instance_vlist_400454db4749b11021f49128436d43fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 06:15:39</sys_updated_on>
+        <table>x_950909_car_park_detail</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "u_state_approve",
+		"displayValue": "u_state_approve"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=400454db4749b11021f49128436d43fa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sp_instance_vlist_400454db4749b11021f49128436d43fa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;number&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="x_950909_car_park_detail"&gt;sys_created_by=javascript:gs.getUserName();&lt;item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName();"/&gt;&lt;/filter&gt;&lt;glyph&gt;th-list&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries/&gt;&lt;order&gt;2&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;69e354db4749b11021f49128436d43f5&lt;/sp_column&gt;&lt;sp_page display_value="car_form"&gt;85d89c134789b11021f49128436d4397&lt;/sp_page&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-08 05:06:58&lt;/sys_created_on&gt;&lt;sys_id&gt;400454db4749b11021f49128436d43fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_400454db4749b11021f49128436d43fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-27 06:15:39&lt;/sys_updated_on&gt;&lt;table&gt;x_950909_car_park_detail&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "u_state_approve",
+		"displayValue": "u_state_approve"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=400454db4749b11021f49128436d43fa"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1438760260</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 06:15:39</sys_created_on>
+        <sys_id>27e9921d47ad391021f49128436d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ad54761cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 06:15:39</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>2fe9921d64ad39108d2d703c13de3813</update_guid>
+        <update_guid_history>2fe9921d64ad39108d2d703c13de3813:1438760260,0cd9561d55ad39104cb53b497bda6673:174275027,35654259346d391029c15136a7587406:566682789,c6c9ec3c1c69b51009e708703ab5ac00:-361183034,085d6e8b20153110f00234bc61194cc6:637907247,a72daa8b0a153110819a820c80d51a74:-1133250873,d50fe5222e5db110dd7bcf54950438f5:-1642720856,e02950532f89b110cbfa51ce4e3b8d1f:605322148,6435985f7049b110b7e499c5f754551b:330516823,bee4145fcc49b11011c8c70d9acef984:-561863193,4284541f5149b110e41d2b895f63e0c0:330516823,d404541f1249b1106c6e463bffed81b9:1661284108</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">680a1a1d47ad391021f49128436d43d7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 06:15:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>14e207be7f7f493ea43d77e076921799</sys_id>
+        <sys_metadata>400454db4749b11021f49128436d43fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_400454db4749b11021f49128436d43fa</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_400454db4749b11021f49128436d43fa">27e9921d47ad391021f49128436d4314</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 06:15:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

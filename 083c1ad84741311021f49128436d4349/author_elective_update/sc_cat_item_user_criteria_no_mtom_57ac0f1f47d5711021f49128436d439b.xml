@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Car parking reservation">f64205c54709711021f49128436d433a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 04:49:31</sys_created_on>
+        <sys_id>57ac0f1f47d5711021f49128436d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car parking reservation.SNC External</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_57ac0f1f47d5711021f49128436d439b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 04:49:31</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_57ac0f1f47d5711021f49128436d439b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Car parking reservation">f64205c54709711021f49128436d433a</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-21 04:49:31</sys_created_on><sys_id>57ac0f1f47d5711021f49128436d439b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Car parking reservation.SNC External</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_57ac0f1f47d5711021f49128436d439b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-21 04:49:31</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1412230013</payload_hash>
+        <record_name>Car parking reservation.SNC External</record_name>
+        <reverted_from/>
+        <source>468668b34720311021f49128436d434e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-08-15 23:13:29</sys_created_on>
+        <sys_id>07dc835f47d5711021f49128436d4379</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>189fb79c5a80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>c3dc835f14d571108107695fc6f31e79</update_guid>
+        <update_guid_history>c3dc835f14d571108107695fc6f31e79:1412230013</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Car parking reservation.SNC External">87dc835f47d5711021f49128436d437b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 04:50:19</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>cc575ad749cf49b4b6cd4ed8bedab490</sys_id>
+        <sys_metadata>57ac0f1f47d5711021f49128436d439b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car parking reservation.SNC External</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_57ac0f1f47d5711021f49128436d439b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_57ac0f1f47d5711021f49128436d439b">07dc835f47d5711021f49128436d4379</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 04:50:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_relative_duration">
+    <cmn_relative_duration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>close case ไม่เข้าจอด</name>
+        <script><![CDATA[// Next business day by 4pm if before 10am
+// var days = 0;
+// var tablesla = new GlideRecord('task_sla');
+// tablesla.addEncodedQuery("^ORDERBYDESCstart_time");
+// tablesla.query();
+// if(tablesla.next()){
+// 	var task = tablesla.getDisplayValue('task');
+// }
+var a = current.u_all_in;
+var create = new GlideDateTime(current.sys_created_on);
+var create_m = create.getDate().getByFormat('MM');
+var create_day = create.getDate().getByFormat('dd');
+
+if(a==true){
+	var all = new GlideDateTime(current.u_date_all_in);
+	var all_m = all.getDate().getByFormat('MM');
+	var all_day = all.getDate().getByFormat('dd');
+	
+	if(create_m == all_m && create_day==all_day){
+		calculator.calcRelativeDueDate(calculator.startDateTime, 0, "21:00:00");
+	}else{
+		var sub2 = GlideDateTime.subtract(create,all).getDisplayValue();
+		var day1 = parseInt(sub2);
+		day1++;
+		calculator.calcRelativeDueDate(calculator.startDateTime, day1, "21:00:00");
+	}
+
+}else if (a==false){
+	var end = new GlideDateTime(current.u_end_dt);
+	var end_h = new GlideTime();
+    end_h.setValue("07:00:00");
+    end.add(end_h);
+	var end_m = end.getDate().getByFormat('MM');
+	var end_day = end.getDate().getByFormat('dd');
+	
+	if(create_m == end_m && create_day == end_day){
+// 		var s = GlideDateTime.subtract(create,end);
+		var end_time = end.getTime().getByFormat("HH:mm:ss");
+		
+calculator.calcRelativeDueDate(calculator.startDateTime, 0, end_time);
+		
+	}else{
+		var s1 = GlideDateTime.subtract(create,end);
+		var d = s1.getDisplayValue();
+		d = parseInt(d);
+		var end_time1 = end.getTime().getByFormat('HH:mm:ss');
+		calculator.calcRelativeDueDate(calculator.startDateTime, d, end_time1);
+	}
+}
+
+
+	// if(all!=""){
+	// 	if(create_m == all_m && create_day==all_day){
+	// calculator.calcRelativeDueDate(calculator.startDateTime, 0, "21:00:00");
+	// 	}else{
+	// 		var sub2 = GlideDateTime.subtract(create,all).getDisplayValue();
+	// 		var day1 = parseInt(sub2);
+	// calculator.calcRelativeDueDate(calculator.startDateTime, 55, "21:00:00");
+	// 	}
+	// }else if(all == ""){
+	// 	if(create_m == end_m && create_day == end_day){
+	// 		var s = GlideDateTime.subtract(create,end);
+	//         var hours = new GlideDateTime(s).getTime().getByFormat('HH:mm:ss');
+	//   calculator.calcRelativeDueDate(calculator.startDateTime, 0, hours);
+	// 	}else{
+	// 		var s1 = GlideDateTime.subtract(create,end);
+	//         var d = s1.getDisplayValue();
+	// 		d = parseInt(d);
+	//         var h = new GlideDateTime(s1).getTime().getByFormat("HH:mm:ss");
+	//   calculator.calcRelativeDueDate(calculator.startDateTime, d, h);
+	// 	}
+	// }
+
+	// var table = new GlideRecord('x_950909_car_park_car_parking');
+	// // table.addQuery('number', task);
+	// table.addEncodedQuery("^ORDERBYDESCsys_created_on");
+	// table.query();
+	// if (table.next()) {
+	//     var number = table.getValue('number');
+	//     var createe = table.getValue('sys_created_on');
+	//     var end = table.getValue('u_end_dt');
+	// }
+
+	// var create = new GlideDateTime(createe);
+	// var create_y = new GlideDateTime(create).getDate().getByFormat('yyyy');
+	// var create_m = new GlideDateTime(create).getDate().getByFormat('MM');
+	// var create_day = new GlideDateTime(create).getDate().getByFormat('dd');
+
+
+	// if (end == "") {
+	//     var all = table.getValue('u_date_all_in');
+	//     var all_m = new GlideDateTime(all).getDate().getByFormat('MM');
+	//     var all_day = new GlideDateTime(all).getDate().getByFormat('dd');
+	//     if (create_m == all_m) {
+	//         var sub = all_day - create_day;
+	//         // calculator.calcRelativeDueDate(calculator.startDateTime, sub, "21:00:00");
+	//         gs.info("ADA");
+	//     } else {
+	//         var plus = 0;
+	//         var sub_m = all_m - create_m;
+	//         // var m1 = new Date(create_y,create_m,0);
+	//         // create_m++;
+	//         while (create_m < all_m) {
+	//             var m1 = new Date(create_y, create_m, 0);
+	//             plus = plus + m1.getDate();
+	//             //plus = plus + 1;
+	//             // gs.info(plus);
+	//             gs.info(m1.getDate());
+	//             // gs.info(all_day)
+	//             create_m++;
+	//         }
+	//         var p = parseInt(plus);
+	//         p += parseInt(all_day);
+	// //         plus = p.toString();
+
+	//         calculator.calcRelativeDueDate(calculator.startDateTime, p, "21:00:00");
+	//     }
+	// } else if (end != "") {
+	//     var end_m = new GlideDateTime(end).getDate().getByFormat('MM');
+	//     var end_day = new GlideDateTime(end).getDate().getByFormat('dd');
+	//     var end_time = new GlideDateTime(end).getTime().getByFormat('HH:mm:ss');
+	// }]]></script>
+        <sys_class_name>cmn_relative_duration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 13:50:20</sys_created_on>
+        <sys_id>b8d1efa44731311021f49128436d4372</sys_id>
+        <sys_mod_count>93</sys_mod_count>
+        <sys_name>close case ไม่เข้าจอด</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>cmn_relative_duration_b8d1efa44731311021f49128436d4372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 06:11:11</sys_updated_on>
+    </cmn_relative_duration>
+</record_update>

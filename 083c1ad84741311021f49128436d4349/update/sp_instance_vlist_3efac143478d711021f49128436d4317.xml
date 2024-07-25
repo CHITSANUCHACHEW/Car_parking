@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter table="x_950909_car_park_car_parking">sys_created_by=javascript:gs.getUserName();^u_state_approve=2<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName();"/>
+            <item display_value="อนุมัติเรียบเร้อย" endquery="false" field="u_state_approve" goto="false" newquery="false" operator="=" or="false" value="2"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">92c57bbe4709711021f49128436d437f</sp_column>
+        <sp_page display_value="car_form">85d89c134789b11021f49128436d4397</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 14:28:41</sys_created_on>
+        <sys_id>3efac143478d711021f49128436d4317</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_instance_vlist_3efac143478d711021f49128436d4317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-08 05:32:15</sys_updated_on>
+        <table>x_950909_car_park_car_parking</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "u_state_approve",
+		"displayValue": "u_state_approve"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=3efac143478d711021f49128436d4317"/>
+</record_update>

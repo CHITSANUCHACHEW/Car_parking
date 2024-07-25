@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>398e684f47ed711021f49128436d4377</image>
+        <name>x_950909_car_park.Card-info-icon1.svg</name>
+        <size_bytes>2100</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 08:36:51</sys_created_on>
+        <sys_id>312aac0b47ed711021f49128436d43c9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_950909_car_park.Card-info-icon1.svg</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>db_image_312aac0b47ed711021f49128436d43c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 08:56:06</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>image</file_name>
+        <hash>d9d670a8afc5eebfe2ae717164c571faf77b9f45402e4e5f658abd4907da2d6d</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2100</size_bytes>
+        <size_compressed>978</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 08:55:45</sys_created_on>
+        <sys_id>398e684f47ed711021f49128436d4377</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-02 08:55:47</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>312aac0b47ed711021f49128436d43c9</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="398e684f47ed711021f49128436d4377">398e684f47ed711021f49128436d4377</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 08:55:45</sys_created_on>
+        <sys_id>798e684f47ed711021f49128436d4377</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>bVU9cxw3DO39Kzjbh0eAAElkfC6yzRVSq0KdEyu6myiSJ77x+efnYZfLO8Wpdt+S+HoA3n789v05XE5fzsf9lLNM4fh0ej6eARJP4fvp6fLb24/9lEIKOA7L1z9PLy/76fXt9WkKP/5+ef22n47n89dfd7vL5RIvOb7987zjlNIOzqdPHz5+/Xw+hi/76T7XKJRzSDHlzLm1mXKUcvsFgYgikweUmHD4wMWiqM4psKXYqATiSKlkTyfkAlMxfz+w1Wgic2aKrbb1HGmzUcxV1/fV20P3Pvs3RKyl4LzbXbNxj2R6k/H65TZjVJUzhV/wRUilafipzseNtd9fPv/x17S7JYXUYlMOhMRYQYlYNMobDiQSC3KsEklRu3DkhGeFWbM7YlxrqIsQLelMjHuFF6xWUZvG1AgYRLFeMZeYUwG7cJ/ygbjGovbAtSCducOFOiNkobSGAa5CV7xcv3qxHGuj9Wl6YLSHLW9eOxxeWG3xvkUZ+L1XrhzFgNec545HTVwwRqSjZtCGMLxxcseiMWvdOJsZHBrnwSlnL3Ywzqi9Em34wAkjI3Kg2tBpO/SOPS6tqwkXW4rMulat8jMLcNgKo3wMLvN6v6D8nDGv6GXj6PPHWdE75NU0mgnylmgJdCGBYjL8vfPv8cTt70hBy2Y8k+ZYqA7npIoqRuz/5I5isleF4tFYxhQqVqF2iNsJKwKkCGgDZuxVKfOAJVpFiM1WKKqPXPe8Qux8jg3sj2NuYOFqvcHuu8Mt8mbc87pN+vGeBZ3jLeuZdeFnu+xjUXIdvgbuoa54zWSY90SH916IP69VulXzZm3WA3fvG96ir9Y9tXeJD7m4HE/np/dygRVATmtNYvwAepJSOVCqmH3nCxrm6SzfsbiYuWLkuBRoIEmCfqFZIM6wC0vvoLfIUtzO50KxmtBHrBjaUQp2o4SMNkBDZ6ogpQbJMTcfH6yUwB1EC5uKcA39gfQpNio1pNMaRtpCUQyjn0PCM57YPKGkA8PMzH8IHVNKmFb0u0nUjCcJJBzhsLmCvjuJhWYqINenGhuMgV+qy6jWN6K5uStAG/iAHYCn9tDZO3Q2H+/7ARzDgLFaLiW8TF9b4vlnPNG0RayhPCYeD2wtGCy6bKJuVsRLUC700/OjYNjI4tw6AmmoqZpr9XIKrSsGSgnj17IGqE6tGBT8S6B2OUAEU2q8/BhqpeDiJr7Q6EHDHw7XRMhXA+oIVYQKqInvGYFzC1BqUZczZoQFxk+0QoQJqmKIt2Ia3HQK/mcI/Yf+6cO/w0E/TjQIAAA=</data>
+        <length>1292</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="398e684f47ed711021f49128436d4377">398e684f47ed711021f49128436d4377</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 08:55:45</sys_created_on>
+        <sys_id>f98e684f47ed711021f49128436d4377</sys_id>
+    </sys_attachment_doc>
+</record_update>

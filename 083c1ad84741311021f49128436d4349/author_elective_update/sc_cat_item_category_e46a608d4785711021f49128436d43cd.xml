@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Name card">5129e80d4785711021f49128436d43fd</sc_cat_item>
+        <sc_category display_value="Emergency Changes">4ab2fb3a0a0a0b9900d70824a02812ae</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 06:58:25</sys_created_on>
+        <sys_id>e46a608d4785711021f49128436d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Changes.Name card</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sc_cat_item_category_e46a608d4785711021f49128436d43cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 06:58:25</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sc_cat_item_category_e46a608d4785711021f49128436d43cd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Name card">5129e80d4785711021f49128436d43fd</sc_cat_item><sc_category display_value="Emergency Changes">4ab2fb3a0a0a0b9900d70824a02812ae</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-01 06:58:25</sys_created_on><sys_id>e46a608d4785711021f49128436d43cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Emergency Changes.Name card</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>sc_cat_item_category_e46a608d4785711021f49128436d43cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-01 06:58:25</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1820291270</payload_hash>
+        <record_name>Emergency Changes.Name card</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 06:58:25</sys_created_on>
+        <sys_id>206a608d4785711021f49128436d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a4f8930a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 06:58:25</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>686a608d22857110e09318327e3f59d0</update_guid>
+        <update_guid_history>686a608d22857110e09318327e3f59d0:-1820291270</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Emergency Changes.Name card">038a248d4785711021f49128436d4396</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 06:59:08</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>92e8825f488e4a78bfbc2e52d1b584d1</sys_id>
+        <sys_metadata>e46a608d4785711021f49128436d43cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Changes.Name card</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_e46a608d4785711021f49128436d43cd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_e46a608d4785711021f49128436d43cd">206a608d4785711021f49128436d43d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 06:59:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>1200</order>
+        <sc_cat_item display_value="Name card">5129e80d4785711021f49128436d43fd</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 08:38:19</sys_created_on>
+        <sys_id>33310d454709711021f49128436d434c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ที่อยู่.Name card</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>io_set_item_33310d454709711021f49128436d434c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-01 08:38:54</sys_updated_on>
+        <variable_set display_value="ที่อยู่">7a7c280147c5711021f49128436d4364</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>io_set_item_33310d454709711021f49128436d434c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>1200</order><sc_cat_item display_value="Name card">5129e80d4785711021f49128436d43fd</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-01 08:38:19</sys_created_on><sys_id>33310d454709711021f49128436d434c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>ที่อยู่.Name card</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>io_set_item_33310d454709711021f49128436d434c</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-01 08:38:54</sys_updated_on><variable_set display_value="ที่อยู่">7a7c280147c5711021f49128436d4364</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1358672804</payload_hash>
+        <record_name>ที่อยู่.Name card</record_name>
+        <reverted_from/>
+        <source>dc61cd454709711021f49128436d43ab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-01 08:38:54</sys_created_on>
+        <sys_id>a06101854709711021f49128436d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a4fe530280000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-01 08:38:54</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>286101858009711084c49e6d8aa09f12</update_guid>
+        <update_guid_history>286101858009711084c49e6d8aa09f12:1358672804,ec61018522097110ce1ead0bf8f48c0f:1287187295</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ที่อยู่.Name card">581ddb80475d711021f49128436d4310</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-11 03:40:53</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>4828a2357bed4f3ca46870e743dce924</sys_id>
+        <sys_metadata>33310d454709711021f49128436d434c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ที่อยู่.Name card</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>io_set_item_33310d454709711021f49128436d434c</sys_update_name>
+        <sys_update_version display_value="io_set_item_33310d454709711021f49128436d434c">a06101854709711021f49128436d4313</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-11 03:40:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

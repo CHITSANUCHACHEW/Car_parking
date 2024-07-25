@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>it-added-tooltip.html</id>
+        <sp_widget/>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 09:23:30</sys_created_on>
+        <sys_id>ec1504034789711021f49128436d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>it-added-tooltip.html</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_ng_template_ec1504034789711021f49128436d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 09:23:30</sys_updated_on>
+        <template><![CDATA[<div ng-click="toggleCart()" class="item-added-tooltip">${Item has been added to your cart.}</div>]]></template>
+    </sp_ng_template>
+</record_update>

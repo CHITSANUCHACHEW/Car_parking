@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="Admin_IT_car_parking" name="Admin_IT_car_parking">dc9000f74799b11021f49128436d43c4</group_id>
+        <report_id display_value="Location ที่ผู้ใช้งานจองมากที่สุด">2a247c7d47e5311021f49128436d4324</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 12:33:40</sys_created_on>
+        <sys_id>f60af8354729311021f49128436d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2a247c7d47e5311021f49128436d4324</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_report_users_groups_f60af8354729311021f49128436d43a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 12:33:40</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>

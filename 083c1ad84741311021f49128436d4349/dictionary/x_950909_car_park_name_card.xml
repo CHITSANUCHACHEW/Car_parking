@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="d209e40d4785711021f49128436d438c" label="Name Card" max_length="40" name="x_950909_car_park_name_card" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="ซอย" max_length="40" name="u_alley" type="string"/>
+        <element label="ยืนยันข้อมูล" max_length="40" name="u_confirm" type="boolean"/>
+        <element label="อำเภอ" max_length="40" name="u_district" type="string"/>
+        <element label="อีเมล" max_length="40" name="u_email" type="string"/>
+        <element label="ชื่อ" max_length="40" name="u_fname" type="string"/>
+        <element label="เลขบัตรประชาชน" max_length="40" name="u_id_card" type="string"/>
+        <element label="นามสกุล" max_length="40" name="u_lname" type="string"/>
+        <element label="หมู่" max_length="40" name="u_moo" type="string"/>
+        <element label="บ้านเลขที่" max_length="40" name="u_number_home" type="string"/>
+        <element label="เบอร์มือถือ" max_length="40" name="u_phone" type="string"/>
+        <element label="จังหวัด" max_length="40" name="u_province" type="string"/>
+        <element label="ถนน" max_length="40" name="u_road" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="state" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="สมาชิก" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="ยกเลิกสมาชิก" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="ตำบล" max_length="40" name="u_subdistrict" type="string"/>
+        <element label="อีเมล รอง" max_length="40" name="u_subemail" type="string"/>
+        <element label="เบอร์มือถือ รอง" max_length="40" name="u_sub_phone" type="string"/>
+        <element label="UserID" max_length="32" name="u_user_id" reference="sys_user" type="reference"/>
+        <element label="หมู่บ้าน" max_length="40" name="u_village" type="string"/>
+        <element label="รหัสไปรษณีย์" max_length="40" name="u_zipcode" type="string"/>
+        <index name="index">
+            <element name="u_user_id"/>
+        </index>
+    </element>
+</database>

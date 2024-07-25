@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_footer">
+    <sn_ex_sp_footer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copyright/>
+        <logo>e12fd1b34711f11021f49128436d43d9</logo>
+        <name>Footer</name>
+        <organization_content>1381 ถ. พิบูลสงคราม แขวงวงศ์สว่าง &#13;
+เขตบางซื่อ กรุงเทพมหานคร 10800&#13;
+&#13;
+(+66) 81-313-3444&#13;
+(+66) 61-444-1122</organization_content>
+        <portal>870dff684745311021f49128436d43b1</portal>
+        <sys_class_name>sn_ex_sp_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-22 09:51:00</sys_created_on>
+        <sys_id>cb1b15ff47ddb11021f49128436d431f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Footer</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sn_ex_sp_footer_cb1b15ff47ddb11021f49128436d431f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-22 14:33:00</sys_updated_on>
+    </sn_ex_sp_footer>
+</record_update>

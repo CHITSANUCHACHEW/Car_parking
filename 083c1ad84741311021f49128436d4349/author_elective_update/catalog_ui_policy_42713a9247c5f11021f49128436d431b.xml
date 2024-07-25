@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:e7ffa2de4785f11021f49128436d43bd=true^EQ</catalog_conditions>
+        <catalog_item display_value="Car parking reservation">f64205c54709711021f49128436d433a</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.clearValue('u_date_all_in');
+	g_form.clearValue('u_hours');
+	g_form.clearValue('u_price');
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setValue('u_price',"150 บาท");
+	g_form.clearValue('u_start_dt');
+	g_form.clearValue('u_end_dt');
+}]]></script_true>
+        <set_values/>
+        <short_description>เหมาทั้งวัน</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 14:01:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42713a9247c5f11021f49128436d431b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>เหมาทั้งวัน</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>catalog_ui_policy_42713a9247c5f11021f49128436d431b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 17:31:34</sys_updated_on>
+        <table/>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>catalog_ui_policy_42713a9247c5f11021f49128436d431b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:e7ffa2de4785f11021f49128436d43bd=true^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Car parking reservation"&gt;f64205c54709711021f49128436d433a&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+	g_form.clearValue('u_date_all_in');
+	g_form.clearValue('u_hours');
+	g_form.clearValue('u_price');
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	g_form.setValue('u_price',"150 บาท");
+	g_form.clearValue('u_start_dt');
+	g_form.clearValue('u_end_dt');
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;เหมาทั้งวัน&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-05 14:01:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;42713a9247c5f11021f49128436d431b&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;เหมาทั้งวัน&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Car parking reservation" source="x_950909_car_park"&gt;083c1ad84741311021f49128436d4349&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car parking reservation"&gt;083c1ad84741311021f49128436d4349&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_42713a9247c5f11021f49128436d431b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-05 17:31:34&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>522496332</payload_hash>
+        <record_name>เหมาทั้งวัน</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 17:31:34</sys_created_on>
+        <sys_id>d2a1afd24789f11021f49128436d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a66664bd30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 17:31:34</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>daa1afd27089f11083dd293d8f6f6a0f</update_guid>
+        <update_guid_history>daa1afd27089f11083dd293d8f6f6a0f:522496332,8ec0a316b689f11095fc4ee991173ffe:-1346444074,ea602fd25e89f110d8fb1988a4cc5114:894769547,e55027d2d989f11039b85899eee4bb04:-116455893,b5dfd3d2f789f110d610b9e4fdea33fd:894769547,8abedf52fa89f1103f2306db07577f9b:-333609111,bc3d57120e89f1103bae7f42acc8fc71:-775191333,fecc97de2a49f11078aa8b052c1a6351:-1431445121,ab9cdbde6049f110287a65612bb96d57:-626143059,b5ab171eab49f110c40dbfc71f274275:-1431445121,bc49571e3c49f1100467e898ed57f099:-775191333,74133e1699c5f11028799923ea6d5542:617766278,3df2b61625c5f110104ba1b6da125d8a:-1439065627,b4e27a167bc5f11019d17e644f558235:1985020166,9db2f21641c5f11017e74ed654aea70a:-1654551798,2bf136d258c5f1109ccd308a51d57947:1732091798,eff136d2abc5f11031d83feba3464b44:285992341</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="เหมาทั้งวัน">0e34ab2a4709311021f49128436d43c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-06 12:21:15</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>55c71585580447e58a6d6fbeeae15651</sys_id>
+        <sys_metadata>42713a9247c5f11021f49128436d431b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>เหมาทั้งวัน</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_42713a9247c5f11021f49128436d431b</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_42713a9247c5f11021f49128436d431b">d2a1afd24789f11021f49128436d4310</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-06 12:21:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Car parking reservation">f64205c54709711021f49128436d433a</catalog_item>
+        <catalog_variable>IO:672860f94701711021f49128436d43ca</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 14:05:26</sys_created_on>
+        <sys_id>ec72721647c5f11021f49128436d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_hours</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ec72721647c5f11021f49128436d43ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 14:05:26</sys_updated_on>
+        <table/>
+        <ui_policy display_value="เหมาทั้งวัน">42713a9247c5f11021f49128436d431b</ui_policy>
+        <variable>u_hours</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>catalog_ui_policy_action_ec72721647c5f11021f49128436d43ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Car parking reservation">f64205c54709711021f49128436d433a</catalog_item><catalog_variable>IO:672860f94701711021f49128436d43ca</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-05 14:05:26</sys_created_on><sys_id>ec72721647c5f11021f49128436d43ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_hours</sys_name><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>catalog_ui_policy_action_ec72721647c5f11021f49128436d43ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-05 14:05:26</sys_updated_on><table/><ui_policy display_value="เหมาทั้งวัน">42713a9247c5f11021f49128436d431b</ui_policy><variable>u_hours</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>466982512</payload_hash>
+        <record_name>u_hours</record_name>
+        <reverted_from/>
+        <source>049e12944781311021f49128436d43d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 14:05:26</sys_created_on>
+        <sys_id>6e72b2d247c5f11021f49128436d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a65a9913e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 14:05:26</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>a672b2d28ec5f110bde5c38da08449e3</update_guid>
+        <update_guid_history>a672b2d28ec5f110bde5c38da08449e3:466982512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_hours">c234ab2a4709311021f49128436d43c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-06 12:21:15</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>06e6e8f6e0794ed88254a1998ced62d1</sys_id>
+        <sys_metadata>ec72721647c5f11021f49128436d43ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_hours</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_ec72721647c5f11021f49128436d43ba</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_ec72721647c5f11021f49128436d43ba">6e72b2d247c5f11021f49128436d43e3</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-06 12:21:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

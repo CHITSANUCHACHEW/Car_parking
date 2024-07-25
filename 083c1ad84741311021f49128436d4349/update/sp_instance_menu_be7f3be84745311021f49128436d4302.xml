@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-31 09:13:00</sys_created_on>
+        <sys_id>be7f3be84745311021f49128436d4302</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Car Parking Menu</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sp_instance_menu_be7f3be84745311021f49128436d4302</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 16:21:16</sys_updated_on>
+        <title>Car Parking Menu</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="delete_multiple" query="documentkey=be7f3be84745311021f49128436d4302"/>
+</record_update>

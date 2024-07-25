@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="DELETE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <page_registry display_value="">7d7f073644857110eb60c95ddb646807</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 05:29:04</sys_created_on>
+        <sys_id>b97f07367b857110cc779663f010eb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_b97f07367b857110cc779663f010eb09</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 05:29:04</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car parking reservation">083c1ad84741311021f49128436d4349</application>
+        <file_path/>
+        <instance_id>170ba93adb00951052cec59705961995</instance_id>
+        <instance_name>dev129080</instance_name>
+        <name>sys_ux_registry_m2m_category_b97f07367b857110cc779663f010eb09</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category"><sys_ux_registry_m2m_category action="INSERT_OR_UPDATE"><experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category><page_registry display_value="">7d7f073644857110eb60c95ddb646807</page_registry><sys_class_name>sys_ux_registry_m2m_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-07 05:29:04</sys_created_on><sys_id>b97f07367b857110cc779663f010eb09</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package><sys_policy/><sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope><sys_update_name>sys_ux_registry_m2m_category_b97f07367b857110cc779663f010eb09</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-07 05:29:04</sys_updated_on></sys_ux_registry_m2m_category></record_update>]]></payload>
+        <payload_hash>-425497332</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>468668b34720311021f49128436d434e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-08-15 23:13:29</sys_created_on>
+        <sys_id>5b72844f4749711021f49128436d430e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>189fb79c5a80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application Category M2M</type>
+        <update_guid>1b72844f87497110ea1d137ee6af960e</update_guid>
+        <update_guid_history>1b72844f87497110ea1d137ee6af960e:-425497332</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-07 09:11:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_registry_m2m_category">sys_ux_registry_m2m_category</sys_db_object>
+        <sys_id>958ab1be058b431c9bf7bba93209e329</sys_id>
+        <sys_metadata>b97f07367b857110cc779663f010eb09</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_scope_delete display_value="">82482d33b9ae48e6913d08ce4cff8424</sys_scope_delete>
+        <sys_update_name>sys_ux_registry_m2m_category_b97f07367b857110cc779663f010eb09</sys_update_name>
+        <sys_update_version display_value="sys_ux_registry_m2m_category_b97f07367b857110cc779663f010eb09">5b72844f4749711021f49128436d430e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-07 09:11:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

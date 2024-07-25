@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>564ed2d547b9b11021f49128436d4316</image>
+        <name>x_950909_car_park.footer-icon.svg</name>
+        <size_bytes>2409</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 16:50:14</sys_created_on>
+        <sys_id>390e569547b9b11021f49128436d43f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_950909_car_park.footer-icon.svg</sys_name>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+        <sys_update_name>db_image_390e569547b9b11021f49128436d43f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 16:50:23</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>image</file_name>
+        <hash>d1affc0f055b9760745859d0bc8f290c57637180c64c1a22ca58908b39d794f9</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2409</size_bytes>
+        <size_compressed>1156</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 16:50:22</sys_created_on>
+        <sys_id>564ed2d547b9b11021f49128436d4316</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2023-10-09 16:50:23</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>390e569547b9b11021f49128436d43f6</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="564ed2d547b9b11021f49128436d4316">564ed2d547b9b11021f49128436d4316</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 16:50:22</sys_created_on>
+        <sys_id>964ed2d547b9b11021f49128436d4316</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>bVbJbhtHEL37KxrjS3Jws2vpLTANJIM4PEjwITAPugiCRYlEGFIgx6b993k1nBlKciRArdfL61peVc/747dHd9rcd+t5QyE2br3aPK67eVO5cd82q9Mf++/zJrjgsOps8mGz3c6b3X63atz3f7e747xZd93Tb7PZ6XTyJ/H7w+OMQwgzUDcf3rx/uuvW7n7eXBP7yJQc+RBqpTZ60hTKiB059aIhC/4jskVeFvISiFtyJfuUMrZkLlSd7Wcfaib8u6jscxRtKQRPrP1qEF9itnNFJF3wmXE53NCO8+pjSNH2nSlGq6pZzXmy+hU2K7QmccHXkhMV98rNmzFkXw/bX94+3W12Xbjdbnaru8Ntjbf8a+OO3WH/z2revP2z/xkn3g15CV5Eo3Azex7NGDzMEBfJqyJCmj2lNGGn0Ufl6CL7GhBlReQqVxfVp1D1SoMvJNkl8bEotVI9S2LD2bIiyavU6lL0kgtfcAE/0zJXhC3SAjxCQssCnhDbAVrYa43RwaxYSuqxcrrgfvvEkoJPOfVDCbzIZkROI+kAJxLkMOizSyb8krSor5RkOZjcDnhyqTAyPTlcwjlgQ0CucvIxTvFqc/QF4xTPrJ5MN2O8M5lsJrzAJVqrLmL0lQPGc75uLHFUQjLiDMLe55TjTyEAXyZpM/RV4Jtt50AOsQiqsAv8goIAVqq4F/nhUsxsYPNCK8WJ7hm7XQY1VOF6hXRg5PF0qwXVkSdywJJKni5/ZfvNNXgC+FxK8DIh/eYtqm3Alm7lrKYahvwuuPoaQ6/aHsPbxCRuPA+va0bGR/4Bt8qeieJlPcAQjNP5AU/8Ix7vH85P9r20/+Y6Z4845MkhaIlUy3QAKklaLoQTHi4c8WjQeH40eOQfHcoWac6XdcE9+uz8gEf+CQ/3j+dH+17ZP3Wf03rTrV52ECt4MKSMRpXjsnqJNetCIGzR0krxkaCBfh79gyAF6LCiSgQjIkdZDVcKnPtMEmqR0ACKKQpSEWuDBINMOuwhtGTtMQWpLSQUSbDfHMrFFMgockfRozYhMfR7YrwFBX2t4LUoqP1cHaNMo2B/xTr6NQvsiDLg7Dj5IFzacV3QmCWS8RVG/5LoQ5Fe0ow6d3BTc4lttEJJZz+z9MpggX+KdgCtO4QFdc8jXhAqJ3NdDuFbnKN5cz3MW7/MqSzsOom9EJPl9zxt7KmomDUFLcvqIsAtuyVQ1FYr6gKtStgKTiyaifC4MMJfCw24mreMAm2ndXvMUnVqaVHHZE0/Wh1HdCsLHmyV/rFgLhZciaV/LLgokgH1sKo5GYI9mglWC9oCeTxA1bBY8hG0gqwYpgT1wWzruANOU3DO3v6PCO9XD0cM53fwr8Pd/Wa169wGsvz5hcR3Bs0b6AcdKjXuBwBhjp/PAVRMPg5Mn3ebDh8mX4+rw99Pd19Wn3afjyv7GDl2+ydnf9592W/3B7y59DvFjx97o/rF/cPDcdX1V7zcp/Y7TO5Buul+2NtctD87e+mKzQw+2nfQhzf/Aev1vKxpCQAA</data>
+        <length>1528</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="564ed2d547b9b11021f49128436d4316">564ed2d547b9b11021f49128436d4316</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 16:50:22</sys_created_on>
+        <sys_id>1a4ed2d547b9b11021f49128436d4316</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9b709c06478d711021f49128436d4328" sys_domain="global" table="x_950909_car_park_car_parking" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>d5b7cb5447b9311021f49128436d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_user_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>d9b7cb5447b9311021f49128436d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fname</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>ddb7cb5447b9311021f49128436d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>d1b7cb5447b9311021f49128436d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_id_card</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>d5b7cb5447b9311021f49128436d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>d9b7cb5447b9311021f49128436d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>ddb7cb5447b9311021f49128436d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state_approve</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>d1b7cb5447b9311021f49128436d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state_in_out</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>d5b7cb5447b9311021f49128436d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lname</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>91b7cb5447b9311021f49128436d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>95b7cb5447b9311021f49128436d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>99b7cb5447b9311021f49128436d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_confirm</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>9db7cb5447b9311021f49128436d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 17:17:26</sys_created_on>
+            <sys_id>91b7cb5447b9311021f49128436d432f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_950909_car_park_car_parking" sys_domain="global" view="Default view">9b709c06478d711021f49128436d4328</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 17:17:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_950909_car_park_car_parking</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-04 07:39:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b709c06478d711021f49128436d4328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_950909_car_park_car_parking</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+            <sys_update_name>sys_ui_section_9b709c06478d711021f49128436d4328</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-04 07:39:12</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

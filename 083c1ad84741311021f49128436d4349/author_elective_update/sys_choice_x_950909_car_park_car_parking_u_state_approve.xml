@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_state_approve" table="x_950909_car_park_car_parking" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_state_approve</element>
+            <name>x_950909_car_park_car_parking</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-07 07:08:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_state_approve</sys_name>
+            <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
+            <sys_update_name>sys_choice_x_950909_car_park_car_parking_u_state_approve</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-07 07:08:52</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state_approve</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>รอเจ้าหน้าที่ดำเนินการ</label>
+            <language>en</language>
+            <name>x_950909_car_park_car_parking</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-07 07:08:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c566f3e47c5711021f49128436d4388</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-20 09:15:44</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state_approve</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>อนุมัติเรียบเร้อย</label>
+            <language>en</language>
+            <name>x_950909_car_park_car_parking</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-07 07:08:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4566f3e47c5711021f49128436d438b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-20 09:16:11</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state_approve</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ยกเลิกการจอง</label>
+            <language>en</language>
+            <name>x_950909_car_park_car_parking</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-07 07:08:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88566f3e47c5711021f49128436d438d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-20 09:16:18</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state_approve</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>เจ้าหน้าที่ยกเลิก</label>
+            <language>en</language>
+            <name>x_950909_car_park_car_parking</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-21 07:40:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3a3b7574799711021f49128436d4329</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-21 07:40:59</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state_approve</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ไม่มีการตอบกลับจากเจ้าหน้าที่</label>
+            <language>en</language>
+            <name>x_950909_car_park_car_parking</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-22 15:29:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fb8e6bb4715f11021f49128436d4368</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-22 15:32:06</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
