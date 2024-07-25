@@ -63,25 +63,26 @@ section.page{
 }</css>
         <draft>false</draft>
         <dynamic_title_structure>Homepage</dynamic_title_structure>
+        <human_readable_url_structure/>
         <id>customer_car</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>false</public>
-        <roles>x_950909_car_park.admin,x_950909_car_park.customer</roles>
+        <roles>x_950909_car_park.admin,x_950909_car_park.customer,snc_external</roles>
         <seo_script display_value="SPSEOHeaderTags">f060f7b377011010d81e7811a91061e3</seo_script>
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-11 02:27:46</sys_created_on>
         <sys_id>195c0700471d711021f49128436d4364</sys_id>
-        <sys_mod_count>93</sys_mod_count>
+        <sys_mod_count>96</sys_mod_count>
         <sys_name>customer_car</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_page_195c0700471d711021f49128436d4364</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-16 10:55:56</sys_updated_on>
+        <sys_updated_on>2024-07-25 10:51:38</sys_updated_on>
         <title>Customer car</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

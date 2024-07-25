@@ -85,6 +85,7 @@ left: 15px;
 .v0fb269305b3212000d7ec7ad31f91ae2 .nav li &gt; span &gt; a{
 	color: #000000;
 }</css_variables>
+        <dark_theme/>
         <default>false</default>
         <enable_ais>false</enable_ais>
         <enable_favorites>false</enable_favorites>
@@ -108,19 +109,19 @@ left: 15px;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-31 09:03:05</sys_created_on>
         <sys_id>870dff684745311021f49128436d43b1</sys_id>
-        <sys_mod_count>154</sys_mod_count>
+        <sys_mod_count>155</sys_mod_count>
         <sys_name>Car parking</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_portal_870dff684745311021f49128436d43b1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-05 10:57:59</sys_updated_on>
+        <sys_updated_on>2024-07-25 09:00:55</sys_updated_on>
         <theme display_value="Theme Car parking">bd14967747d1f11021f49128436d431d</theme>
         <title>Car parking</title>
         <ts_index_group/>
         <url_suffix>cps</url_suffix>
-        <user_registration_config display_value="User Register">8f94760a47e9311021f49128436d4368</user_registration_config>
+        <user_registration_config display_value="User Register">5d6f4aee83eb02105703c296feaad372</user_registration_config>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=870dff684745311021f49128436d43b1"/>
     <sys_attachment action="INSERT_OR_UPDATE">
@@ -128,6 +129,7 @@ left: 15px;
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/svg+xml</content_type>
+        <encryption_context/>
         <file_name>logo</file_name>
         <hash>f334dec331213cfc1e3f3e1a104086e102c088f41c870ad805e133f486d6ec8d</hash>
         <image_height/>

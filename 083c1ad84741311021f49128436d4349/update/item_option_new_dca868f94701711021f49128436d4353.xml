@@ -17,6 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field>u_car_type</field>
@@ -75,17 +77,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-06 12:18:46</sys_created_on>
         <sys_id>dca868f94701711021f49128436d4353</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>ประเภทรถ</sys_name>
-        <sys_package/>
+        <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>item_option_new_dca868f94701711021f49128436d4353</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 14:20:22</sys_updated_on>
+        <sys_updated_on>2024-07-25 11:55:48</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

@@ -15,25 +15,26 @@ main.body.padding-top{
 }</css>
         <draft>false</draft>
         <dynamic_title_structure/>
+        <human_readable_url_structure/>
         <id>all_record</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>false</public>
-        <roles>x_950909_car_park.customer</roles>
+        <roles>x_950909_car_park.customer,snc_external</roles>
         <seo_script/>
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-21 07:15:33</sys_created_on>
         <sys_id>6e1ea7574759711021f49128436d433b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>all_record</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_page_6e1ea7574759711021f49128436d433b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-09 12:16:53</sys_updated_on>
+        <sys_updated_on>2024-07-25 11:58:17</sys_updated_on>
         <title>All record</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

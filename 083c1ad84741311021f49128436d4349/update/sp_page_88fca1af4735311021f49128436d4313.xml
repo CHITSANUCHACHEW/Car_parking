@@ -10,25 +10,26 @@
 }</css>
         <draft>false</draft>
         <dynamic_title_structure>สมัครสมาชิก</dynamic_title_structure>
+        <human_readable_url_structure/>
         <id>cat_item_name_card</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>false</public>
-        <roles>snc_external,snc_internal</roles>
+        <roles>snc_external,x_950909_car_park.customer</roles>
         <seo_script/>
         <short_description>Display a Catalog Item</short_description>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-16 13:01:05</sys_created_on>
         <sys_id>88fca1af4735311021f49128436d4313</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>cat_item_name_card</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sp_page_88fca1af4735311021f49128436d4313</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-16 13:01:54</sys_updated_on>
+        <sys_updated_on>2024-07-25 10:56:51</sys_updated_on>
         <title> Catalog Item name card</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

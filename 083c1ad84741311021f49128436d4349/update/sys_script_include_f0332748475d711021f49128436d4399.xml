@@ -37,13 +37,13 @@ check_record_name_card.prototype = Object.extendsObject(global.AbstractAjaxProce
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-11 04:10:56</sys_created_on>
         <sys_id>f0332748475d711021f49128436d4399</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>check_record_name_card</sys_name>
         <sys_package display_value="Car parking reservation" source="x_950909_car_park">083c1ad84741311021f49128436d4349</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Car parking reservation">083c1ad84741311021f49128436d4349</sys_scope>
         <sys_update_name>sys_script_include_f0332748475d711021f49128436d4399</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-05 03:21:04</sys_updated_on>
+        <sys_updated_on>2024-07-25 11:49:57</sys_updated_on>
     </sys_script_include>
 </record_update>
